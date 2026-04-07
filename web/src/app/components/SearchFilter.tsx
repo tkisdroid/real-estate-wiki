@@ -1,18 +1,17 @@
 "use client";
 
-import { useState, useEffect, useMemo, useCallback, useRef } from "react";
+import { useState, useEffect, useMemo, useCallback } from "react";
 import Link from "next/link";
-import type { FuzzyResult } from "@/lib/koreanSearch";
 
 interface SearchEntry {
-  u: string; // urlSlug
-  t: string; // title
-  s: string; // subject
-  c: string; // category
-  i: string; // importance
+  u: string;
+  t: string;
+  s: string;
+  c: string;
+  i: string;
   tags: string[];
-  p: string; // parent
-  x: string; // excerpt
+  p: string;
+  x: string;
 }
 
 const SUBJECT_LABELS: Record<string, string> = {
@@ -38,15 +37,43 @@ const IMPORTANCE_COLORS: Record<string, string> = {
 
 const FREQ_TAGS = ["매년출제", "자주출제", "가끔출제", "신규출제"];
 
+// Simple fuzzy: find titles containing any character subsequence of query
+function simpleFuzzy(entries: SearchEntry[], query: string, max: number = 5): SearchEntry[] {
+  if (!query || query.length < 2) return [];
+  const q = query.toLowerCase();
+  const scored: Array<{ entry: SearchEntry; score: number }> = [];
+  for (const e of entries) {
+    if (e.c === "subjects") continue;
+    const t = e.t.toLowerCase();
+    // Partial match: any word in query appears in title
+    const words = q.split(/\s+/).filter(Boolean);
+    const matchCount = words.filter((w) => t.includes(w)).length;
+    if (matchCount > 0) {
+      scored.push({ entry: e, score: matchCount });
+    } else {
+      // Character overlap
+      const overlap = q.split("").filter((c) => t.includes(c)).length;
+      if (overlap >= q.length * 0.5) {
+        scored.push({ entry: e, score: overlap * 0.1 });
+      }
+    }
+  }
+  return scored
+    .sort((a, b) => b.score - a.score)
+    .slice(0, max)
+    .map((s) => s.entry);
+}
+
 export default function SearchFilter({ basePath }: { basePath: string }) {
   const [entries, setEntries] = useState<SearchEntry[]>([]);
   const [query, setQuery] = useState("");
-  const inputRef = useRef<HTMLInputElement>(null);
-  const [subjectFilter, setSubjectFilter] = useState<string>("");
-  const [importanceFilter, setImportanceFilter] = useState<string>("");
-  const [tagFilter, setTagFilter] = useState<string>("");
+  const [subjectFilter, setSubjectFilter] = useState("");
+  const [importanceFilter, setImportanceFilter] = useState("");
+  const [tagFilter, setTagFilter] = useState("");
   const [isLoaded, setIsLoaded] = useState(false);
+  const [sourceResults, setSourceResults] = useState<Array<{ title: string; excerpt: string }>>([]);
 
+  // Load search index once
   useEffect(() => {
     fetch(`${basePath}/search-index.json`)
       .then((r) => r.json())
@@ -62,23 +89,20 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
     return Array.from(set).sort();
   }, [entries]);
 
-  const matchesQuery = useCallback(
-    (entry: SearchEntry, q: string) => {
-      if (!q) return true;
-      const lower = q.toLowerCase();
-      return (
-        entry.t.toLowerCase().includes(lower) ||
-        entry.s.toLowerCase().includes(lower) ||
-        entry.tags.some((tag) => tag.toLowerCase().includes(lower)) ||
-        entry.x.toLowerCase().includes(lower)
-      );
-    },
-    []
-  );
+  const matchesQuery = useCallback((entry: SearchEntry, q: string) => {
+    if (!q) return true;
+    const lower = q.toLowerCase();
+    return (
+      entry.t.toLowerCase().includes(lower) ||
+      entry.s.toLowerCase().includes(lower) ||
+      entry.tags.some((tag) => tag.toLowerCase().includes(lower)) ||
+      entry.x.toLowerCase().includes(lower)
+    );
+  }, []);
 
   const filtered = useMemo(() => {
     return entries.filter((e) => {
-      if (e.c === "subjects") return false; // hide subject overview pages from search
+      if (e.c === "subjects") return false;
       if (subjectFilter && e.s !== subjectFilter) return false;
       if (importanceFilter && e.i !== importanceFilter) return false;
       if (tagFilter && !e.tags.includes(tagFilter)) return false;
@@ -89,55 +113,43 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
 
   const isFiltering = query || subjectFilter || importanceFilter || tagFilter;
 
-  // Fuzzy suggestions when no results (dynamic import to avoid breaking hydration)
-  const [suggestions, setSuggestions] = useState<SearchEntry[]>([]);
-  useEffect(() => {
-    if (!query || filtered.length > 0) { setSuggestions([]); return; }
-    import("@/lib/koreanSearch").then(({ fuzzySearch }) => {
-      try {
-        const nonSubjectEntries = entries.filter((e) => e.c !== "subjects");
-        const titles = nonSubjectEntries.map((e) => e.t);
-        const fuzzyResults = fuzzySearch(titles, query, 5);
-        setSuggestions(fuzzyResults.map((r: FuzzyResult) => nonSubjectEntries[r.index]));
-      } catch { setSuggestions([]); }
-    }).catch(() => setSuggestions([]));
+  // Fuzzy suggestions (simple, no dynamic import)
+  const suggestions = useMemo(() => {
+    if (!query || query.length < 2 || filtered.length > 0) return [];
+    return simpleFuzzy(entries, query, 5);
   }, [query, filtered.length, entries]);
 
-  // Source search fallback
-  const [sourceResults, setSourceResults] = useState<Array<{ title: string; excerpt: string }>>([]);
+  // Source fallback + gap recording — debounced, single effect
   useEffect(() => {
-    if (!query || filtered.length > 0 || query.length < 2) {
+    if (!query || query.length < 2 || filtered.length > 0) {
       setSourceResults([]);
       return;
     }
-    fetch(`${basePath}/source-index.json`)
-      .then((r) => r.json())
-      .then((data: Array<{ t: string; x: string }>) => {
-        const q = query.toLowerCase();
-        const matches = data
-          .filter((d) => d.t.toLowerCase().includes(q) || d.x.toLowerCase().includes(q))
-          .slice(0, 5);
-        setSourceResults(matches.map((m) => ({ title: m.t, excerpt: m.x })));
-      })
-      .catch(() => setSourceResults([]));
-  }, [query, filtered.length, basePath]);
-
-  // Record search gaps
-  useEffect(() => {
-    if (!query || query.length < 2 || filtered.length > 0) return;
     const timer = setTimeout(() => {
+      // Source search
+      fetch(`${basePath}/source-index.json`)
+        .then((r) => r.json())
+        .then((data: Array<{ t: string; x: string }>) => {
+          const q = query.toLowerCase();
+          const matches = data
+            .filter((d) => d.t.toLowerCase().includes(q) || d.x.toLowerCase().includes(q))
+            .slice(0, 5);
+          setSourceResults(matches.map((m) => ({ title: m.t, excerpt: m.x })));
+        })
+        .catch(() => setSourceResults([]));
+
+      // Gap recording
       try {
-        const gaps = JSON.parse(localStorage.getItem("wiki-search-gaps") || "[]") as Array<{ q: string; ts: number }>;
-        if (!gaps.some((g) => g.q === query)) {
+        const gaps = JSON.parse(localStorage.getItem("wiki-search-gaps") || "[]");
+        if (!gaps.some((g: { q: string }) => g.q === query)) {
           gaps.push({ q: query, ts: Date.now() });
-          // Keep only last 50
           if (gaps.length > 50) gaps.splice(0, gaps.length - 50);
           localStorage.setItem("wiki-search-gaps", JSON.stringify(gaps));
         }
       } catch { /* ignore */ }
-    }, 2000); // Record after 2s of no results (debounce)
+    }, 500);
     return () => clearTimeout(timer);
-  }, [query, filtered.length]);
+  }, [query, filtered.length, basePath]);
 
   const highlightMatch = (text: string, q: string) => {
     if (!q) return text;
@@ -154,7 +166,6 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
 
   const clearAll = () => {
     setQuery("");
-    if (inputRef.current) inputRef.current.value = "";
     setSubjectFilter("");
     setImportanceFilter("");
     setTagFilter("");
@@ -167,19 +178,18 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
       {/* Search Input */}
       <div className="relative mb-4">
         <input
-          ref={inputRef}
           id="wiki-search"
           name="wiki-search"
           type="search"
           autoComplete="off"
-          defaultValue=""
-          onInput={(e) => setQuery((e.target as HTMLInputElement).value)}
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
           placeholder="개념, 법령, 키워드로 검색..."
-          style={{ color: "#111827", backgroundColor: "#ffffff" }}
+          style={{ color: "#111827", backgroundColor: "#fff" }}
           className="w-full px-4 py-3 pl-10 rounded-lg border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-base"
         />
         <svg
-          className="absolute left-3 top-3.5 w-5 h-5 text-gray-400"
+          className="absolute left-3 top-3.5 w-5 h-5 text-gray-400 pointer-events-none"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -193,8 +203,9 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
         </svg>
         {query && (
           <button
-            onClick={() => { setQuery(""); if (inputRef.current) inputRef.current.value = ""; }}
+            onClick={() => setQuery("")}
             className="absolute right-3 top-3 text-gray-400 hover:text-gray-600 p-0.5"
+            type="button"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -205,7 +216,6 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
 
       {/* Filters */}
       <div className="flex flex-wrap gap-2 mb-4">
-        {/* Subject Filter */}
         <select
           id="wiki-subject"
           name="wiki-subject"
@@ -221,7 +231,6 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
           ))}
         </select>
 
-        {/* Importance Filter */}
         <select
           id="wiki-importance"
           name="wiki-importance"
@@ -235,7 +244,6 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
           <option value="low">낮음</option>
         </select>
 
-        {/* Frequency Tag Filter */}
         <select
           id="wiki-tag"
           name="wiki-tag"
@@ -254,6 +262,7 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
         {isFiltering && (
           <button
             onClick={clearAll}
+            type="button"
             className="px-3 py-1.5 rounded-lg border border-gray-300 bg-white text-sm text-gray-500 hover:bg-gray-50"
           >
             초기화
@@ -264,13 +273,10 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
       {/* Results */}
       {isFiltering && (
         <div>
-          <p className="text-sm text-gray-500 mb-3">
-            {filtered.length}개 결과
-          </p>
+          <p className="text-sm text-gray-500 mb-3">{filtered.length}개 결과</p>
 
           {filtered.length === 0 ? (
             <div className="py-4">
-              {/* Fuzzy suggestions */}
               {suggestions.length > 0 && (
                 <div className="mb-4">
                   <p className="text-sm text-gray-500 mb-2">이것을 찾으셨나요?</p>
@@ -291,16 +297,12 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
                 </div>
               )}
 
-              {/* Source fallback results */}
               {sourceResults.length > 0 && (
                 <div className="mb-4">
                   <p className="text-sm text-gray-500 mb-2">원본 자료에서 발견</p>
                   <div className="space-y-1.5">
                     {sourceResults.map((s, i) => (
-                      <div
-                        key={i}
-                        className="bg-amber-50 border border-amber-200 rounded-lg p-3"
-                      >
+                      <div key={i} className="bg-amber-50 border border-amber-200 rounded-lg p-3">
                         <div className="flex items-center gap-2 mb-1">
                           <span className="text-xs px-1.5 py-0.5 rounded bg-amber-200 text-amber-800 font-medium">원본</span>
                           <span className="text-sm font-medium text-amber-900">{s.title}</span>
@@ -339,35 +341,23 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
                           </span>
                         )}
                         {entry.i && (
-                          <span
-                            className={`text-xs px-1.5 py-0.5 rounded border ${IMPORTANCE_COLORS[entry.i] || ""}`}
-                          >
+                          <span className={`text-xs px-1.5 py-0.5 rounded border ${IMPORTANCE_COLORS[entry.i] || ""}`}>
                             {IMPORTANCE_LABELS[entry.i] || entry.i}
                           </span>
                         )}
                         {entry.tags
                           .filter((tag) => FREQ_TAGS.includes(tag))
                           .map((tag) => (
-                            <span
-                              key={tag}
-                              className="text-xs px-1.5 py-0.5 rounded bg-gray-100 text-gray-600"
-                            >
+                            <span key={tag} className="text-xs px-1.5 py-0.5 rounded bg-gray-100 text-gray-600">
                               #{tag}
                             </span>
                           ))}
                       </div>
                       {query && entry.x.toLowerCase().includes(query.toLowerCase()) && (
-                        <p className="text-xs text-gray-400 mt-2 line-clamp-2">
-                          {entry.x.slice(0, 150)}...
-                        </p>
+                        <p className="text-xs text-gray-400 mt-2 line-clamp-2">{entry.x.slice(0, 150)}...</p>
                       )}
                     </div>
-                    <svg
-                      className="w-4 h-4 text-gray-300 mt-1 shrink-0"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
+                    <svg className="w-4 h-4 text-gray-300 mt-1 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                   </div>
@@ -375,7 +365,7 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
               ))}
               {filtered.length > 50 && (
                 <p className="text-sm text-gray-400 text-center py-2">
-                  상위 50개 결과를 표시합니다. 검색어를 더 구체적으로 입력해보세요.
+                  상위 50개 결과를 표시합니다.
                 </p>
               )}
             </div>
