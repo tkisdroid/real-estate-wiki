@@ -13,9 +13,9 @@ export default function Home() {
       {/* Header */}
       <header className="bg-blue-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
-          <h1 className="text-3xl sm:text-4xl font-bold">공인중개사 시험 위키</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold">에듀랜드 위키 (공인중개사)</h1>
           <p className="mt-3 text-blue-200 text-sm sm:text-lg">
-            에듀랜드 2026 기본서 기반 · 6과목 · 218개 페이지 · 22개년 기출 분석
+            2026 최신교재 기반 · 22개년 기출문제 분석
           </p>
         </div>
       </header>
@@ -114,7 +114,7 @@ export default function Home() {
 
       <footer className="bg-gray-100 border-t mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 text-center text-xs sm:text-sm text-gray-400">
-          에듀랜드 2026 기본서 기반 · Karpathy LLM Wiki 패턴 적용
+          에듀랜드 위키 · 2026 최신교재 기반 · 22개년 기출문제 분석
         </div>
       </footer>
     </div>

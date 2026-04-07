@@ -195,7 +195,7 @@ export default async function WikiPage({
       <header className={`text-white ${subjectColor.header}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center gap-4">
           <Link href="/" className="text-xl font-bold hover:text-white/80">
-            공인중개사 위키
+            에듀랜드 위키
           </Link>
           <span className="text-white/50">·</span>
           <span className="text-white/80 text-sm">{page.frontmatter.subject}</span>
