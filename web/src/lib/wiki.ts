@@ -101,7 +101,26 @@ export async function renderMarkdown(content: string, basePath: string = ""): Pr
   );
 
   const result = await remark().use(remarkGfm).use(html, { sanitize: false }).process(withLinks);
-  return result.toString();
+  let output = result.toString();
+
+  // Render LaTeX math with KaTeX
+  const katex = (await import("katex")).default;
+  // Block math: $$...$$
+  output = output.replace(/\$\$([^$]+?)\$\$/g, (_, tex) => {
+    try {
+      const clean = tex.replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").trim();
+      return katex.renderToString(clean, { displayMode: true, throwOnError: false });
+    } catch { return `<code>${tex}</code>`; }
+  });
+  // Inline math: $...$  (but not $$)
+  output = output.replace(/(?<!\$)\$(?!\$)([^$\n]+?)\$(?!\$)/g, (_, tex) => {
+    try {
+      const clean = tex.replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").trim();
+      return katex.renderToString(clean, { displayMode: false, throwOnError: false });
+    } catch { return `<code>${tex}</code>`; }
+  });
+
+  return output;
 }
 
 export function getNavigation() {
