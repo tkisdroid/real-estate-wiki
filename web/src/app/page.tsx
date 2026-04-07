@@ -3,7 +3,6 @@ import { getNavigation } from "@/lib/wiki";
 import { getUrlSlug } from "@/lib/slugMap";
 import { SUBJECT_ORDER, SUBJECT_LABELS, EXAM_LABELS, getSubjectColor } from "@/lib/subjects";
 import SearchFilter from "./components/SearchFilter";
-import ProgressDashboard from "./components/ProgressDashboard";
 
 export default function Home() {
   const { subjects, conceptsBySubject, laws, practice } = getNavigation();
@@ -23,9 +22,6 @@ export default function Home() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-10">
         {/* Search & Filter */}
         <SearchFilter basePath="/real-estate-wiki" />
-
-        {/* Progress Dashboard */}
-        <ProgressDashboard basePath="/real-estate-wiki" />
 
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mb-10">
