@@ -67,6 +67,7 @@ function simpleFuzzy(entries: SearchEntry[], query: string, max: number = 5): Se
 export default function SearchFilter({ basePath }: { basePath: string }) {
   const [entries, setEntries] = useState<SearchEntry[]>([]);
   const [query, setQuery] = useState("");
+  const [searchQuery, setSearchQuery] = useState("");
   const [isComposing, setIsComposing] = useState(false);
   const [subjectFilter, setSubjectFilter] = useState("");
   const [importanceFilter, setImportanceFilter] = useState("");
@@ -107,22 +108,22 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
       if (subjectFilter && e.s !== subjectFilter) return false;
       if (importanceFilter && e.i !== importanceFilter) return false;
       if (tagFilter && !e.tags.includes(tagFilter)) return false;
-      if (!matchesQuery(e, query)) return false;
+      if (!matchesQuery(e, searchQuery)) return false;
       return true;
     });
-  }, [entries, query, subjectFilter, importanceFilter, tagFilter, matchesQuery]);
+  }, [entries, searchQuery, subjectFilter, importanceFilter, tagFilter, matchesQuery]);
 
-  const isFiltering = query || subjectFilter || importanceFilter || tagFilter;
+  const isFiltering = searchQuery || subjectFilter || importanceFilter || tagFilter;
 
   // Fuzzy suggestions (simple, no dynamic import)
   const suggestions = useMemo(() => {
-    if (!query || query.length < 2 || filtered.length > 0) return [];
-    return simpleFuzzy(entries, query, 5);
-  }, [query, filtered.length, entries]);
+    if (!searchQuery || searchQuery.length < 2 || filtered.length > 0) return [];
+    return simpleFuzzy(entries, searchQuery, 5);
+  }, [searchQuery, filtered.length, entries]);
 
   // Source fallback + gap recording — debounced, single effect
   useEffect(() => {
-    if (!query || query.length < 2 || filtered.length > 0) {
+    if (!searchQuery || searchQuery.length < 2 || filtered.length > 0) {
       setSourceResults([]);
       return;
     }
@@ -131,7 +132,7 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
       fetch(`${basePath}/source-index.json`)
         .then((r) => r.json())
         .then((data: Array<{ t: string; x: string }>) => {
-          const q = query.toLowerCase();
+          const q = searchQuery.toLowerCase();
           const matches = data
             .filter((d) => d.t.toLowerCase().includes(q) || d.x.toLowerCase().includes(q))
             .slice(0, 5);
@@ -142,15 +143,15 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
       // Gap recording
       try {
         const gaps = JSON.parse(localStorage.getItem("wiki-search-gaps") || "[]");
-        if (!gaps.some((g: { q: string }) => g.q === query)) {
-          gaps.push({ q: query, ts: Date.now() });
+        if (!gaps.some((g: { q: string }) => g.q === searchQuery)) {
+          gaps.push({ q: searchQuery, ts: Date.now() });
           if (gaps.length > 50) gaps.splice(0, gaps.length - 50);
           localStorage.setItem("wiki-search-gaps", JSON.stringify(gaps));
         }
       } catch { /* ignore */ }
     }, 500);
     return () => clearTimeout(timer);
-  }, [query, filtered.length, basePath]);
+  }, [searchQuery, filtered.length, basePath]);
 
   const highlightMatch = (text: string, q: string) => {
     if (!q) return text;
@@ -167,6 +168,7 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
 
   const clearAll = () => {
     setQuery("");
+    setSearchQuery("");
     setSubjectFilter("");
     setImportanceFilter("");
     setTagFilter("");
@@ -185,12 +187,15 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
           autoComplete="off"
           value={query}
           onChange={(e) => {
-            if (!isComposing) setQuery(e.target.value);
+            setQuery(e.target.value);
+            if (!isComposing) setSearchQuery(e.target.value);
           }}
           onCompositionStart={() => setIsComposing(true)}
           onCompositionEnd={(e) => {
             setIsComposing(false);
-            setQuery((e.target as HTMLInputElement).value);
+            const val = (e.target as HTMLInputElement).value;
+            setQuery(val);
+            setSearchQuery(val);
           }}
           placeholder="개념, 법령, 키워드로 검색..."
           style={{ color: "#111827", backgroundColor: "#fff" }}
@@ -211,7 +216,7 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
         </svg>
         {query && (
           <button
-            onClick={() => setQuery("")}
+            onClick={() => { setQuery(""); setSearchQuery(""); }}
             className="absolute right-3 top-3 text-gray-400 hover:text-gray-600 p-0.5"
             type="button"
           >
@@ -292,7 +297,7 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
                     {suggestions.map((s) => (
                       <Link
                         key={s.u}
-                        href={`/wiki/${s.u}/`}
+                        href={`${basePath}/wiki/${s.u}/`}
                         className="block bg-blue-50 border border-blue-200 rounded-lg p-3 hover:bg-blue-100 transition-colors"
                       >
                         <span className="text-sm font-medium text-blue-800">{s.t}</span>
@@ -334,13 +339,13 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
               {filtered.slice(0, 50).map((entry) => (
                 <Link
                   key={entry.u}
-                  href={`/wiki/${entry.u}/`}
+                  href={`${basePath}/wiki/${entry.u}/`}
                   className="block bg-white rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-sm transition-all p-4"
                 >
                   <div className="flex items-start gap-3">
                     <div className="flex-1 min-w-0">
                       <h3 className="font-medium text-gray-900 text-sm">
-                        {highlightMatch(entry.t, query)}
+                        {highlightMatch(entry.t, searchQuery)}
                       </h3>
                       <div className="flex flex-wrap items-center gap-1.5 mt-1.5">
                         {entry.s && (
@@ -361,7 +366,7 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
                             </span>
                           ))}
                       </div>
-                      {query && entry.x.toLowerCase().includes(query.toLowerCase()) && (
+                      {searchQuery && entry.x.toLowerCase().includes(searchQuery.toLowerCase()) && (
                         <p className="text-xs text-gray-400 mt-2 line-clamp-2">{entry.x.slice(0, 150)}...</p>
                       )}
                     </div>
