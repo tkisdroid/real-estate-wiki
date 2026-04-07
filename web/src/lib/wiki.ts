@@ -5,7 +5,10 @@ import { remark } from "remark";
 import html from "remark-html";
 import remarkGfm from "remark-gfm";
 
-const WIKI_DIR = path.join(process.cwd(), "..", "wiki");
+// In dev: ../wiki, in Vercel build: ./wiki-data (copied by prebuild script)
+const WIKI_DIR = fs.existsSync(path.join(process.cwd(), "wiki-data"))
+  ? path.join(process.cwd(), "wiki-data")
+  : path.join(process.cwd(), "..", "wiki");
 
 export interface WikiPage {
   slug: string;
