@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useMemo, useCallback } from "react";
 import Link from "next/link";
+import { fuzzySearch, isChosungQuery, getChosung } from "@/lib/koreanSearch";
 
 interface SearchEntry {
   u: string; // urlSlug
@@ -86,6 +87,51 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
   }, [entries, query, subjectFilter, importanceFilter, tagFilter, matchesQuery]);
 
   const isFiltering = query || subjectFilter || importanceFilter || tagFilter;
+
+  // Fuzzy suggestions when no results
+  const suggestions = useMemo(() => {
+    if (!query || filtered.length > 0) return [];
+    const nonSubjectEntries = entries.filter((e) => e.c !== "subjects");
+    const titles = nonSubjectEntries.map((e) => e.t);
+    const fuzzyResults = fuzzySearch(titles, query, 5);
+    return fuzzyResults.map((r) => nonSubjectEntries[r.index]);
+  }, [query, filtered.length, entries]);
+
+  // Source search fallback
+  const [sourceResults, setSourceResults] = useState<Array<{ title: string; excerpt: string }>>([]);
+  useEffect(() => {
+    if (!query || filtered.length > 0 || query.length < 2) {
+      setSourceResults([]);
+      return;
+    }
+    fetch(`${basePath}/source-index.json`)
+      .then((r) => r.json())
+      .then((data: Array<{ t: string; x: string }>) => {
+        const q = query.toLowerCase();
+        const matches = data
+          .filter((d) => d.t.toLowerCase().includes(q) || d.x.toLowerCase().includes(q))
+          .slice(0, 5);
+        setSourceResults(matches.map((m) => ({ title: m.t, excerpt: m.x })));
+      })
+      .catch(() => setSourceResults([]));
+  }, [query, filtered.length, basePath]);
+
+  // Record search gaps
+  useEffect(() => {
+    if (!query || query.length < 2 || filtered.length > 0) return;
+    const timer = setTimeout(() => {
+      try {
+        const gaps = JSON.parse(localStorage.getItem("wiki-search-gaps") || "[]") as Array<{ q: string; ts: number }>;
+        if (!gaps.some((g) => g.q === query)) {
+          gaps.push({ q: query, ts: Date.now() });
+          // Keep only last 50
+          if (gaps.length > 50) gaps.splice(0, gaps.length - 50);
+          localStorage.setItem("wiki-search-gaps", JSON.stringify(gaps));
+        }
+      } catch { /* ignore */ }
+    }, 2000); // Record after 2s of no results (debounce)
+    return () => clearTimeout(timer);
+  }, [query, filtered.length]);
 
   const highlightMatch = (text: string, q: string) => {
     if (!q) return text;
@@ -205,9 +251,55 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
           </p>
 
           {filtered.length === 0 ? (
-            <div className="text-center py-8 text-gray-400">
-              <p>검색 결과가 없습니다</p>
-              <p className="text-sm mt-1">다른 키워드나 필터를 시도해보세요</p>
+            <div className="py-4">
+              {/* Fuzzy suggestions */}
+              {suggestions.length > 0 && (
+                <div className="mb-4">
+                  <p className="text-sm text-gray-500 mb-2">이것을 찾으셨나요?</p>
+                  <div className="space-y-1.5">
+                    {suggestions.map((s) => (
+                      <Link
+                        key={s.u}
+                        href={`${basePath}/wiki/${s.u}/`}
+                        className="block bg-blue-50 border border-blue-200 rounded-lg p-3 hover:bg-blue-100 transition-colors"
+                      >
+                        <span className="text-sm font-medium text-blue-800">{s.t}</span>
+                        {s.s && (
+                          <span className="text-xs text-blue-600 ml-2">({SUBJECT_LABELS[s.s] || s.s})</span>
+                        )}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Source fallback results */}
+              {sourceResults.length > 0 && (
+                <div className="mb-4">
+                  <p className="text-sm text-gray-500 mb-2">원본 자료에서 발견</p>
+                  <div className="space-y-1.5">
+                    {sourceResults.map((s, i) => (
+                      <div
+                        key={i}
+                        className="bg-amber-50 border border-amber-200 rounded-lg p-3"
+                      >
+                        <div className="flex items-center gap-2 mb-1">
+                          <span className="text-xs px-1.5 py-0.5 rounded bg-amber-200 text-amber-800 font-medium">원본</span>
+                          <span className="text-sm font-medium text-amber-900">{s.title}</span>
+                        </div>
+                        <p className="text-xs text-amber-700 line-clamp-3">{s.excerpt}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {suggestions.length === 0 && sourceResults.length === 0 && (
+                <div className="text-center py-8 text-gray-400">
+                  <p>검색 결과가 없습니다</p>
+                  <p className="text-sm mt-1">다른 키워드나 필터를 시도해보세요</p>
+                </div>
+              )}
             </div>
           ) : (
             <div className="space-y-2">

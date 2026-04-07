@@ -119,7 +119,13 @@ export default function ProgressDashboard({ basePath }: { basePath: string }) {
     }
   } catch { /* ignore */ }
 
-  const hasActivity = totalVisited > 0 || totalQuizAnswered > 0 || bookmarks.length > 0;
+  // Search gaps
+  let searchGaps: Array<{ q: string; ts: number }> = [];
+  try {
+    searchGaps = JSON.parse(localStorage.getItem("wiki-search-gaps") || "[]");
+  } catch { /* ignore */ }
+
+  const hasActivity = totalVisited > 0 || totalQuizAnswered > 0 || bookmarks.length > 0 || searchGaps.length > 0;
   if (!hasActivity) return null;
 
   return (
@@ -173,7 +179,7 @@ export default function ProgressDashboard({ basePath }: { basePath: string }) {
 
       {/* Bookmarks */}
       {bookmarks.length > 0 && (
-        <div>
+        <div className="mb-4">
           <h3 className="text-sm font-medium text-gray-700 mb-2">북마크</h3>
           <div className="flex flex-wrap gap-2">
             {bookmarks.slice(0, 10).map((slug) => (
@@ -188,6 +194,23 @@ export default function ProgressDashboard({ basePath }: { basePath: string }) {
             {bookmarks.length > 10 && (
               <span className="text-xs text-gray-400 self-center">+{bookmarks.length - 10}개 더</span>
             )}
+          </div>
+        </div>
+      )}
+
+      {/* Search gaps — topics requested but not in wiki */}
+      {searchGaps.length > 0 && (
+        <div>
+          <h3 className="text-sm font-medium text-gray-700 mb-2">요청된 주제 (위키에 없음)</h3>
+          <div className="flex flex-wrap gap-2">
+            {searchGaps.slice(-10).reverse().map((gap) => (
+              <span
+                key={gap.q + gap.ts}
+                className="text-xs px-2.5 py-1.5 rounded-lg bg-orange-50 border border-orange-200 text-orange-700"
+              >
+                {gap.q}
+              </span>
+            ))}
           </div>
         </div>
       )}
