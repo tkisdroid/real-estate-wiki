@@ -175,9 +175,11 @@ export default function OXQuizInteractive({ pageSlug, basePath }: { pageSlug: st
                           (내 답: {userAnswer ? "O" : "X"})
                         </span>
                       </div>
-                      <p className="text-xs text-gray-600 bg-white/60 rounded p-2">
-                        {quiz.e}
-                      </p>
+                      {quiz.e && (
+                        <p className="text-xs text-gray-600 bg-white/60 rounded p-2">
+                          {quiz.e}
+                        </p>
+                      )}
                     </div>
                   )}
                 </div>

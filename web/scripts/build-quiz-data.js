@@ -42,13 +42,24 @@ function buildUrlSlugMap() {
 }
 
 function parseQuizzes(content) {
-  // Match quiz lines — use greedy match for explanation to handle nested parentheses
-  // Format: **Q{n}.** {question} → **{O|X}** ({explanation with possible (nested) parens})
   const lines = content.split("\n");
   const quizzes = [];
-  const lineRegex = /^\*\*Q(\d+)\.\*\*\s*(.*?)\s*→\s*\*\*(O|X)\*\*\s*\((.+)\)\s*$/;
-  for (const line of lines) {
-    const match = line.trim().match(lineRegex);
+  // Pattern 1: single-line with parens — **Q{n}.** {question} → **{O|X}** ({explanation}) [optional trailing text]
+  const withExpl = /^\*\*Q(\d+)\.\*\*\s*(.*?)\s*→\s*\*\*(O|X)\*\*\s*\((.+)\)/;
+  // Pattern 2: single-line no explanation — **Q{n}.** {question} → **{O|X}**
+  const noExpl = /^\*\*Q(\d+)\.\*\*\s*(.*?)\s*→\s*\*\*(O|X)\*\*\s*$/;
+  // Pattern 3: question only line — **Q{n}.** {question} (answer on next line)
+  const questionOnly = /^\*\*Q(\d+)\.\*\*\s*(.+)$/;
+  // Pattern 4: answer on separate line — > **{O|X}** — {explanation} or > **{O|X}** ({explanation})
+  const answerLine = /^>\s*\*\*(O|X)\*\*\s*(?:—\s*(.*)|\((.+)\))?\s*$/;
+  // Pattern 5: answer line with dash-separated explanation (e.g., from 지대이론_마샬.md)
+  const answerLineDash = /^.*→\s*\*\*(O|X)\*\*\s*\((.+)\)\s*-\s*(.+)$/;
+
+  for (let i = 0; i < lines.length; i++) {
+    const trimmed = lines[i].trim();
+
+    // Try single-line patterns first
+    let match = trimmed.match(withExpl);
     if (match) {
       quizzes.push({
         n: parseInt(match[1]),
@@ -56,6 +67,33 @@ function parseQuizzes(content) {
         a: match[3] === "O",
         e: match[4].replace(/\*\*/g, "").trim(),
       });
+      continue;
+    }
+    match = trimmed.match(noExpl);
+    if (match) {
+      quizzes.push({
+        n: parseInt(match[1]),
+        q: match[2].trim(),
+        a: match[3] === "O",
+        e: "",
+      });
+      continue;
+    }
+
+    // Try multi-line: question on this line, answer on next
+    match = trimmed.match(questionOnly);
+    if (match) {
+      const qNum = parseInt(match[1]);
+      const qText = match[2].trim();
+      // Look ahead for answer line
+      const nextLine = (i + 1 < lines.length) ? lines[i + 1].trim() : "";
+      const ansMatch = nextLine.match(answerLine);
+      if (ansMatch) {
+        const explanation = (ansMatch[2] || ansMatch[3] || "").replace(/\*\*/g, "").trim();
+        quizzes.push({ n: qNum, q: qText, a: ansMatch[1] === "O", e: explanation });
+        i++; // skip the answer line
+      }
+      // else: orphan question line, skip
     }
   }
   return quizzes;
