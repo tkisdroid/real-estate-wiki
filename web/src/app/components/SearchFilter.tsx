@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo, useCallback } from "react";
 import Link from "next/link";
-import { fuzzySearch, isChosungQuery, getChosung } from "@/lib/koreanSearch";
+import type { FuzzyResult } from "@/lib/koreanSearch";
 
 interface SearchEntry {
   u: string; // urlSlug
@@ -88,13 +88,18 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
 
   const isFiltering = query || subjectFilter || importanceFilter || tagFilter;
 
-  // Fuzzy suggestions when no results
-  const suggestions = useMemo(() => {
-    if (!query || filtered.length > 0) return [];
-    const nonSubjectEntries = entries.filter((e) => e.c !== "subjects");
-    const titles = nonSubjectEntries.map((e) => e.t);
-    const fuzzyResults = fuzzySearch(titles, query, 5);
-    return fuzzyResults.map((r) => nonSubjectEntries[r.index]);
+  // Fuzzy suggestions when no results (dynamic import to avoid breaking hydration)
+  const [suggestions, setSuggestions] = useState<SearchEntry[]>([]);
+  useEffect(() => {
+    if (!query || filtered.length > 0) { setSuggestions([]); return; }
+    import("@/lib/koreanSearch").then(({ fuzzySearch }) => {
+      try {
+        const nonSubjectEntries = entries.filter((e) => e.c !== "subjects");
+        const titles = nonSubjectEntries.map((e) => e.t);
+        const fuzzyResults = fuzzySearch(titles, query, 5);
+        setSuggestions(fuzzyResults.map((r: FuzzyResult) => nonSubjectEntries[r.index]));
+      } catch { setSuggestions([]); }
+    }).catch(() => setSuggestions([]));
   }, [query, filtered.length, entries]);
 
   // Source search fallback
