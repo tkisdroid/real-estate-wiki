@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getNavigation } from "@/lib/wiki";
 import { getUrlSlug } from "@/lib/slugMap";
+import Search from "@/components/Search";
 
 const SUBJECT_ORDER = [
   "부동산학개론",
@@ -45,6 +46,11 @@ export default function Home() {
       </header>
 
       <main className="max-w-7xl mx-auto px-6 py-10">
+        {/* Search */}
+        <div className="mb-10 max-w-2xl mx-auto">
+          <Search />
+        </div>
+
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
           {[

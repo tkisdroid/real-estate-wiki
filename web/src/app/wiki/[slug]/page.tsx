@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getPageBySlug, renderMarkdown, getNavigation } from "@/lib/wiki";
 import { getSlugMap, getWikiSlug, getUrlSlug } from "@/lib/slugMap";
+import Search from "@/components/Search";
 
 export function generateStaticParams() {
   return getSlugMap().map((entry) => ({
@@ -161,11 +162,14 @@ export default async function WikiPage({
     <div className="min-h-screen">
       <header className="bg-blue-900 text-white">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center gap-4">
-          <Link href="/" className="text-xl font-bold hover:text-blue-200">
+          <Link href="/" className="text-xl font-bold hover:text-blue-200 shrink-0">
             공인중개사 위키
           </Link>
-          <span className="text-blue-300">·</span>
-          <span className="text-blue-200 text-sm">{page.frontmatter.subject}</span>
+          <span className="text-blue-300 shrink-0">·</span>
+          <span className="text-blue-200 text-sm shrink-0">{page.frontmatter.subject}</span>
+          <div className="ml-auto w-72">
+            <Search />
+          </div>
         </div>
       </header>
 
