@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getNavigation } from "@/lib/wiki";
+import { getUrlSlug } from "@/lib/slugMap";
 
 const SUBJECT_ORDER = [
   "부동산학개론",
@@ -69,7 +70,7 @@ export default function Home() {
             return (
               <Link
                 key={subj}
-                href={`/wiki/subjects/${subj}`}
+                href={`/wiki/${getUrlSlug(`subjects/${subj}`) || subj}/`}
                 className="block bg-white rounded-lg shadow hover:shadow-lg transition-shadow p-6"
               >
                 <span className="inline-block px-2 py-0.5 text-xs font-medium rounded bg-blue-100 text-blue-800 mb-3">
@@ -94,7 +95,7 @@ export default function Home() {
             .map((p) => (
               <Link
                 key={p.slug}
-                href={`/wiki/${p.slug}`}
+                href={`/wiki/${getUrlSlug(p.slug) || p.slug}/`}
                 className="block bg-white rounded-lg shadow hover:shadow-lg transition-shadow p-5"
               >
                 <h3 className="font-medium text-gray-900 text-sm">
@@ -112,7 +113,7 @@ export default function Home() {
             .map((l) => (
               <Link
                 key={l.slug}
-                href={`/wiki/${l.slug}`}
+                href={`/wiki/${getUrlSlug(l.slug) || l.slug}/`}
                 className="block bg-white rounded-lg shadow hover:shadow-lg transition-shadow p-5"
               >
                 <h3 className="font-medium text-gray-900 text-sm">

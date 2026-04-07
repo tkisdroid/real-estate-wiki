@@ -1,21 +1,19 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getAllPages, getPageBySlug, renderMarkdown, getNavigation } from "@/lib/wiki";
+import { getPageBySlug, renderMarkdown, getNavigation } from "@/lib/wiki";
+import { getSlugMap, getWikiSlug, getUrlSlug } from "@/lib/slugMap";
 
 export function generateStaticParams() {
-  const pages = getAllPages();
-  return pages.map((p) => ({
-    slug: p.slug.split("/"),
+  return getSlugMap().map((entry) => ({
+    slug: entry.urlSlug,
   }));
 }
 
-function Sidebar({ currentSlug }: { currentSlug: string }) {
+function Sidebar({ wikiSlug }: { wikiSlug: string }) {
   const { conceptsBySubject, laws, practice } = getNavigation();
-  const currentPage = getPageBySlug(currentSlug);
+  const currentPage = getPageBySlug(wikiSlug);
   const currentSubject = currentPage?.frontmatter.subject;
-
-  // Show concepts for current subject, or all laws/practice
-  const currentCategory = currentSlug.split("/")[0];
+  const currentCategory = wikiSlug.split("/")[0];
 
   return (
     <nav className="w-64 shrink-0 hidden lg:block">
@@ -33,14 +31,14 @@ function Sidebar({ currentSlug }: { currentSlug: string }) {
               {conceptsBySubject[currentSubject]
                 .filter((c) => !c.frontmatter.parent)
                 .map((c) => {
-                  const isActive = currentSlug === c.slug;
+                  const isActive = wikiSlug === c.slug;
                   const children = conceptsBySubject[currentSubject].filter(
                     (ch) => ch.frontmatter.parent === c.frontmatter.title
                   );
                   return (
                     <li key={c.slug}>
                       <Link
-                        href={`/wiki/${c.slug}`}
+                        href={`/wiki/${getUrlSlug(c.slug) || c.slug}/`}
                         className={`block text-sm py-1 px-2 rounded ${
                           isActive
                             ? "bg-blue-100 text-blue-900 font-medium"
@@ -54,9 +52,9 @@ function Sidebar({ currentSlug }: { currentSlug: string }) {
                           {children.map((ch) => (
                             <li key={ch.slug}>
                               <Link
-                                href={`/wiki/${ch.slug}`}
+                                href={`/wiki/${getUrlSlug(ch.slug) || ch.slug}/`}
                                 className={`block text-xs py-0.5 px-2 ${
-                                  currentSlug === ch.slug
+                                  wikiSlug === ch.slug
                                     ? "text-blue-900 font-medium"
                                     : "text-gray-500 hover:text-gray-700"
                                 }`}
@@ -85,9 +83,9 @@ function Sidebar({ currentSlug }: { currentSlug: string }) {
                 .map((l) => (
                   <li key={l.slug}>
                     <Link
-                      href={`/wiki/${l.slug}`}
+                      href={`/wiki/${getUrlSlug(l.slug) || l.slug}/`}
                       className={`block text-sm py-1 px-2 rounded ${
-                        currentSlug === l.slug
+                        wikiSlug === l.slug
                           ? "bg-blue-100 text-blue-900 font-medium"
                           : "text-gray-600 hover:bg-gray-100"
                       }`}
@@ -109,9 +107,9 @@ function Sidebar({ currentSlug }: { currentSlug: string }) {
               {practice.map((p) => (
                 <li key={p.slug}>
                   <Link
-                    href={`/wiki/${p.slug}`}
+                    href={`/wiki/${getUrlSlug(p.slug) || p.slug}/`}
                     className={`block text-sm py-1 px-2 rounded ${
-                      currentSlug === p.slug
+                      wikiSlug === p.slug
                         ? "bg-blue-100 text-blue-900 font-medium"
                         : "text-gray-600 hover:bg-gray-100"
                     }`}
@@ -131,15 +129,18 @@ function Sidebar({ currentSlug }: { currentSlug: string }) {
 export default async function WikiPage({
   params,
 }: {
-  params: Promise<{ slug: string[] }>;
+  params: Promise<{ slug: string }>;
 }) {
-  const { slug } = await params;
-  const slugStr = slug.join("/");
-  const page = getPageBySlug(slugStr);
+  const { slug: urlSlug } = await params;
 
+  // Resolve URL slug to wiki slug
+  const wikiSlug = getWikiSlug(urlSlug);
+  if (!wikiSlug) notFound();
+
+  const page = getPageBySlug(wikiSlug);
   if (!page) notFound();
 
-  const html = await renderMarkdown(page.content);
+  const renderedHtml = await renderMarkdown(page.content, "/real-estate-wiki");
 
   const importance = page.frontmatter.importance;
   const importanceBadge = importance === "high"
@@ -147,6 +148,14 @@ export default async function WikiPage({
     : importance === "medium"
     ? "bg-yellow-100 text-yellow-800"
     : "bg-gray-100 text-gray-600";
+
+  // Resolve breadcrumb links to URL slugs
+  const subjectUrlSlug = page.frontmatter.subject
+    ? getUrlSlug(`subjects/${page.frontmatter.subject}`)
+    : undefined;
+  const parentUrlSlug = page.frontmatter.parent
+    ? getUrlSlug(`concepts/${page.frontmatter.parent.replace(/\s/g, "")}`)
+    : undefined;
 
   return (
     <div className="min-h-screen">
@@ -161,17 +170,17 @@ export default async function WikiPage({
       </header>
 
       <div className="max-w-7xl mx-auto px-6 py-8 flex gap-8">
-        <Sidebar currentSlug={slugStr} />
+        <Sidebar wikiSlug={wikiSlug} />
 
         <article className="flex-1 min-w-0">
           {/* Breadcrumb */}
           <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
             <Link href="/" className="hover:text-gray-600">홈</Link>
             <span>/</span>
-            {page.frontmatter.subject && (
+            {page.frontmatter.subject && subjectUrlSlug && (
               <>
                 <Link
-                  href={`/wiki/subjects/${page.frontmatter.subject}`}
+                  href={`/wiki/${subjectUrlSlug}/`}
                   className="hover:text-gray-600"
                 >
                   {page.frontmatter.subject}
@@ -179,10 +188,10 @@ export default async function WikiPage({
                 <span>/</span>
               </>
             )}
-            {page.frontmatter.parent && (
+            {page.frontmatter.parent && parentUrlSlug && (
               <>
                 <Link
-                  href={`/wiki/concepts/${page.frontmatter.parent.replace(/\s/g, "")}`}
+                  href={`/wiki/${parentUrlSlug}/`}
                   className="hover:text-gray-600"
                 >
                   {page.frontmatter.parent}
@@ -216,7 +225,7 @@ export default async function WikiPage({
               prose-strong:text-gray-900
               prose-code:bg-gray-100 prose-code:px-1 prose-code:rounded prose-code:text-sm
               prose-blockquote:border-blue-300 prose-blockquote:bg-blue-50 prose-blockquote:text-blue-900 prose-blockquote:py-1"
-            dangerouslySetInnerHTML={{ __html: html }}
+            dangerouslySetInnerHTML={{ __html: renderedHtml }}
           />
         </article>
       </div>

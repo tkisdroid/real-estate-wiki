@@ -74,12 +74,27 @@ export function getPageBySlug(slug: string): WikiPage | null {
   };
 }
 
-export async function renderMarkdown(content: string): Promise<string> {
-  // Convert [[wiki-links]] to HTML links
+export async function renderMarkdown(content: string, basePath: string = ""): Promise<string> {
+  // Lazy-import to avoid circular dependency at module level
+  const { getUrlSlug } = await import("./slugMap");
+
+  const CATEGORIES = ["concepts", "laws", "subjects", "practice"];
+
+  // Convert [[wiki-links]] to HTML links using URL-safe slugs
   const withLinks = content.replace(
     /\[\[([^\]|]+?)(?:\|([^\]]+?))?\]\]/g,
     (_, target, label) => {
-      const href = `/wiki/${target.replace(/\s/g, "")}`;
+      const wikiSlug = target.replace(/\s/g, "").replace(/\\+$/, "");
+      // Try direct lookup first (e.g. "concepts/물권변동")
+      let urlSlug = getUrlSlug(wikiSlug);
+      // If not found, try prefixing with each category
+      if (!urlSlug) {
+        for (const cat of CATEGORIES) {
+          urlSlug = getUrlSlug(`${cat}/${wikiSlug}`);
+          if (urlSlug) break;
+        }
+      }
+      const href = urlSlug ? `${basePath}/wiki/${urlSlug}/` : `${basePath}/wiki/${wikiSlug}/`;
       const text = label || target.split("/").pop() || target;
       return `<a href="${href}" class="wiki-link">${text}</a>`;
     }
