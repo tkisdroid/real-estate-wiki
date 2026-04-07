@@ -3,4 +3,162 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+  color: #111827;
+}
+
+input, select, textarea {
+  color: #111827;
+}
+
+/* ===== Trap notes (⚠️) highlighting ===== */
+.prose p:has(> text) {
+  /* fallback: handled by JS post-processing */
+}
+
+.trap-note {
+  background: #fef3c7;
+  border-left: 4px solid #f59e0b;
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: 0 0.375rem 0.375rem 0;
+  font-size: 0.9rem;
+}
+
+/* ===== OX Quiz styling ===== */
+.ox-quiz-item {
+  background: #f0f9ff;
+  border: 1px solid #bae6fd;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.ox-quiz-item .answer-o {
+  color: #059669;
+  font-weight: 700;
+}
+
+.ox-quiz-item .answer-x {
+  color: #dc2626;
+  font-weight: 700;
+}
+
+/* ===== Key memorization points ===== */
+.prose h2 + ul > li,
+.prose h2 + ul > li > ul > li {
+  line-height: 1.75;
+}
+
+/* ===== Comparison tables ===== */
+.prose table {
+  font-size: 0.875rem;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.prose table th {
+  background: #f1f5f9;
+  font-weight: 600;
+  white-space: nowrap;
+  padding: 0.625rem 0.75rem;
+}
+
+.prose table td {
+  padding: 0.625rem 0.75rem;
+  vertical-align: top;
+}
+
+.prose table tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+/* ===== Code blocks — ensure readable text ===== */
+.prose pre {
+  background: #1e293b;
+  color: #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  overflow-x: auto;
+  font-size: 0.875rem;
+  line-height: 1.7;
+}
+
+.prose pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  font-size: inherit;
+}
+
+.prose :not(pre) > code {
+  background: #f1f5f9;
+  color: #1e293b;
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+  font-size: 0.875em;
+}
+
+/* ===== Mobile table scroll ===== */
+@media (max-width: 768px) {
+  .prose table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* ===== Subject color badges ===== */
+.subject-부동산학개론 { background: #dbeafe; color: #1e40af; }
+.subject-민법및민사특별법 { background: #fce7f3; color: #9d174d; }
+.subject-공인중개사법령및중개실무 { background: #d1fae5; color: #065f46; }
+.subject-부동산공법 { background: #fef3c7; color: #92400e; }
+.subject-부동산공시법 { background: #e0e7ff; color: #3730a3; }
+.subject-부동산세법 { background: #fee2e2; color: #991b1b; }
+
+/* ===== Subject header colors ===== */
+.subject-header-부동산학개론 { background: #1e40af; }
+.subject-header-민법및민사특별법 { background: #9d174d; }
+.subject-header-공인중개사법령및중개실무 { background: #065f46; }
+.subject-header-부동산공법 { background: #92400e; }
+.subject-header-부동산공시법 { background: #3730a3; }
+.subject-header-부동산세법 { background: #991b1b; }
+
+/* ===== Mobile sidebar overlay ===== */
+.sidebar-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 40;
+}
+
+.sidebar-drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 280px;
+  max-width: 85vw;
+  background: white;
+  z-index: 50;
+  overflow-y: auto;
+  padding: 1rem;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== Wiki links ===== */
+.wiki-link-missing {
+  color: #9ca3af;
+  border-bottom: 1px dashed #d1d5db;
+  cursor: default;
+}
+
+/* ===== Touch-friendly sidebar links ===== */
+@media (max-width: 1024px) {
+  .sidebar-link {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+  }
 }
