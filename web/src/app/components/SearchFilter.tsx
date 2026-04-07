@@ -160,7 +160,10 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
       {/* Search Input */}
       <div className="relative mb-4">
         <input
+          id="wiki-search"
+          name="wiki-search"
           type="text"
+          autoComplete="off"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="개념, 법령, 키워드로 검색..."
@@ -195,6 +198,8 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
       <div className="flex flex-wrap gap-2 mb-4">
         {/* Subject Filter */}
         <select
+          id="wiki-subject"
+          name="wiki-subject"
           value={subjectFilter}
           onChange={(e) => setSubjectFilter(e.target.value)}
           className="px-3 py-1.5 rounded-lg border border-gray-300 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -209,6 +214,8 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
 
         {/* Importance Filter */}
         <select
+          id="wiki-importance"
+          name="wiki-importance"
           value={importanceFilter}
           onChange={(e) => setImportanceFilter(e.target.value)}
           className="px-3 py-1.5 rounded-lg border border-gray-300 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -221,6 +228,8 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
 
         {/* Frequency Tag Filter */}
         <select
+          id="wiki-tag"
+          name="wiki-tag"
           value={tagFilter}
           onChange={(e) => setTagFilter(e.target.value)}
           className="px-3 py-1.5 rounded-lg border border-gray-300 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
