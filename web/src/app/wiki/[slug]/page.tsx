@@ -14,12 +14,41 @@ export function generateStaticParams() {
   }));
 }
 
+function TocLink({ slug, label, wikiSlug, depth }: { slug: string; label: string; wikiSlug: string; depth: number }) {
+  const urlSlug = getUrlSlug(slug);
+  const isActive = wikiSlug === slug;
+  const page = getPageBySlug(wikiSlug);
+  const subjectColor = getSubjectColor(page?.frontmatter.subject || "");
+
+  const baseClass = depth === 0
+    ? "text-[13px] py-1.5 px-2.5"
+    : depth === 1
+    ? "text-[13px] py-1.5 px-2.5"
+    : "text-[12px] py-1 px-2.5";
+
+  return (
+    <Link
+      href={`/wiki/${urlSlug || slug}/`}
+      className={`sidebar-link block rounded-md transition-all ${baseClass} ${
+        isActive
+          ? `${subjectColor.accent} ${subjectColor.text} font-semibold border-l-2 ${subjectColor.accentBorder}`
+          : "text-slate-600 hover:bg-slate-50 hover:text-slate-800"
+      }`}
+    >
+      {label}
+    </Link>
+  );
+}
+
 function SidebarContent({ wikiSlug }: { wikiSlug: string }) {
-  const { conceptsBySubject, laws, practice } = getNavigation();
+  const { practice } = getNavigation();
   const currentPage = getPageBySlug(wikiSlug);
   const currentSubject = currentPage?.frontmatter.subject;
   const currentCategory = wikiSlug.split("/")[0];
-  const subjectColor = getSubjectColor(currentSubject || "");
+
+  // Use textbook TOC structure
+  const { TOC } = require("@/lib/tocStructure");
+  const toc = currentSubject ? TOC[currentSubject] : null;
 
   return (
     <>
@@ -28,100 +57,52 @@ function SidebarContent({ wikiSlug }: { wikiSlug: string }) {
         <span>홈으로</span>
       </Link>
 
-      {currentSubject && conceptsBySubject[currentSubject] && (
-        <div className="mb-6">
-          <h3 className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2.5 px-2">
-            개념
+      {toc && toc.map((section: { label: string; slug?: string; children?: Array<{ label: string; slug?: string; children?: Array<{ label: string; slug?: string }> }> }, si: number) => (
+        <div key={si} className="mb-4">
+          <h3 className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1.5 px-2">
+            {section.label}
           </h3>
-          <ul className="space-y-0.5">
-            {conceptsBySubject[currentSubject]
-              .filter((c) => !c.frontmatter.parent)
-              .map((c) => {
-                const isActive = wikiSlug === c.slug;
-                const children = conceptsBySubject[currentSubject].filter(
-                  (ch) => ch.frontmatter.parent === c.frontmatter.title
-                );
-                return (
-                  <li key={c.slug}>
-                    <Link
-                      href={`/wiki/${getUrlSlug(c.slug) || c.slug}/`}
-                      className={`sidebar-link block text-sm py-1.5 px-2.5 rounded-lg transition-all ${
-                        isActive
-                          ? `${subjectColor.accent} ${subjectColor.text} font-medium border-l-2 ${subjectColor.accentBorder}`
-                          : "text-slate-500 hover:bg-slate-50 hover:text-slate-700"
-                      }`}
-                    >
-                      {c.frontmatter.title}
-                    </Link>
-                    {children.length > 0 && (
-                      <ul className="ml-3 border-l border-slate-100 pl-0.5">
-                        {children.map((ch) => (
-                          <li key={ch.slug}>
-                            <Link
-                              href={`/wiki/${getUrlSlug(ch.slug) || ch.slug}/`}
-                              className={`sidebar-link block text-xs py-1.5 px-2.5 rounded-lg transition-all ${
-                                wikiSlug === ch.slug
-                                  ? `${subjectColor.text} font-medium`
-                                  : "text-slate-400 hover:text-slate-600"
-                              }`}
-                            >
-                              {ch.frontmatter.title}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                  </li>
-                );
-              })}
-          </ul>
-        </div>
-      )}
-
-      {currentSubject && (
-        <div className="mb-6">
-          <h3 className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2.5 px-2">
-            법령
-          </h3>
-          <ul className="space-y-0.5">
-            {laws
-              .filter((l) => l.frontmatter.subject === currentSubject)
-              .map((l) => (
-                <li key={l.slug}>
-                  <Link
-                    href={`/wiki/${getUrlSlug(l.slug) || l.slug}/`}
-                    className={`sidebar-link block text-sm py-1.5 px-2.5 rounded-lg transition-all ${
-                      wikiSlug === l.slug
-                        ? `${subjectColor.accent} ${subjectColor.text} font-medium border-l-2 ${subjectColor.accentBorder}`
-                        : "text-slate-500 hover:bg-slate-50 hover:text-slate-700"
-                    }`}
-                  >
-                    {l.frontmatter.title}
-                  </Link>
+          {section.slug && !section.children && (
+            <TocLink slug={section.slug} label={section.label.replace(/^PART \d+ · /, "")} wikiSlug={wikiSlug} depth={0} />
+          )}
+          {section.children && (
+            <ul className="space-y-px">
+              {section.children.map((item, ii) => (
+                <li key={ii}>
+                  {item.slug ? (
+                    <TocLink slug={item.slug} label={item.label} wikiSlug={wikiSlug} depth={1} />
+                  ) : (
+                    <span className="block text-[13px] py-1.5 px-2.5 text-slate-500">{item.label}</span>
+                  )}
+                  {item.children && (
+                    <ul className="ml-3 border-l border-slate-100">
+                      {item.children.map((child, ci) => (
+                        <li key={ci}>
+                          {child.slug ? (
+                            <TocLink slug={child.slug} label={child.label} wikiSlug={wikiSlug} depth={2} />
+                          ) : (
+                            <span className="block text-[12px] py-1 px-2.5 text-slate-400">{child.label}</span>
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </li>
               ))}
-          </ul>
+            </ul>
+          )}
         </div>
-      )}
+      ))}
 
       {currentCategory === "practice" && (
         <div>
           <h3 className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2.5 px-2">
             기출 분석
           </h3>
-          <ul className="space-y-0.5">
+          <ul className="space-y-px">
             {practice.map((p) => (
               <li key={p.slug}>
-                <Link
-                  href={`/wiki/${getUrlSlug(p.slug) || p.slug}/`}
-                  className={`sidebar-link block text-sm py-1.5 px-2.5 rounded-lg transition-all ${
-                    wikiSlug === p.slug
-                      ? "bg-indigo-50 text-indigo-700 font-medium border-l-2 border-l-indigo-400"
-                      : "text-slate-500 hover:bg-slate-50 hover:text-slate-700"
-                  }`}
-                >
-                  {p.frontmatter.title}
-                </Link>
+                <TocLink slug={p.slug} label={p.frontmatter.title} wikiSlug={wikiSlug} depth={1} />
               </li>
             ))}
           </ul>
