@@ -1,0 +1,1760 @@
+=== 2025년 제36회 공인중개사 1차 1교시 문제지.html ===
+1( 1PÜ(\–).hwp  * {margin:0; padding:0; text-indent:0; }
+ .s1 { color: black; font-family:HyhwpEQ, serif; font-style: italic; font-weight: normal; text-decoration: none; font-size: 12.5pt; }
+ .s2 { color: black; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; }
+ .s3 { color: black; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; vertical-align: 7pt; }
+ .s4 { color: black; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; }
+ .s5 { color: black; font-family:HyhwpEQ, serif; font-style: italic; font-weight: normal; text-decoration: none; font-size: 13.5pt; }
+ .s6 { color: black; font-family:HyhwpEQ, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 13pt; }
+ .s7 { color: black; font-family:HyhwpEQ, serif; font-style: italic; font-weight: normal; text-decoration: none; font-size: 9pt; vertical-align: -3pt; }
+ .s8 { color: black; font-family:HyhwpEQ, serif; font-style: italic; font-weight: normal; text-decoration: none; font-size: 12.5pt; }
+ .s9 { color: black; font-family:HyhwpEQ, serif; font-style: italic; font-weight: normal; text-decoration: none; font-size: 13.5pt; }
+ .s10 { color: black; font-family:HyhwpEQ, serif; font-style: italic; font-weight: normal; text-decoration: none; font-size: 13.5pt; }
+ .s11 { color: black; font-family:HyhwpEQ, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 13pt; vertical-align: 8pt; }
+ .s12 { color: black; font-family:HyhwpEQ, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 13pt; vertical-align: -4pt; }
+ .s13 { color: black; font-family:HyhwpEQ, serif; font-style: italic; font-weight: normal; text-decoration: none; font-size: 9pt; }
+ .s14 { color: black; font-family:HyhwpEQ, serif; font-style: italic; font-weight: normal; text-decoration: none; font-size: 9pt; vertical-align: 1pt; }
+ .s15 { color: #363636; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 6pt; }
+ .s16 { color: #363636; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
+ .s17 { color: #363636; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 7.5pt; vertical-align: 4pt; }
+ .s18 { color: #363636; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 7.5pt; vertical-align: 4pt; }
+ .s19 { color: #444; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12.5pt; }
+ .s20 { color: #444; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
+ .s21 { color: #444; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; }
+ .s22 { color: #363636; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; }
+ .s23 { color: #606060; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 15.5pt; }
+ .s24 { color: #606060; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 14.5pt; }
+ .s25 { color: #444; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 15pt; }
+ .s26 { color: #444; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 13pt; }
+ .s27 { color: #444; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 15.5pt; }
+ .s28 { color: #444; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 13pt; }
+ .s29 { color: #363636; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 13pt; }
+ .s30 { color: #444; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 6pt; }
+ .s31 { color: #444; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 8pt; }
+ .s32 { color: #363636; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 6.5pt; }
+ .s33 { color: #363636; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 4pt; }
+ .s34 { color: #444; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 14.5pt; }
+ .s35 { color: #606060; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12.5pt; }
+ .s36 { color: #444; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 8pt; }
+ .s37 { color: #444; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 6.5pt; }
+ .s38 { color: #444; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 6pt; }
+ .s39 { color: #444; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
+ .s40 { color: #363636; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 10pt; }
+ .s41 { color: #444; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 22pt; }
+ .s42 { color: black; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; }
+ .s43 { color: #444; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 13pt; }
+ .s44 { color: #363636; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
+ .s45 { color: #363636; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
+ .s46 { color: #363636; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 33pt; vertical-align: 3pt; }
+ .s47 { color: #363636; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
+ .s48 { color: #363636; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 34pt; }
+ .s49 { color: #363636; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; }
+ .s50 { color: #363636; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 13pt; }
+ .s51 { color: #444; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 1.5pt; }
+ .s53 { color: #444; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 10pt; }
+ .s54 { color: #444; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; }
+ .s55 { color: #444; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 10pt; }
+ .s56 { color: #363636; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 15pt; }
+ .s57 { color: #363636; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 13pt; }
+ .s58 { color: #444; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; }
+ .s59 { color: #363636; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12.5pt; }
+ .s60 { color: #3D3D3D; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
+ .s61 { color: #3D3D3D; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 13pt; }
+ .s62 { color: #3D3D3D; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; }
+ .s63 { color: #5D5D5D; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 14.5pt; }
+ .s64 { color: black; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; vertical-align: -2pt; }
+ .s65 { color: #3D3D3D; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 8.5pt; vertical-align: -1pt; }
+ .s66 { color: #5D5D5D; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 15pt; }
+ .s67 { color: #3D3D3D; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; }
+ .s68 { color: #3D3D3D; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 14.5pt; }
+ .s69 { color: #5D5D5D; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; }
+ .s70 { color: #3D3D3D; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 6pt; }
+ .s71 { color: #3D3D3D; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 6pt; }
+ .s72 { color: #3D3D3D; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 6.5pt; }
+ .s73 { color: #3D3D3D; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 14pt; }
+ .s74 { color: #3D3D3D; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12.5pt; }
+ .s75 { color: black; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; vertical-align: -1pt; }
+ .s76 { color: #3D3D3D; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 16pt; }
+ .s77 { color: #3D3D3D; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; }
+ .s78 { color: #5D5D5D; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 14pt; }
+ .s79 { color: #3D3D3D; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 10.5pt; }
+ .s80 { color: #3D3D3D; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 15pt; }
+ .s81 { color: #3D3D3D; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
+ .s82 { color: #5D5D5D; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 13pt; }
+ .s83 { color: #5D5D5D; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12.5pt; }
+ .s84 { color: #5D5D5D; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12.5pt; }
+ .s86 { color: #3D3D3D; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 13pt; }
+ .s87 { color: #3D3D3D; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; }
+ .s88 { color: black; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; vertical-align: 1pt; }
+ .s89 { color: #5D5D5D; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 15.5pt; }
+ .s90 { color: #3D3D3D; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 33pt; }
+ .s91 { color: #3D3D3D; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12.5pt; }
+ .s92 { color: black; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; vertical-align: 1pt; }
+ .s93 { color: black; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; vertical-align: 2pt; }
+ .s94 { color: #3D3D3D; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; }
+ .s95 { color: #3D3D3D; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
+ .s96 { color: black; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; vertical-align: -7pt; }
+ .p, p { color: #3B3B3B; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; margin:0pt; }
+ .s97 { color: #3B3B3B; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12.5pt; }
+ .s98 { color: #3B3B3B; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 15.5pt; }
+ .s99 { color: #3B3B3B; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 14.5pt; }
+ .s100 { color: #3B3B3B; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 14.5pt; }
+ .s101 { color: #3B3B3B; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; }
+ .s102 { color: #3B3B3B; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 4.5pt; }
+ .s103 { color: #3B3B3B; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 7pt; }
+ .s104 { color: #3B3B3B; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 7pt; }
+ .s105 { color: #3B3B3B; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 6pt; }
+ .s106 { color: #3B3B3B; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12.5pt; }
+ .s107 { color: #3B3B3B; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; }
+ .s108 { color: #3B3B3B; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 13pt; }
+ .s109 { color: #3B3B3B; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 21.5pt; }
+ .s110 { color: #3B3B3B; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 14pt; }
+ .s111 { color: #3B3B3B; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 8.5pt; }
+ .s112 { color: #3B3B3B; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 5.5pt; }
+ .s113 { color: #3B3B3B; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 5pt; }
+ .s114 { color: #3B3B3B; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 4pt; }
+ .s115 { color: #3B3B3B; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 15pt; }
+ .s116 { color: #3B3B3B; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
+ .s117 { color: #3B3B3B; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 6.5pt; }
+ .s118 { color: #3B3B3B; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 10pt; }
+ .s119 { color: #3B3B3B; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 6pt; }
+ .s120 { color: #3B3B3B; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
+ .s121 { color: #595959; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 14.5pt; }
+ .s123 { color: #595959; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
+ .s124 { color: #3B3B3B; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 16pt; }
+ .s125 { color: #595959; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 14.5pt; }
+ .s126 { color: black; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; vertical-align: 5pt; }
+ .s127 { color: black; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 13pt; vertical-align: 4pt; }
+ .s128 { color: black; font-family:바탕, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; vertical-align: -6pt; }
+ .s129 { color: black; font-family:Helvetica, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 15pt; }
+ .s130 { color: black; font-family:Helvetica, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12.5pt; }
+ .s131 { color: black; font-family:Helvetica, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 13pt; }
+ .s132 { color: black; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 13pt; }
+ .s133 { color: black; font-family:Helvetica, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
+ .s134 { color: black; font-family:Helvetica, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 14pt; }
+ .s135 { color: black; font-family:Helvetica, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; }
+ .s136 { color: black; font-family:Helvetica, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; vertical-align: -3pt; }
+ .s137 { color: black; font-family:Helvetica, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 14.5pt; }
+ .s138 { color: #383838; font-family:Helvetica, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
+ .s140 { color: #5B5B5B; font-family:Helvetica, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 14.5pt; }
+ .s141 { color: #5B5B5B; font-family:Helvetica, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11.5pt; }
+ .s142 { color: #383838; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12pt; }
+ li {display: block; }
+ #l1 {padding-left: 0pt;counter-reset: c1 23; }
+ #l1> li>*:first-child:before {counter-increment: c1; content: counter(c1, decimal)". "; color: #363636; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 13pt; }
+ #l1> li:first-child>*:first-child:before {counter-increment: c1 0;  }
+ #l2 {padding-left: 0pt;counter-reset: d1 26; }
+ #l2> li>*:first-child:before {counter-increment: d1; content: counter(d1, decimal)". "; color: black; font-style: normal; font-weight: normal; text-decoration: none; }
+ #l2> li:first-child>*:first-child:before {counter-increment: d1 0;  }
+ #l3 {padding-left: 0pt;counter-reset: d1 28; }
+ #l3> li>*:first-child:before {counter-increment: d1; content: counter(d1, decimal)". "; color: black; font-style: normal; font-weight: normal; text-decoration: none; }
+ #l3> li:first-child>*:first-child:before {counter-increment: d1 0;  }
+ li {display: block; }
+ #l4 {padding-left: 0pt;counter-reset: d1 29; }
+ #l4> li>*:first-child:before {counter-increment: d1; content: counter(d1, decimal)". "; color: black; font-style: normal; font-weight: normal; text-decoration: none; }
+ #l4> li:first-child>*:first-child:before {counter-increment: d1 0;  }
+ li {display: block; }
+ #l5 {padding-left: 0pt;counter-reset: e1 54; }
+ #l5> li>*:first-child:before {counter-increment: e1; content: counter(e1, decimal)". "; color: black; font-style: normal; font-weight: normal; text-decoration: none; }
+ #l5> li:first-child>*:first-child:before {counter-increment: e1 0;  }
+ #l6 {padding-left: 0pt;counter-reset: f1 58; }
+ #l6> li>*:first-child:before {counter-increment: f1; content: counter(f1, decimal)". "; color: black; font-style: normal; font-weight: normal; text-decoration: none; }
+ #l6> li:first-child>*:first-child:before {counter-increment: f1 0;  }
+ #l7 {padding-left: 0pt;counter-reset: f1 59; }
+ #l7> li>*:first-child:before {counter-increment: f1; content: counter(f1, decimal)". "; color: black; font-style: normal; font-weight: normal; text-decoration: none; }
+ #l7> li:first-child>*:first-child:before {counter-increment: f1 0;  }
+ #l8 {padding-left: 0pt;counter-reset: f1 60; }
+ #l8> li>*:first-child:before {counter-increment: f1; content: counter(f1, decimal)". "; color: black; font-style: normal; font-weight: normal; text-decoration: none; }
+ #l8> li:first-child>*:first-child:before {counter-increment: f1 0;  }
+ table, tbody {vertical-align: top; overflow: visible; }
+        ㄱ              ㄴ ㄱ     ㆍ    ㆍ                         ㄷ               ㄹ ㅁ              ㅂ ㄱ ㄴ ㄹ ㄷ ㅁ ㅂ ㄱ ㄷ ㅂ ㄴ ㄹ ㅁ ㄱ ㄹ ㅁ ㄴ ㄷ ㅂ ㄴ ㄷ ㅂ ㄱ ㄹ ㅁ ㄴ ㆍ   ㆍ ㄹ ㅁ ㄱ ㄷ ㅂ ㄴ ㄷ ㄹ ㅁ ㄱ ㄴ ㄱ ㄹ ㄱ ㄷ ㅁ ㄴ ㄷ ㅁ ㄴ ㄹ ㅁ   ㄱ ㄴ                                                                                           ㄷ ㄱ          ㄷ          ㄱ ㄷ ㄴ ㄷ        ㄱ ㄴ ㄷ                                                                                                ㄱ ㄴ ㄷ ㄹ ㅁ ㄱ ㄴ ㄱ ㄹ ㄴ ㄷ ㅁ ㄴ ㄹ ㅁ ㄱ ㄷ ㄹ ㅁ                     ㄱ              ㄴ ㄷ              ㄹ ㅁ              ㅂ ㄱ              ㄴ ㄷ              ㄹ ㅁ ㄱ ㄴ             ㄱ ㄷ ㅁ ㄱ ㄹ ㅁ            ㄴ ㄷ ㄹ ㅁ ㄱ ㄴ ㄷ ㄹ ㅁ 군亡 군亡 부동산 대출에 관한 설명으로  으 0 조건은 동일합) 것은?（단, 다른 부동산두자의 포트폴리오이론에 것은?（단, 다른 조건은 동일합) 관한 설명으로  으 0 小 담보인정비율 (LTV) 은 담보물의 자산가치에  대한  융자  비율로  LTV 가  올라갈수록 차입자의  자기자본비율도 ®  인플레이션,  경기변동 통해 제거할 수 없다. 등의  체계적  위험은 분산투자를 증가한다. ® ?   총부채상환비율 (DTI) 은 상업용 부동산의 순수입에  대 ®  2 개  두자자산의 수익률이 서로 아무런 관계없이 다면 상관계수는  1  이다. 0 지이 古  기 '- 한  연간채무부담액을  의미하므로  DTI 가  올라가면  부채  서비스액도 증가한다. 투자자가 효용이  동일하다고 느끼는 조합을 효율적 투자선이라  한다. 연결한 선을 ® 고정금리대출은 이자율  게 전가하는  방식이므로  동해도 위험이 없다. 변동으로 인한  위험을  차입자에  금융기관(대출자)은 금리가  변 포트폴리오  구성자산의  수익률이  같은  경우  위험감소의  효과가 크다. ® @ 기대수익률의 분산 또는 표준편차는 방향으로 투자안의 움직일 /  ol  O 기一기구 소 ® 총부채원리금상환비율 (DSR) 은  차입자의  총  급융부채 상  환부담을 판단하기  위하여 산정하는  차입자의  연간 측정하는  전통적인  방법이다. 득 대비 연간  금융부채 원리금 상환액  비율을 말한다. 다음은 甲의 부동산 임대사업의  1 년간 운영수지에 @ 부동산담보대출의  금리가  대한 채무상환을 정해진 인상되어  차입자가 원리금에 시기에  이행하지 못하는  것을 관한 내용이다. 甲의 주어전 조건에 한함) 1 년간 자기자본수익률은?(단, 조기상환위험이라고 한다. 주거정책에 관한 설명으로 틀린 것은?（단, 다른 조건 은 동일함) 0 0 기간  초  부동산 매입가격:  8 억원 대출비율:  80% 0 1 년간 부동산가격 상승률: 연  5% 0 매입  1 년 후 부동산을 처분합 e 공공임대주택의 공급은 소득재분배  효과를 기대할  수 있다. 순영업소득 (NO i): 연  4,000 만원(기간 말 0 0 대출조건: 이자율 연  5%,  대출기간  1 년, 발생) 원리금 ®  주택임대료를   시장가격 미만으로  규세하면 장에서는  이중가격이 형성될 수 있다. 주택임대시 은 만기시 일시 상환함 ®  공공주택 특별법령상 통합공공임대주택이란  국가나 지  방자치단체의   재정이나 주택도시기금의  자금을 지원받 15% 25% 30% 40% 45% @ ® ® ® CD 아 최저소득  계층,  저소득  서민,  젊은  층 및  장에인 ㆍ 국  가유공자 등  사회  취약계층 등의 주거안정을 목적으로  공급하는 공공임대주택을 말한다. ® 임대료 보조정책은 저소득층의 실질소득을 증가시킬 수 있다. @ 주거급여법령상 주택을 소유한 모든 사람은 주거급여의  수급권자가 될 수  없다 다음 대상부동산의  3 년간 현급흐름을 이용한 입대사업 의 수익성지수 (Pl) 는?（단, 연간 기준이며, 결과값은 소 수점 셋째자리에서 반올림하고, 주어진 조건에 한함) 。 모든 현금의 유입과 유출은 매년 말에만 발생 。 。 현급유입은  1 년차  800 만원,  2 년차  1,000 만원, 3 년차  1,200 만원 부동산투자에 관한 조건은 동일합) 설명으로 틀린 것은?（단, 다른 매년 현금유출은  O  1 년 후 일시불의  O  2 년 후 일시불의 O  3 년 후 일시불의 현금유입의  70% 현가계수  0.90 현가계수  0.85 현가계수  0.80 @ ® ® ® ® e   )    ) 투자위험과  요구수익률은 정(+)의 관계를 가진다. 높 홍 위험회피형  투자자는  기대수익률이 요구수익률보다 을 경우 두자가치가 있다고 판단한다. 0.70 0.93 1. 22 1. 43 1. 62 o ® 민감도분석은 변화함에 따라 투자효과를  분석하는  모형의 투입요소가 순현재가치와  내부수익률에 어떠한  영향 다음 대상부동산의 순영업소득 (NO i)은?（단, 연간 기 준이며, 주어진 조건에 한함) o 을 주는가를 분석하는 기법이다. 건축연면적:  2,000m2 ® 부(―)의 레버리지효과란  수익률이 하락하는 것을 부채비율이  커질수록  말한다. 자기자본 유효임대면적:건축연면적의 연평균임대료:유효임대면적 80% m 망 6 만원 o @  부동산관련  제의 변화로 세제  등 정부정책이나 각종  야기되는 불확실성은 유동성 토지의 이용규 위험이다. 평균공실률:유효임대면적의  10% o o 영업경비: 유효총소득의  50% ® o 연부채상환액:  1,000 만원 e 3,820 만원 ® 7,680 만원 4,320 만원 @ @ 8,640 만원 6,900 만원 2025 년 제 36 회 공인중개사 1 차 1 교시  A 형 -12-4 프로젝트 급융 (Pro j e ct  F i nanc i n g)에 틀린 것은? 관한 설명으로 33.  부동산투자회사법령상 위탁관리 부동산투자회사 (REITs) 에 관한 설명으로 틀린 것은? 5 투자 ㆍ   T 프로젝트 자체의 금융기법이다. 사업성올 기초로 자금을 조달하는 ®  본점 외의 지점을 설치할 수 상근 임원을  둘  수 없다. 없으며, 직원을 고용하거나 2 비소구 또는 제한적 소구 금융의 @  해당 프로젝트가 부실화되더라도 특징을 가지고 있다. 대출기관의 채권회수 ®  자산의 한다. °요어口드 간 0  1:::l  亡 자산관리회사에 위탁하여야 에는 영향이 없다. ® 다양한 사업주체가 참여하고 이해당사자 간에 위협배분이 가능하다. ®  최저자본금준비기간이 지난 회사의 최저자본금은  50 억원 이상이 되어야 한다. ® 설립 자본금은  3 억원 이상으로 한다. @  프로젝트의 사업자금은 일반적으로 에스크로우 계정 @  영업인가를 받거나 등록을 한 후에 자산을 투자 ㆍ  운용 (escrow accoun t)을 통해 관리한다. 하기 위하여 자금을 차입하거나 사채를 발행할 수 없댜 甲은  A 은행에서 주택을 담보로  5,000 만원을 대출받은 상 태이다. 甲이  A 은행에서 동일한 주택을 담보로 받을 수 34. 고정금리대출의 상환방식에 관한 설명으로 은?（단, 주어진 조건에 한하며, 다른 조건은 표로 l  것 동일합) 있는 추가대출의 최대급액은?（단, 제시된 두 가지 대출 숭인기준을 모두 충족하여야 하며, 주어진 조건에 한합) O  담보주택의 시장가치:  4 억원 O  연소득:  7,000 만원 원금균등분할상환방식은 원리금균등분할상환방식에 비해 ® 1 회차 원리금상환액이 더 적다. ® 중 만기일시상환방식은  대출 만기까지 이자만 지급하다가 대출 만기에 대출원금을 일시에 상환하는 방식이다. O  연간 저당상수:  0.2 0  대출승인기준 - 담보인정비율 (LTV): 60%  이하 ®  원리금균등분할상환방식은 원리금이 일정하다. 상환기간 납입하는 대출 ―  총부채상환비율 (DT I):  40%  이하 원리금균등분할상환방식은 원금균등분할상환방식에 비해 ® @ ® 대출채권의 가중평균상환기간이 더 길다. 印 2,800 만원 ® 1 억  9,000 만원 9,000 만원 : @ 2 억  4 , 000 만원 1 억  4,000 만원 체증식분할상환방식은 상환기간  초기에는  원리금상환액을 적게 하고 시간의 경과에 따라 늘려가는 방식이다. 甲은 주택구입을 위해 연초에  9 억원을 대출받았다. 甲 35.  감정평가에 관한 규칙에 규정된 내용으로  들린=  것은? 이 받은 대출조건이 다음과 같을  때,  대출금리( ㄱ )와 10 회차 이자납부액(  ㄴ )은?(단, 주어진 조건에 한합) o o 대출금리방식:고정급리 CD  감정평가법인등은 법령에 대상물건의 감정평가액을 로 결정할 수 있다. 다른 규정이 시장가치 외의 있는 경우에는 가치를 기준으 대출기간:  30 년 o 원리금 상환조건: 원금균등분할상환방식, 。 매년 말 연단위로 상환 1 회차 원리급상환액:  5,700 만원 % 3 .  . CD  2 연 ㄱ     ㄴ :  1,710 만원 3 . . 鬪   鬪 연 ㄱ     ㄴ : 1,800 만원 % 3 4 .. . . @  ® 연 ㄱ     ㄴ : 1,890 만원 연 ㄱ     ㄴ : 2 ,4 50 만원 4 . . @ 鬪 연 ㄱ     ㄴ : 2,520 만원 적산법이란  일반기업  경영에  의하여  산출된  총수익을 분석하여 대상물건이 일정한 기간에 산출할 것으로 기 대되는  순수익에  대상물건을  계속하여  임대하는  데에 필요한  경비를  더하여  대상물건의  임대료를  산정하는 감정평가방법을 말한다. ® ® 둘  이상의 대상물건이 일체로 거래되거나 대상물건 상호 간에 용도상 불가분의 관계가 있는 경우에는 일괄하여 감정평가할 수 있다. ® 임대사례비교법이란 대상물건과 가치형성요인이 같거나 비슷한 물건의 임대사례와 비교하여 대상물건의 현황에 맞게 사정보정, 시점수정, 가치형성요인 비교 등의 과정 을 거쳐 대상물건의 임대료를 산정하는 감정평가방법을 말한다. @  감정평가법인등은 법령에 다른 규정이 있는 경우에는 기 준시점의 가치형성요인 등을 실제와 다르게 가정하거나 특수한 경우로 한정하는 조건을 붙여 감정평가할 수 있다. 2025 년 제 36 회 공인중개사  1 차  1 교시  A 형 -12-5 ㆍ ㆍ                         ㆍ ㆍ ㆍ ㆍ ㄱ ㄴ ㄷ ㄱ          ㄷ          ㄱ ㄴ ㄴ ㄷ        ㄱ ㄴ ㄷ ㆍ           ㄱ ㄴ ㆍ         ㄷ ㄱ ㄷ ㄱ ㄴ ㄴ ㄷ ㄱ ㄴ ㄷ ㄱ ㄴ ㄷ ㄱ ㄷ ㄱ ㄴ ㄴ ㄷ ㄱ ㄴ ㄷ ㄱ ㄴ ㄷ 민법상 합유에 관한 설명으로 틀린 것은?（특별한 사 정이 없으며, 다툼이 있으면 판례에 따름) 甲이 乙로부터 乙 소유의  X 건물에 대하여 전세권을 설정받은 경우에 관한 설명으로 틀린 것은?（다툼이 W  합유자의 권리는 합유물 전부에 미친댜 있으면 판례에 따름) CD ®  합유는 조합체의 해산으로 인하여 종료한다. 甲이  X 건물을  전세권설정계약으로  정한  용법에  따라 사용하지 않더라도 이를 이유로 乙은 전세권소멸을 청 ®  합유자는 조합체가 하지 못한다. 존속하는 한 합유물의 터  중l-  O 청구 간己吉 구할 수 없다. ®  합유자는 수 없다. 합유자 전원의 동의 없이 합유지분을 처분할 X 건물의 소유를 ® 사정이 없는 한 수 없다. 목적으로 지상권을甲의 동의 없이 그 취득한 乙은 특별한 지상권을 소멸시킬 @ 부동산에 관한 합유지분의 동의 효력이 생긴다. 포기는 등기 없이도 물권변 甲은 전세권이 존속하는 동안에는 특별한 사정이 없는 한 전세권을 존속시키면서 전세급반환채권만을  확정적 ® ® 으로 양도할 수 없다. 甲 소유의  X 토지를 乙이  20 년 이상 소유의 의사로 @ 평온, 공연하게 현재까지 점유하고 있다. 乙은 甲에 게 취득시효 완성을 이유로  X 토지의 소유권이전등기 를 청구하였지만, 아직 등기는 이전받지 못하였다. 乙이 전세권 존속 중에丙은 전세권의 존속기간 무를 전댜 丙에게  X 건물을 만료 시 甲에게 양도한 경우, 전세금반환의 및 전 이후 발생한 아래 각 상황에 관한 설명으로 틀린 것 은?（다툼이 있으면 판례에 따름) w 甲이  X 토지 위에 비닐하우스를 설치한 경우, 乙은 甲에게 점유권에 기한 방해배제를 청구할 수 있다. 전세권이 소멸한 경우, 乙은 甲으로부터  X 건물의 인도 전세권 말소등기에 필요한 서류의 교부를 받는 동시에 세금을 반환하여야 한다. 8 甲은 乙에게 할 수 없다. X 토지의 점유로 인한 손해의 배상을 청구 지상권에 관한 설명으로 판례에 따름) 으으 군 -, 것은?（다툼이 있으면 ® 甲은 乙에게  X 토지의 청구할 수 없다. 점유로 이하 드  1_ 부당이득의 반환을 CD  지상권자의 지상권갱신청구권은 형성권이다. 2   담보목적의 지상권이 설정된 경우, 피담보채권이 변제로 甲 @  X 토지가 수용되어 甲이 보상금을 수령한 경우, 乙은 에게 보상금의 반환을 정구할 수 없다. @  甲이 乙의 시효완성 사실을 알면서도 丙에게  X 토지를 처분하여 취득시효완성에 따른 소유권이전등기의무가 소멸하면 그 지상권도 소멸한다. ®  타인 소유의 기존 연와조 건물을 사용하기 위하여 하는 지상권의 최단존속기간은  30 년이다. 入J 又 1 근 1 0 이행불능이 된 경우, 乙은 甲에게 불법행위로 인한 손 해배상을 청구할 수 있다. 기존 건물의 ® 이 멸실되면 소유를 목적으로 설정된 지상권은 그 건물 소멸한다. 甲, 乙, 丙이 각각 4/ 7, 2/7, 1/7 의 지분비율로  X 토지 를 공유하는 경우에 관한 설명으로 튤륀- 것은?(별도의 특약은 없고, 다툼이 있으면 판례에 따름) 中  甲은 乙, 丙과의 협의 없이  X 토지의 관리에 관한 사항을 정할 수 있다. @  지상권이 저당권의 목적인 경우, 지료연체에 권소멸청구는 저당권자에게 통지하는 즉시 생긴다. CD 2 지역권에 관한 설명으로 틀린 것은? 민법은 지역권의 존속기간을 규정하고 있지 따른 지상 그 효력이 않댜 ® 甲온  乙, 丙의  동의 없이  X 토지를 처분하지 못한다. 요역지에 설정된 저당권에 기하여 경매가 된 경우, 다른 ® ® 丙은 甲, 乙의 동의 없이 담보로 제공할 수 있다. 자신의 지분을 제 3 자에게 특약이 없는 한 경매매수인은 요역지의 소유권과 합께 지역권을 취득한다. ® 乙이 甲, 丙과의 협의 없이  X 토지의 전부를 독점적으로 점유 ・사용하고 있는 경우,  丙온  공유물의 보존행위로 점유로 인한 지역권 취득기간의 중단은 지역권을 는 모든 공유자에 대한 사유가 아니면 그 효력이 행사하 없댜 자신에게  X 토지를 인도할 것을 정구할 수 있다. @  甲이 자신의 지분을 포기한 경우, 그 지분은 乙과 丙에게 각 지분의 비율로 귀속한다. ®  지역권자는 지역권을 방해할 염려있는 행위를 하는 자에 대하여 그 예방이나 손해배상의 담보를 청구할 수 있다. @   승역지 소유자는 지역권의 행사를 방해하지 않는 범위 내에서  지역권자가  지역권의  행사를 위하여 승역지에 등기 없이도 물권변동의 효력이 생기는 것은?（다툼이 있으면 판례에 따름) 사유가 이卞 l 설치한 공작물을 수익 정도의 비율에 따른 비용 분담 없이 사용할 수 있다. ® @ ®  상속 이행판결 국세징수법상 공매 재결수용 건물의 신축 ®  ® 2025 년 제 36 회 공인중개사  1 차  1 교시  A 형― 12 ― 9 ㄱ ㄴ ㄷ ㄱ ㄷ ㄱ ㄴ ㄴ ㄷ ㄱ ㄴ ㄷ ㄱ ㄴ ㄷ ㄱ ㄷ ㄱ ㄴ ㄴ ㄷ ㄱ ㄴ ㄷ ㄱ ㄴ ㄷ ㄱ ㄷ ㄱ ㄴ ㄴ ㄷ ㄱ ㄴ ㄷ ㄱ ㄴ ㄷ ㄱ          ㄷ          ㄱ ㄴ            ㄱ . ㄴ ㄷ        ㄱ ㄴ ㄷ                     ㄴ ㄷ w®         2@          @ ’  ’ 74. W : ® ® @ ㄱ ㄴ ㄷ ㄱ ㄴ ㄷ                                                     ㆍ ㄱ ㄷ ㄱ ㄴ ㄴ ㄷ ㄱ ㄴ ㄷ ㄱ ㄴ ㄷ ㄱ . ㄱ          ㄷ          ㄱ ㄴ ㄴ ㄷ        ㄱ ㄴ ㄷ ㄴ . ㄷ . w           2             ® ®          @) ’  ’
+
+=== 2025년 제36회 공인중개사 1차 1교시 문제지.pdf p1 ===
+1( 1PÜ(\–).hwp
+file:///C/...ownloads/공인중개사기출문제 및 정답/2025년 36회 문제 및 정답/2025년 제36회 공인중개사 1차 1교시 문제지.html[2026-03-23 오후 11:38:54]
+ 
+ㄱ ㄴ
+ㄱ ㆍ ㆍ ㄷ ㄹ
+ㅁ ㅂ
+ㄱㄴㄹ
+ㄷㅁㅂ
+ㄱㄷㅂ
+ㄴㄹㅁ
+ㄱㄹㅁ
+ㄴㄷㅂ
+ㄴㄷㅂ
+ㄱㄹㅁ
+ㄴ
+ㆍ ㆍ
+ㄹㅁ
+ㄱㄷㅂ
+ㄴ
+ㄷ ㄹ ㅁ
+ㄱ ㄴ
+ㄱㄹ
+ㄱ ㄷ ㅁ
+ㄴ ㄷ
+ㅁ
+ㄴㄹ ㅁ
+
+
+ㄱ
+ㄴ
+   
+    
+  
+ 
+ㄷ
+ㄱ ㄷ ㄱ ㄷ
+ㄴ ㄷ ㄱ ㄴ ㄷ
+  
+ 
+  
+ 
+   
+  
+ 
+  
+ 
+   
+  
+ 
+ 
+
+=== 2025년 제36회 공인중개사 1차 1교시 문제지.pdf p2 ===
+1( 1PÜ(\–).hwp
+file:///C/...ownloads/공인중개사기출문제 및 정답/2025년 36회 문제 및 정답/2025년 제36회 공인중개사 1차 1교시 문제지.html[2026-03-23 오후 11:38:54]
+ㄱ ㄴ ㄷ ㄹ
+ㅁ
+ㄱㄴ
+ㄱ ㄹ
+ㄴ ㄷ ㅁ
+ㄴㄹㅁ
+ㄱ ㄷ ㄹ ㅁ
+  
+  
+    
+
+
+
+ㄱ ㄴ
+ㄷ ㄹ
+ㅁ ㅂ
+ㄱ ㄴ
+ㄷ ㄹ
+ㅁ
+ㄱ ㄴ ㄱ ㄷ ㅁ
+ㄱ ㄹ ㅁ ㄴ ㄷ ㄹ ㅁ ㄱ ㄴ ㄷ ㄹ ㅁ
+군亡
+군亡
+23. 부동산 대출에 관한 설명으로 으0
+조건은 동일합)
+것은?（단, 다른
+26. 부동산두자의 포트폴리오이론에 것은?（단, 다른 조건은 동일합)
+관한 설명으로 으0
+小
+담보인정비율(LTV)은 담보물의 자산가치에 대한 융자 비율로 LTV가 올라갈수록 차입자의 자기자본비율도
+® 인플레이션, 경기변동 통해 제거할 수 없다.
+등의 체계적 위험은
+분산투자를
+증가한다.
+®
+? 총부채상환비율(DTI)은 상업용 부동산의 순수입에 대
+® 2개 두자자산의 수익률이 서로 아무런 관계없이 다면 상관계수는 1 이다.
+0지이
+古 기 '-
+한 연간채무부담액을 의미하므로 DTI가 올라가면 부채 서비스액도 증가한다.
+투자자가 효용이 동일하다고 느끼는 조합을 효율적 투자선이라 한다.
+연결한 선을
+®
+고정금리대출은 이자율 게 전가하는 방식이므로 동해도 위험이 없다.
+변동으로 인한 위험을 차입자에 금융기관(대출자)은 금리가 변
+포트폴리오 구성자산의 수익률이 같은 경우 위험감소의 효과가 크다.
+®
+@
+기대수익률의 분산 또는 표준편차는
+방향으로
+
+=== 2025년 제36회 공인중개사 1차 1교시 문제지.pdf p3 ===
+1( 1PÜ(\–).hwp
+file:///C/...ownloads/공인중개사기출문제 및 정답/2025년 36회 문제 및 정답/2025년 제36회 공인중개사 1차 1교시 문제지.html[2026-03-23 오후 11:38:54]
+투자안의
+움직일
+/ ol O
+기一기구
+소
+®
+총부채원리금상환비율(DSR)은 차입자의 총 급융부채 상 환부담을 판단하기 위하여 산정하는 차입자의 연간
+측정하는 전통적인 방법이다.
+득
+대비 연간 금융부채 원리금 상환액 비율을 말한다.
+27. 다음은 甲의 부동산
+임대사업의 1년간 운영수지에
+@
+부동산담보대출의 금리가 대한 채무상환을 정해진
+인상되어 차입자가 원리금에 시기에 이행하지 못하는 것을
+관한 내용이다. 甲의 주어전 조건에 한함)
+1년간 자기자본수익률은?(단,
+조기상환위험이라고 한다.
+24. 주거정책에 관한 설명으로 틀린 것은?（단, 다른 조건 은 동일함)
+0
+0
+기간 초 부동산 매입가격: 8억원 대출비율: 80%
+0
+1년간 부동산가격 상승률: 연 5%
+0
+매입 1년 후 부동산을 처분합
+e
+공공임대주택의 공급은 소득재분배 효과를 기대할 수 있다.
+순영업소득(NOi): 연 4,000만원(기간 말
+0
+0
+대출조건: 이자율 연 5%, 대출기간 1년,
+발생)
+원리금
+® 주택임대료를 시장가격 미만으로 규세하면 장에서는 이중가격이 형성될 수 있다.
+주택임대시
+은 만기시 일시 상환함
+® 공공주택 특별법령상 통합공공임대주택이란 국가나 지 방자치단체의 재정이나 주택도시기금의 자금을 지원받
+15%
+25%
+30%
+40%
+45%
+@
+®
+®
+®
+CD
+아 최저소득 계층, 저소득 서민, 젊은 층 및 장에인ㆍ국 가유공자 등 사회 취약계층 등의 주거안정을 목적으로 공급하는 공
+공임대주택을 말한다.
+®
+임대료 보조정책은 저소득층의 실질소득을 증가시킬 수 있다.
+@
+주거급여법령상 주택을 소유한 모든 사람은 주거급여의 수급권자가 될 수 없다
+
+=== 2025년 제36회 공인중개사 1차 1교시 문제지.pdf p4 ===
+1( 1PÜ(\–).hwp
+file:///C/...ownloads/공인중개사기출문제 및 정답/2025년 36회 문제 및 정답/2025년 제36회 공인중개사 1차 1교시 문제지.html[2026-03-23 오후 11:38:54]
+28. 다음 대상부동산의 3년간 현급흐름을 이용한 입대사업 의 수익성지수(Pl)는?（단, 연간 기준이며, 결과값은 소
+수점 셋째자리에서 반올림하고, 주어진 조건에 한함)
+。모든 현금의 유입과 유출은 매년 말에만 발생
+。
+。현급유입은 1년차 800만원, 2년차 1,000만원,
+3년차 1,200만원
+25. 부동산투자에 관한 조건은 동일합)
+설명으로
+틀린 것은?（단, 다른
+매년 현금유출은 O 1년 후 일시불의 O 2년 후 일시불의
+O 3년 후 일시불의
+현금유입의 70%
+현가계수 0.90
+현가계수 0.85
+현가계수 0.80
+@
+®
+®
+®
+®
+e ) )
+투자위험과 요구수익률은 정(+)의
+관계를
+가진다.
+높
+홍
+위험회피형 투자자는 기대수익률이 요구수익률보다 을 경우 두자가치가 있다고 판단한다.
+0.70
+0.93
+1.22
+1.43
+1.62
+o
+®
+민감도분석은 변화함에 따라
+투자효과를 분석하는 모형의 투입요소가 순현재가치와 내부수익률에 어떠한 영향
+29. 다음 대상부동산의 순영업소득(NOi)은?（단, 연간 기 준이며, 주어진 조건에 한함)
+o
+을 주는가를
+분석하는 기법이다.
+건축연면적: 2,000m2
+®
+부(―)의 레버리지효과란 수익률이 하락하는 것을
+부채비율이 커질수록 말한다.
+자기자본
+유효임대면적:건축연면적의 연평균임대료:유효임대면적
+80%
+
+=== 2025년 제36회 공인중개사 1차 1교시 문제지.pdf p5 ===
+1( 1PÜ(\–).hwp
+file:///C/...ownloads/공인중개사기출문제 및 정답/2025년 36회 문제 및 정답/2025년 제36회 공인중개사 1차 1교시 문제지.html[2026-03-23 오후 11:38:54]
+m망6만원
+o
+@ 부동산관련 제의 변화로
+세제 등 정부정책이나 각종 야기되는 불확실성은 유동성
+토지의 이용규 위험이다.
+평균공실률:유효임대면적의 10%
+o
+o
+영업경비: 유효총소득의 50%
+®
+o
+연부채상환액: 1,000만원
+e
+3,820만원
+®
+7,680만원
+4,320만원
+@
+@
+8,640만원
+6,900만원
+2025년 제36회 공인중개사1차1교시 A형-12-4
+30. 프로젝트 급융(Project Financing)에 틀린 것은?
+관한 설명으로
+33. 부동산투자회사법령상 위탁관리 부동산투자회사(REITs)에 관한 설명으로 틀린 것은?
+5
+투자ㆍ T
+프로젝트 자체의 금융기법이다.
+사업성올
+기초로
+자금을 조달하는
+® 본점 외의 지점을 설치할 수 상근 임원을 둘 수 없다.
+없으며, 직원을 고용하거나
+2
+비소구 또는 제한적 소구 금융의
+@ 해당 프로젝트가 부실화되더라도
+특징을 가지고 있다.
+대출기관의 채권회수
+® 자산의
+한다.
+°요어口드 간0 1:::l 亡
+자산관리회사에 위탁하여야
+에는 영향이 없다.
+®
+다양한 사업주체가 참여하고 이해당사자 간에 위협배분이 가능하다.
+® 최저자본금준비기간이 지난 회사의 최저자본금은 50억원 이상이 되어야 한다.
+®
+설립 자본금은 3억원 이상으로 한다.
+
+=== 2025년 제36회 공인중개사 1차 1교시 문제지.pdf p6 ===
+1( 1PÜ(\–).hwp
+file:///C/...ownloads/공인중개사기출문제 및 정답/2025년 36회 문제 및 정답/2025년 제36회 공인중개사 1차 1교시 문제지.html[2026-03-23 오후 11:38:54]
+@ 프로젝트의 사업자금은
+일반적으로
+에스크로우 계정
+@ 영업인가를
+받거나
+등록을 한 후에 자산을 투자ㆍ 운용
+(escrow account)을 통해
+관리한다.
+하기 위하여
+자금을
+차입하거나 사채를 발행할 수 없댜
+31. 甲은 A은행에서 주택을 담보로 5,000만원을 대출받은 상 태이다. 甲이 A은행에서 동일한 주택을 담보로 받을 수
+34.
+고정금리대출의 상환방식에 관한 설명으로 은?（단, 주어진 조건에 한하며, 다른 조건은
+표로l 것 동일합)
+있는 추가대출의 최대급액은?（단, 제시된 두 가지 대출 숭인기준을 모두 충족하여야 하며, 주어진 조건에 한합)
+O 담보주택의 시장가치: 4억원
+O 연소득: 7,000만원
+원금균등분할상환방식은 원리금균등분할상환방식에 비해
+®
+1회차 원리금상환액이 더 적다.
+®
+중
+만기일시상환방식은 대출 만기까지 이자만 지급하다가 대출 만기에 대출원금을 일시에 상환하는 방식이다.
+O 연간 저당상수: 0.2
+0 대출승인기준
+- 담보인정비율(LTV): 60% 이하
+® 원리금균등분할상환방식은 원리금이 일정하다.
+상환기간
+납입하는 대출
+― 총부채상환비율(DTI): 40% 이하
+원리금균등분할상환방식은 원금균등분할상환방식에 비해
+®
+@
+®
+대출채권의 가중평균상환기간이 더 길다.
+印
+2,800만원
+®
+1억 9,000만원
+9,000만원
+:
+@
+2억 4,000만원
+1억 4,000만원
+체증식분할상환방식은 상환기간 초기에는 원리금상환액을 적게 하고 시간의 경과에 따라 늘려가는 방식이다.
+32. 甲은 주택구입을 위해 연초에 9억원을 대출받았다. 甲
+
+=== 2025년 제36회 공인중개사 1차 1교시 문제지.pdf p7 ===
+1( 1PÜ(\–).hwp
+file:///C/...ownloads/공인중개사기출문제 및 정답/2025년 36회 문제 및 정답/2025년 제36회 공인중개사 1차 1교시 문제지.html[2026-03-23 오후 11:38:54]
+35. 감정평가에 관한 규칙에 규정된 내용으로 들린= 것은?
+이 받은 대출조건이 다음과 같을 때, 대출금리(ㄱ)와
+10회차 이자납부액( ㄴ)은?(단, 주어진 조건에 한합)
+o o
+대출금리방식:고정급리
+CD 감정평가법인등은 법령에 대상물건의 감정평가액을 로 결정할 수 있다.
+다른 규정이 시장가치 외의
+있는 경우에는 가치를 기준으
+대출기간: 30년
+o
+원리금 상환조건: 원금균등분할상환방식,
+。
+매년 말 연단위로 상환
+1회차 원리급상환액: 5,700만원
+%
+3
+. .
+CD 2
+연
+ㄱ ㄴ: 1,710만원
+3
+. .
+鬪 鬪
+연
+ㄱ ㄴ: 1,800만원
+%
+3 4
+.. . .
+@ ®
+연
+ㄱ ㄴ: 1,890만원
+연
+ㄱ ㄴ: 2,450만원
+4
+. .
+@
+鬪
+연
+ㄱ ㄴ: 2,520만원
+적산법이란 일반기업 경영에 의하여 산출된 총수익을 분석하여 대상물건이 일정한 기간에 산출할 것으로 기 대되는 순
+수익에 대상물건을 계속하여 임대하는 데에 필요한 경비를 더하여 대상물건의 임대료를 산정하는 감정평가방법을 말
+한다.
+®
+®
+둘 이상의 대상물건이 일체로 거래되거나 대상물건 상호 간에 용도상 불가분의 관계가 있는 경우에는 일괄하여 감정평
+가할 수 있다.
+®
+임대사례비교법이란 대상물건과 가치형성요인이 같거나 비슷한 물건의 임대사례와 비교하여 대상물건의 현황에 맞게
+사정보정, 시점수정, 가치형성요인 비교 등의 과정 을 거쳐 대상물건의 임대료를 산정하는 감정평가방법을 말한다.
+@ 감정평가법인등은 법령에 다른 규정이 있는 경우에는 기 준시점의 가치형성요인 등을 실제와 다르게 가정하거나 특수한
+경우로 한정하는 조건을 붙여 감정평가할 수 있다.
+
+=== 2025년 제36회 공인중개사 1차 1교시 문제지.pdf p8 ===
+1( 1PÜ(\–).hwp
+file:///C/...ownloads/공인중개사기출문제 및 정답/2025년 36회 문제 및 정답/2025년 제36회 공인중개사 1차 1교시 문제지.html[2026-03-23 오후 11:38:54]
+2025년 제36회 공인중개사 1차 1교시 A형-12-5
+ㆍ
+ㆍ ㆍ
+ㆍ ㆍ
+ㆍ
+ㄱ ㄴ ㄷ
+ㄱ ㄷ ㄱ ㄴ
+ㄴ ㄷ ㄱ ㄴ ㄷ
+ㆍ ㄱ
+ㄴ
+ㆍ ㄷ
+ㄱ
+ㄷ
+ㄱㄴ
+ㄴ ㄷ
+ㄱㄴㄷ
+ㄱ ㄴ
+ㄷ
+ㄱ
+ㄷ
+ㄱ
+ㄴ
+ㄴㄷ
+ㄱㄴㄷ
+ㄱ ㄴ ㄷ
+54. 민법상 합유에 관한 설명으로 틀린 것은?（특별한 사 정이 없으며, 다툼이 있으면 판례에 따름)
+58. 甲이 乙로부터 乙 소유의 X건물에 대하여 전세권을 설정받은 경우에 관한 설명으로 틀린 것은?（다툼이
+W 합유자의 권리는 합유물 전부에
+미친댜
+있으면 판례에 따름)
+CD
+® 합유는 조합체의 해산으로 인하여 종료한다.
+甲이 X건물을 전세권설정계약으로 정한 용법에 따라 사용하지 않더라도 이를 이유로 乙은 전세권소멸을 청
+® 합유자는 조합체가
+하지 못한다.
+존속하는
+한 합유물의
+터 중l- O
+청구
+간己吉
+구할 수 없다.
+® 합유자는
+수 없다.
+합유자 전원의 동의
+없이 합유지분을
+처분할
+X건물의 소유를
+®
+사정이 없는 한 수 없다.
+목적으로 지상권을甲의 동의 없이 그
+취득한 乙은 특별한 지상권을 소멸시킬
+@
+
+=== 2025년 제36회 공인중개사 1차 1교시 문제지.pdf p9 ===
+1( 1PÜ(\–).hwp
+file:///C/...ownloads/공인중개사기출문제 및 정답/2025년 36회 문제 및 정답/2025년 제36회 공인중개사 1차 1교시 문제지.html[2026-03-23 오후 11:38:54]
+부동산에 관한 합유지분의
+동의 효력이 생긴다.
+포기는
+등기 없이도
+물권변
+甲은 전세권이 존속하는 동안에는 특별한 사정이 없는 한 전세권을 존속시키면서 전세급반환채권만을 확정적
+®
+®
+으로 양도할 수 없다.
+55. 甲 소유의 X토지를 乙이 20년 이상 소유의 의사로
+@
+평온, 공연하게 현재까지 점유하고 있다. 乙은 甲에 게 취득시효 완성을 이유로 X토지의 소유권이전등기 를 청구하였지만,
+아직 등기는 이전받지 못하였다.
+乙이 전세권 존속 중에丙은 전세권의 존속기간 무를 전댜
+丙에게 X건물을 만료 시 甲에게
+양도한 경우, 전세금반환의
+및
+전
+이후 발생한 아래 각 상황에 관한 설명으로 틀린 것 은?（다툼이 있으면 판례에 따름)
+w
+甲이 X토지 위에 비닐하우스를 설치한 경우, 乙은 甲에게 점유권에 기한 방해배제를 청구할 수 있다.
+전세권이 소멸한 경우, 乙은 甲으로부터 X건물의 인도 전세권 말소등기에 필요한 서류의 교부를 받는 동시에 세금을 반환
+하여야 한다.
+8
+甲은 乙에게 할 수 없다.
+X토지의
+점유로
+인한 손해의
+배상을 청구
+59. 지상권에 관한 설명으로 판례에 따름)
+으으
+군 -,
+것은?（다툼이
+있으면
+®
+甲은 乙에게 X토지의 청구할 수 없다.
+점유로
+이하
+드 1_
+부당이득의
+반환을
+CD 지상권자의 지상권갱신청구권은 형성권이다.
+2 담보목적의 지상권이 설정된 경우, 피담보채권이
+변제로
+甲
+@ X토지가 수용되어 甲이 보상금을 수령한 경우, 乙은 에게 보상금의 반환을 정구할 수 없다.
+@ 甲이 乙의 시효완성 사실을 알면서도 丙에게 X토지를 처분하여 취득시효완성에 따른 소유권이전등기의무가
+소멸하면 그 지상권도 소멸한다.
+® 타인 소유의 기존 연와조 건물을 사용하기 위하여 하는 지상권의 최단존속기간은 30년이다.
+入J 又1
+근1 0
+이행불능이 된 경우, 乙은 甲에게 불법행위로 인한 손 해배상을 청구할 수 있다.
+기존 건물의
+®
+이 멸실되면
+
+=== 2025년 제36회 공인중개사 1차 1교시 문제지.pdf p10 ===
+1( 1PÜ(\–).hwp
+file:///C/...ownloads/공인중개사기출문제 및 정답/2025년 36회 문제 및 정답/2025년 제36회 공인중개사 1차 1교시 문제지.html[2026-03-23 오후 11:38:54]
+소유를 목적으로 설정된 지상권은 그 건물
+소멸한다.
+56. 甲, 乙, 丙이 각각 4/7, 2/7, 1/7의 지분비율로 X토지 를 공유하는 경우에 관한 설명으로 튤륀- 것은?(별도의 특약은 없고,
+다툼이 있으면 판례에 따름)
+中 甲은 乙, 丙과의 협의 없이 X토지의 관리에 관한 사항을 정할 수 있다.
+@ 지상권이 저당권의 목적인 경우, 지료연체에
+권소멸청구는 저당권자에게 통지하는 즉시 생긴다.
+CD2
+60. 지역권에 관한 설명으로 틀린 것은? 민법은 지역권의 존속기간을 규정하고 있지
+따른 지상
+그 효력이
+않댜
+®
+甲온 乙, 丙의 동의 없이 X토지를 처분하지
+못한다.
+요역지에 설정된 저당권에 기하여 경매가 된 경우, 다른
+®
+®
+丙은 甲, 乙의 동의 없이 담보로 제공할 수 있다.
+자신의
+지분을
+제3자에게
+특약이 없는 한 경매매수인은 요역지의 소유권과 합께 지역권을 취득한다.
+®
+乙이 甲, 丙과의 협의 없이 X토지의 전부를 독점적으로 점유 ・사용하고 있는 경우, 丙온 공유물의 보존행위로
+점유로 인한 지역권 취득기간의 중단은 지역권을 는 모든 공유자에 대한 사유가 아니면 그 효력이
+행사하 없댜
+자신에게 X토지를 인도할 것을 정구할 수 있다.
+@ 甲이 자신의 지분을 포기한 경우, 그 지분은 乙과 丙에게 각 지분의 비율로 귀속한다.
+® 지역권자는 지역권을 방해할 염려있는 행위를 하는 자에 대하여 그 예방이나 손해배상의 담보를 청구할 수 있다.
+@ 승역지 소유자는 지역권의 행사를 방해하지 않는 범위 내에서 지역권자가 지역권의 행사를 위하여 승역지에
+57. 등기 없이도 물권변동의 효력이 생기는 것은?（다툼이 있으면 판례에 따름)
+사유가 이卞l
+설치한 공작물을 수익 정도의 비율에 따른 비용 분담 없이 사용할 수 있다.
+® @
+® 상속 이행판결
+국세징수법상 공매
+재결수용 건물의 신축
+® ®
+2025년 제36회 공인중개사 1차 1교시 A형―12―9
+ㄱ ㄴ ㄷ
+ㄱ
+ㄷ
+ㄱ
+ㄴ
+ㄴㄷ
+ㄱㄴㄷ
+ㄱ ㄴ
+ㄷ
+
+=== 2025년 제36회 공인중개사 1차 1교시 문제지.pdf p11 ===
+1( 1PÜ(\–).hwp
+file:///C/...ownloads/공인중개사기출문제 및 정답/2025년 36회 문제 및 정답/2025년 제36회 공인중개사 1차 1교시 문제지.html[2026-03-23 오후 11:38:54]
+ㄱ
+ㄷ
+ㄱㄴ
+ㄴ ㄷ
+ㄱㄴㄷ
+ㄱ ㄴ
+ㄷ
+ㄱ
+ㄷ
+ㄱㄴ
+ㄴ ㄷ
+ㄱㄴㄷ
+ㄱ ㄴ
+ㄷ
+ㄱ ㄷ ㄱ ㄴ ㄱ.
+ㄴ ㄷ ㄱ ㄴ ㄷ ㄴ
+ㄷ
+w® 2@ @ ’ ’
+74.
+W
+:
+®
+®
+@
+ㄱ ㄴ
+ㄷ
+ㄱ ㄴ
+ㄷ ㆍ
+ㄱ
+ㄷ
+ㄱ
+ㄴ
+ㄴㄷ
+ㄱㄴㄷ
+ㄱ ㄴ
+ㄷ
+ㄱ.
+ㄱ ㄷ ㄱ ㄴ
+ㄴ ㄷ ㄱ ㄴ ㄷ
+ㄴ.
+ㄷ.
+w 2 ®
+® @)
+
+=== 2025년 제36회 공인중개사 1차 1교시 문제지.pdf p12 ===
+1( 1PÜ(\–).hwp
+file:///C/...ownloads/공인중개사기출문제 및 정답/2025년 36회 문제 및 정답/2025년 제36회 공인중개사 1차 1교시 문제지.html[2026-03-23 오후 11:38:54]
+’ ’
+
+=== 2025년 제36회 공인중개사 2차 1교시 문제지.pdf p1 ===
+ㆍ
+ㆍ
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄱㄴ
+ㄱㄷ
+ㄴㄷ
+ㄱㄴㄷ
+ㆍ
+ㄱ
+ㄴ
+ㄷ
+ㆍ
+ㄴ
+ㄷ
+ㄱㄴ
+ㄱㄷ
+ㄱㄴㄷ
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄷ
+ㄱㄴ
+ㄴㄷ
+ㄱㄴㄷ
+
+=== 2025년 제36회 공인중개사 2차 1교시 문제지.pdf p2 ===
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㄱ
+ㄴ
+ㄷ
+ㄴ
+ㄱㄴ
+ㄱㄷ
+ㄴㄷ
+ㄱㄴㄷ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㄱ
+ㄴ
+ㆍ
+ㄷ
+ㄱ
+ㄷ
+ㄱㄴ
+ㄴㄷ
+ㄱㄴㄷ
+ㆍ
+ㆍ
+
+=== 2025년 제36회 공인중개사 2차 1교시 문제지.pdf p3 ===
+ㄱ
+ㆍ
+ㄴ
+ㆍ
+ㄷ
+ㆍ
+ㄱ
+ㄴ
+ㄱㄷ
+ㄴㄷ
+ㄱㄴㄷ
+ㄱ
+ㄴ
+ㄷ
+ㄴ
+ㄱㄴ
+ㄱㄷ
+ㄴㄷ
+ㄱㄴㄷ
+ㆍ
+ㄱ
+ㄴ
+ㄷ
+ㄴ
+ㄱㄴ
+ㄱㄷ
+ㄴㄷ
+ㄱㄴㄷ
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄱㄴ
+ㄱㄷ
+ㄴㄷ
+ㄱㄴㄷ
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄷ
+ㄱㄴ
+ㄴㄷ
+ㄱㄴㄷ
+
+=== 2025년 제36회 공인중개사 2차 1교시 문제지.pdf p4 ===
+ㄱ
+ㆍ
+ㄴ
+ㄷ
+ㄱ
+ㄴ
+ㄱㄷ
+ㄴㄷ
+ㄱㄴㄷ
+ㆍ
+ㆍ
+ㆍ
+ㄱ
+ㄴ
+ㄷ
+ㆍ
+ㄱ
+ㄷ
+ㄱㄴ
+ㄴㄷ
+ㄱㄴㄷ
+
+=== 2025년 제36회 공인중개사 2차 1교시 문제지.pdf p5 ===
+ㆍ
+ㆍ
+ㄱ
+ㄴ
+ㄷ
+ㄹ
+ㄱㄷ
+ㄴㄹ
+ㄱㄴㄹ
+ㄴㄷㄹ
+ㄱㄴㄷㄹ
+ㆍ
+ㆍ
+ㄱ
+ㄴ
+ㄱ
+ㄴ
+ㄱ
+ㄴ
+ㄱ
+ㄴ
+ㄱ
+ㄴ
+ㄱ
+ㄴ
+
+=== 2025년 제36회 공인중개사 2차 1교시 문제지.pdf p6 ===
+ㆍ
+ㆍ
+ㆍ
+ㄱ
+ㄴ
+ㄷ
+ㆍ
+ㆍ
+ㆍ
+ㄱ
+ㄷ
+ㄱㄴ
+ㄴㄷ
+ㄱㄴㄷ
+ㆍ
+ㆍ
+ㆍ
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄷ
+ㄱㄴ
+ㄴㄷ
+ㄱㄴㄷ
+
+=== 2025년 제36회 공인중개사 2차 1교시 문제지.pdf p7 ===
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㄱ
+ㄴ
+ㄷ
+ㄹ
+ㅁ
+ㄹ
+ㄴㄷ
+ㄱㄹㅁ
+ㄱㄴㄷㅁ
+ㄱㄴㄷㄹㅁ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+
+=== 2025년 제36회 공인중개사 2차 1교시 문제지.pdf p8 ===
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㄱ
+ㄴ
+ㄷ
+ㄹ
+ㄱㄴㄷㄹ
+ㄱㄷㄴㄹ
+ㄴㄷㄱㄹ
+ㄷㄱㄹㄴ
+ㄷㄹㄱㄴ
+ㆍ
+ㆍ
+ㆍ
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄷ
+ㄱㄴ
+ㄴㄷ
+ㄱㄴㄷ
+
+=== 2025년 제36회 공인중개사 2차 1교시 문제지.pdf p9 ===
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄴ
+ㄷ
+ㆍ
+ㆍ
+ㆍ
+
+=== 2025년 제36회 공인중개사 2차 1교시 문제지.pdf p10 ===
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㄱ
+ㄴ
+ㄱ
+ㄴ
+ㄱ
+ㄴ
+ㄱ
+ㄴ
+ㄱ
+ㄴ
+ㄱ
+ㄴ
+ㆍ
+ㆍ
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄴ
+ㄷ
+ㆍ
+
+=== 2025년 제36회 공인중개사 2차 1교시 문제지.pdf p11 ===
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㄱ
+ㄴ
+ㄷ
+ㄹ
+ㄱㄴ
+ㄱㄹ
+ㄱㄴㄷ
+ㄴㄷㄹ
+ㄱㄴㄷㄹ
+ㆍ
+ㆍ
+ㄱ
+ㄴ
+ㄷ
+ㄹ
+ㄱ
+ㄱㄴ
+ㄴㄷ
+ㄷㄹ
+ㄱㄴㄹ
+ㆍ
+ㆍ
+
+=== 2025년 제36회 공인중개사 2차 1교시 문제지.pdf p12 ===
+ㆍ
+ㆍ
+ㆍ
+ㄱ
+ㄴ
+ㄷ
+ㄹ
+ㄱㄴ
+ㄷㄹ
+ㄱㄴㄷ
+ㄴㄷㄹ
+ㄱㄴㄷㄹ
+ㄱ
+ㄴ
+ㄱ
+ㄴ
+ㄱ
+ㄴ
+ㄱ
+ㄴ
+ㄱ
+ㄴ
+ㄱ
+ㄴ
+
+=== 2025년 제36회 공인중개사 2차 2교시 문제지.pdf p1 ===
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+ㆍ
+
+=== 2025년 제36회 공인중개사 2차 2교시 문제지.pdf p2 ===
+ㄱ
+ㄴ
+ㆍ
+ㄷ
+ㄹ
+ㄱ
+ㆍ
+ㄴ
+ㄷ
+ㆍ
+ㄹ
+ㄱ
+ㆍ
+ㄴ
+ㄷ
+ㄹ
+ㄱ
+ㆍ
+ㄴ
+ㄷ
+ㆍ
+ㄹ
+ㄱ
+ㄴ
+ㄷ
+ㄹ
+ㄱ
+ㄴ
+ㄷ
+ㆍ
+ㄹ
+ㄱ
+ㄴ
+ㄷ
+ㄹ
+ㄱㄷ
+ㄱㄴㄹ
+ㄱㄷㄹ
+ㄴㄷㄹ
+ㄱㄴㄷㄹ
+ㆍ
+ㄱ
+ㄴ
+ㄷ
+ㄹ
+ㅁ
+ㄱㄴㄷ
+ㄱㄴㄹㅁ
+ㄱㄷㄹㅁ
+ㄴㄷㄹㅁ
+ㄱㄴㄷㄹㅁ
+ㆍ
+ㆍ
+ㆍ
+ㄱ
+ㄴ
+ㄷ
+ㄹ
+ㅁ
+ㄱㄴ
+ㄷㅁ
+ㄱㄴㄷ
+ㄱㄹㅁ
+ㄴㄷㄹㅁ
+
+=== 2025년 제36회 공인중개사 2차 2교시 문제지.pdf p3 ===
+ㄱ
+ㄴ
+ㄷ
+ㄹ
+ㄹ
+ㄱㄷ
+ㄴㄹ
+ㄱㄴㄷ
+ㄱㄴㄷㄹ
+ㄱ
+ㄴ
+ㄷ
+ㄹ
+ㄱ
+ㄴㄷ
+ㄷㄹ
+ㄱㄴㄹ
+ㄱㄴㄷㄹ
+
+=== 2025년 제36회 공인중개사 2차 2교시 문제지.pdf p4 ===
+ㄱ
+ㄴ
+ㄷ
+ㄹ
+ㅁ
+ㆍ
+ㄴ
+ㄱㅁ
+ㄴㅁ
+ㄷㄹ
+ㄷㄹㅁ
+
+=== 2025년 제36회 공인중개사 2차 2교시 문제지.pdf p5 ===
+ㆍ
+
+=== 2025년 제36회 공인중개사 2차 2교시 문제지.pdf p6 ===
+ㄱ
+ㄴ
+ㄷ
+ㄹ
+ㄱㄴ
+ㄱㄹ
+ㄴㄷ
+ㄱㄷㄹ
+ㄴㄷㄹ
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄴ
+ㄷ
+ㄱ
+ㄴ
+ㄷ
+ㆍ
+ㆍ
+ㄱ
+ㄴ
+ㄷ
+ㄹ
+ㄱㄴ
+ㄴㄹ
+ㄱㄴㄷ
+ㄱㄷㄹ
+ㄱㄴㄷㄹ
+
+=== 2025년 제36회 공인중개사 최종정답.pdf p1 ===
+2025년 제36회 공인중개사 자격시험 정답 
+1차 1교시 
+부동산학?H 론 
+’ 1 ’ 
+2 r [ 
+3 」
+3 
+!I 
+4 
+3 
+5 
+4 
+l 
+'; 
+6 
+I 
+3 
+7 
+5 
+8 
+1 
+9 
+3 
+I 10 
+5 
+i 
+’I 
+1 
+12 
+5 13 
+2 14 
+15 
+4 
+16 
+2 17 
+5 
+18 
+3 I 
+19 
+2 
+20 
+2 
+21 
+4 
+22 
+2 
+23 
+4 
+24 
+5 
+25 
+5 
+26 
+27 
+3 
+28 
+4 
+29 
+2 
+30 
+3 
+31 
+2 
+32 
+3 
+33 
+5 
+34 
+35 
+2 
+36 
+5 
+37 
+4 
+3B 
+4 
+39 
+3 
+40 
+민법및민사특별법 
+I| 
+| 
+41 
+2 
+42 
+3 
+43 
+44 
+5 
+45 
+E| 
+46 
+47 
+2 I 4B 
+3 
+49 
+4 
+| 
+50 
+3 
+51 
+4 
+I 
+52 
+2 I 
+53 
+54 
+5 
+55 
+4 
+56 
+4 I 
+57 
+3 
+58 
+59 
+2 
+60 
+5 
+61 
+4 
+62 
+4 
+63 
+2 
+64 
+5 
+| 
+65 
+l 
+66 
+3 
+67 
+5 
+68 
+4 
+69 
+,i 
+70 
+4 
+71 
+5 
+72 
+3 
+73 
+2 
+74 
+2 
+;i 
+75 
+5 
+. 「
+76 
+2 
+77 
+3 
+78 
+! 
+5 
+79 
+80 
+2 
+2차 1교시 
+공인중개사의업무및무동산거래신고에관한법렁및중개실무 
+'
+5
+3
+s
+~ - IL 「| 
+I 
+· -
+--
+r、소 
+5 
+2 
+3 1 
+4 
+5 | 
+4 
+6 
+3 [ 
+-I구 
+e 
+5 「1
+9
+4 
+10 
+4 
+11 
+E| 
+12 
+13 
+3 
+4 
+15 
+5 
+16 
+4 17 
+18 
+2 19 
+5 
+20 
+4 
+21 
+2 
+22 
+3 I 
+23 
+5 l 
+24 
+25 
+3 
+26 
+J 
+27 
+4 
+28 
+2 
+29 
+4 
+30 
+3 
+31 
+2 
+32 
+33 
+3 I 
+34 
+2 
+35 
+3 
+36 
+f 
+37 
+2 
+38 
+4 
+39 
+2 
+40 
+2 
+부동산공법중부동산중개에관련되는규정 
+41 
+3 
+42 
+4 
+| 
+43 
+2 
+| 
+44 
+5 
+45 
+2 
+46 
+3 
+47 
+5 
+48 
+5 
+l 
+49 
+4 
+50 
+4 
+51 
+52 
+2 
+53 
+5 I 
+54 
+5 
+55 
+2 
+56 
+4 
+57 
+3 
+58 
+5 
+59 
+60 
+4 
+61 
+2 
+62 
+El 
+63 
+4 l 
+64 
+5 
+65 
+4 
+66 
+3 
+67 
+2 
+68 
+2 
+69 
+5 
+70 
+71 
+72 
+2 
+73 
+I 
+74 
+4 
+75 
+4 
+76 
+2 
+,;[ 
+77 
+78 
+3 
+79 
+3 
+BO
+
+=== 2025년 제36회 공인중개사 최종정답.pdf p2 ===
+2차 2교시 
+3
+8
+13
+18
+23
+ 
+법
+ 서
+l
+I
+l
+[
+|
+ll소
+ 
+변
+ til
+」
+1스
+ 
+-
+동
+.
+ 
+부
+ 
+qi-
+K
+2
+ 
+텅
+ 법
+ll
+ 
+-＿
+o
+」-
+F
+1
+ 
+마
+ A
+L
+ 
+곰
+ 
+亭
+-
+A
+J
+ 
+도
+0
+ 
+브_
+ 
+6
+ 
+2
+ 
+7
+ 
+4
+ 
+11 
+5
+ 
+12 
+4
+ 
+l6 
+2
+ 
+17 
+5
+ 
+?'-
+2
+ 
+22
+ 
+5
+ 
+3
+4
+ 
+5
+ 
+26
+31
+36
+ 
+5
+3
+2
+ 
+27 
+32 
+37 
+5
+3
+2
+ 
+28 
+33 
+38 
+3
+2
+5
+4
+ 
+.
+1.
+1·‘.
+4.I
+‘,．
+야·‘.
+I
+ 
+4
+9
+14
+19
+24
+29
+34
+39
+ 
+4
+3
+4
+3
+5
+4
+4
+3
+ 
+5
+10
+15
+20
+25
+30
+35
+40
+ 
+5
+2
