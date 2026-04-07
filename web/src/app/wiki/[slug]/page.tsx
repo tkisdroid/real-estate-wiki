@@ -4,6 +4,9 @@ import { getPageBySlug, renderMarkdown, getNavigation } from "@/lib/wiki";
 import { getSlugMap, getWikiSlug, getUrlSlug } from "@/lib/slugMap";
 import { getSubjectColor } from "@/lib/subjects";
 import MobileSidebar from "../../components/MobileSidebar";
+import BookmarkButton from "../../components/BookmarkButton";
+import OXQuizInteractive from "../../components/OXQuizInteractive";
+import PageTracker from "../../components/PageTracker";
 
 export function generateStaticParams() {
   return getSlugMap().map((entry) => ({
@@ -233,8 +236,8 @@ export default async function WikiPage({
             <span className="text-gray-600 truncate">{page.frontmatter.title}</span>
           </div>
 
-          {/* Meta badges */}
-          <div className="flex flex-wrap gap-2 mb-6">
+          {/* Meta badges + Bookmark */}
+          <div className="flex flex-wrap items-center gap-2 mb-6">
             {page.frontmatter.subject && (
               <span className={`text-xs px-2 py-0.5 rounded font-medium ${subjectColor.bg} ${subjectColor.text}`}>
                 {page.frontmatter.subject}
@@ -250,7 +253,11 @@ export default async function WikiPage({
                 {tag}
               </span>
             ))}
+            <BookmarkButton pageSlug={urlSlug} title={page.frontmatter.title} />
           </div>
+
+          {/* Page visit tracker */}
+          <PageTracker pageSlug={urlSlug} />
 
           {/* Content */}
           <div
@@ -264,6 +271,9 @@ export default async function WikiPage({
               prose-li:my-0.5"
             dangerouslySetInnerHTML={{ __html: renderedHtml }}
           />
+
+          {/* Interactive OX Quiz */}
+          <OXQuizInteractive pageSlug={urlSlug} basePath="/real-estate-wiki" />
         </article>
       </div>
     </div>
