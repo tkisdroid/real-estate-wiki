@@ -185,7 +185,7 @@ export default function ProgressDashboard({ basePath }: { basePath: string }) {
             {bookmarks.slice(0, 10).map((slug) => (
               <Link
                 key={slug}
-                href={`${basePath}/wiki/${slug}/`}
+                href={`/wiki/${slug}/`}
                 className="text-xs px-2.5 py-1.5 rounded-lg bg-yellow-50 border border-yellow-200 text-yellow-800 hover:bg-yellow-100 transition-colors"
               >
                 {bookmarkTitles[slug] || slug}

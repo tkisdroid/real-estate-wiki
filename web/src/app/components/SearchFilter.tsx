@@ -260,7 +260,7 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
                     {suggestions.map((s) => (
                       <Link
                         key={s.u}
-                        href={`${basePath}/wiki/${s.u}/`}
+                        href={`/wiki/${s.u}/`}
                         className="block bg-blue-50 border border-blue-200 rounded-lg p-3 hover:bg-blue-100 transition-colors"
                       >
                         <span className="text-sm font-medium text-blue-800">{s.t}</span>
@@ -306,7 +306,7 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
               {filtered.slice(0, 50).map((entry) => (
                 <Link
                   key={entry.u}
-                  href={`${basePath}/wiki/${entry.u}/`}
+                  href={`/wiki/${entry.u}/`}
                   className="block bg-white rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-sm transition-all p-4"
                 >
                   <div className="flex items-start gap-3">
