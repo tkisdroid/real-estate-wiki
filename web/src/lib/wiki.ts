@@ -118,6 +118,72 @@ export async function renderMarkdown(content: string, basePath: string = ""): Pr
   const result = await remark().use(remarkGfm).use(html, { sanitize: false }).process(withLinks);
   let output = result.toString();
 
+  // ===== Auto-linking: page titles & keywords → wiki links =====
+  const { getSlugMap } = await import("./slugMap");
+  const allEntries = getSlugMap();
+
+  // Build keyword → urlSlug map. Include titles + common aliases from tags
+  const keywordMap: Array<{ keyword: string; urlSlug: string; title: string }> = [];
+  for (const entry of allEntries) {
+    if (entry.category === "subjects" || entry.category === "practice") continue;
+    // Add the title itself
+    if (entry.title.length >= 2) {
+      keywordMap.push({ keyword: entry.title, urlSlug: entry.urlSlug, title: entry.title });
+    }
+  }
+  // Sort by keyword length descending (longest first to avoid partial matches)
+  keywordMap.sort((a, b) => b.keyword.length - a.keyword.length);
+
+  // Auto-link in rendered HTML: only in <p> and <li> text, not in headings/links/code
+  // We process the HTML and replace keyword occurrences with links
+  const linked = new Set<string>(); // Track already-linked keywords to limit to first occurrence
+  for (const { keyword, urlSlug, title } of keywordMap) {
+    if (linked.has(urlSlug)) continue;
+    // Escape special regex chars in keyword
+    const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    // Match keyword only in plain text (not inside HTML tags or existing links)
+    // Use a regex that matches the keyword when NOT inside < > or already in an <a> tag
+    const regex = new RegExp(
+      `(?<![\\w/])(?<!<[^>]*)(?<!href="[^"]*)(${escaped})(?![^<]*>)(?!</a>)(?![\\w])`,
+      ""
+    );
+
+    // Simple approach: split by HTML tags, process only text nodes
+    const parts = output.split(/(<[^>]+>)/);
+    let found = false;
+    let inLink = 0;
+    let inHeading = 0;
+    let inCode = 0;
+    for (let i = 0; i < parts.length; i++) {
+      const part = parts[i];
+      // Track tag state
+      if (part.startsWith("<")) {
+        if (part.match(/^<a[\s>]/i)) inLink++;
+        else if (part.match(/^<\/a>/i)) inLink--;
+        else if (part.match(/^<h[1-6][\s>]/i)) inHeading++;
+        else if (part.match(/^<\/h[1-6]>/i)) inHeading--;
+        else if (part.match(/^<(code|pre)[\s>]/i)) inCode++;
+        else if (part.match(/^<\/(code|pre)>/i)) inCode--;
+        continue;
+      }
+      // Skip if inside a link, heading, or code
+      if (inLink > 0 || inHeading > 0 || inCode > 0) continue;
+      // Try to match keyword in this text node
+      const idx = part.indexOf(keyword);
+      if (idx !== -1) {
+        const href = `${basePath}/wiki/${urlSlug}/`;
+        const replacement = `${part.slice(0, idx)}<a href="${href}" class="wiki-link auto-link" title="${title}">${keyword}</a>${part.slice(idx + keyword.length)}`;
+        parts[i] = replacement;
+        found = true;
+        break; // Only link first occurrence
+      }
+    }
+    if (found) {
+      output = parts.join("");
+      linked.add(urlSlug);
+    }
+  }
+
   // Render LaTeX math with KaTeX
   const katex = (await import("katex")).default;
   // Block math: $$...$$

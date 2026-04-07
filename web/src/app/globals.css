@@ -153,6 +153,18 @@ input, select, textarea {
   cursor: default;
 }
 
+.auto-link {
+  color: #2563eb;
+  text-decoration: none;
+  border-bottom: 1px dotted #93c5fd;
+  transition: border-color 0.15s;
+}
+
+.auto-link:hover {
+  border-bottom-color: #2563eb;
+  border-bottom-style: solid;
+}
+
 /* ===== Touch-friendly sidebar links ===== */
 @media (max-width: 1024px) {
   .sidebar-link {
