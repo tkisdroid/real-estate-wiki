@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useMemo, useCallback } from "react";
+import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import Link from "next/link";
 import type { FuzzyResult } from "@/lib/koreanSearch";
 
@@ -41,6 +41,7 @@ const FREQ_TAGS = ["매년출제", "자주출제", "가끔출제", "신규출제
 export default function SearchFilter({ basePath }: { basePath: string }) {
   const [entries, setEntries] = useState<SearchEntry[]>([]);
   const [query, setQuery] = useState("");
+  const inputRef = useRef<HTMLInputElement>(null);
   const [subjectFilter, setSubjectFilter] = useState<string>("");
   const [importanceFilter, setImportanceFilter] = useState<string>("");
   const [tagFilter, setTagFilter] = useState<string>("");
@@ -153,6 +154,7 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
 
   const clearAll = () => {
     setQuery("");
+    if (inputRef.current) inputRef.current.value = "";
     setSubjectFilter("");
     setImportanceFilter("");
     setTagFilter("");
@@ -165,14 +167,16 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
       {/* Search Input */}
       <div className="relative mb-4">
         <input
+          ref={inputRef}
           id="wiki-search"
           name="wiki-search"
-          type="text"
+          type="search"
           autoComplete="off"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          defaultValue=""
+          onInput={(e) => setQuery((e.target as HTMLInputElement).value)}
           placeholder="개념, 법령, 키워드로 검색..."
-          className="w-full px-4 py-3 pl-10 rounded-lg border border-gray-300 bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-base"
+          style={{ color: "#111827", backgroundColor: "#ffffff" }}
+          className="w-full px-4 py-3 pl-10 rounded-lg border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-base"
         />
         <svg
           className="absolute left-3 top-3.5 w-5 h-5 text-gray-400"
@@ -189,7 +193,7 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
         </svg>
         {query && (
           <button
-            onClick={() => setQuery("")}
+            onClick={() => { setQuery(""); if (inputRef.current) inputRef.current.value = ""; }}
             className="absolute right-3 top-3 text-gray-400 hover:text-gray-600 p-0.5"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
