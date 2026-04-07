@@ -275,7 +275,8 @@ export default async function WikiPage({
               prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline
               prose-table:text-sm prose-th:bg-gray-50
               prose-strong:text-gray-900
-              prose-code:bg-gray-100 prose-code:px-1 prose-code:rounded prose-code:text-sm
+              prose-code:bg-gray-100 prose-code:text-gray-800 prose-code:px-1 prose-code:rounded prose-code:text-sm
+              prose-pre:bg-gray-800 prose-pre:text-gray-100 prose-pre:rounded-lg prose-pre:p-4 prose-pre:overflow-x-auto
               prose-blockquote:border-blue-300 prose-blockquote:bg-blue-50 prose-blockquote:text-blue-900 prose-blockquote:py-1
               prose-li:my-0.5"
             dangerouslySetInnerHTML={{ __html: renderedHtml }}
