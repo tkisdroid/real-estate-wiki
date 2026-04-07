@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 
 const VISITED_KEY = "wiki-visited-pages";
@@ -53,12 +53,16 @@ export default function ProgressDashboard({ basePath }: { basePath: string }) {
   const [bookmarkTitles, setBookmarkTitles] = useState<Record<string, string>>({});
   const [loaded, setLoaded] = useState(false);
 
-  useEffect(() => {
+  const refreshLocalData = useCallback(() => {
     try {
       setVisited(JSON.parse(localStorage.getItem(VISITED_KEY) || "[]"));
       setBookmarks(JSON.parse(localStorage.getItem(BOOKMARK_KEY) || "[]"));
       setBookmarkTitles(JSON.parse(localStorage.getItem(BOOKMARK_TITLES_KEY) || "{}"));
     } catch { /* ignore */ }
+  }, []);
+
+  useEffect(() => {
+    refreshLocalData();
 
     fetch(`${basePath}/search-index.json`)
       .then((r) => r.json())
@@ -67,7 +71,27 @@ export default function ProgressDashboard({ basePath }: { basePath: string }) {
         setLoaded(true);
       })
       .catch(() => setLoaded(true));
-  }, [basePath]);
+
+    // Re-read localStorage when tab becomes visible (user returns from wiki page)
+    const onVisibility = () => {
+      if (document.visibilityState === "visible") refreshLocalData();
+    };
+    // Re-read on focus (covers same-tab navigation back to home)
+    const onFocus = () => refreshLocalData();
+    // Re-read periodically to catch client-side navigation updates
+    const interval = setInterval(refreshLocalData, 2000);
+
+    document.addEventListener("visibilitychange", onVisibility);
+    window.addEventListener("focus", onFocus);
+    window.addEventListener("pageshow", onFocus);
+
+    return () => {
+      document.removeEventListener("visibilitychange", onVisibility);
+      window.removeEventListener("focus", onFocus);
+      window.removeEventListener("pageshow", onFocus);
+      clearInterval(interval);
+    };
+  }, [basePath, refreshLocalData]);
 
   if (!loaded) return null;
 
