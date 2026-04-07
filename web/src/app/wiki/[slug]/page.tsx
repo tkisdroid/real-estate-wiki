@@ -136,9 +136,9 @@ function enhanceHtml(html: string): string {
     '<div class="trap-note">⚠️ $1</div>'
   );
 
-  // Style OX quiz items
+  // Style OX quiz items — use greedy match for explanation to handle nested parentheses
   enhanced = enhanced.replace(
-    /<p><strong>(Q\d+\.)<\/strong>\s*(.*?)\s*→\s*<strong>(O|X)<\/strong>\s*\((.*?)\)<\/p>/g,
+    /<p><strong>(Q\d+\.)<\/strong>\s*(.*?)\s*→\s*<strong>(O|X)<\/strong>\s*\((.+)\)<\/p>/g,
     (_, qNum, question, answer, explanation) => {
       const answerClass = answer === "O" ? "answer-o" : "answer-x";
       return `<div class="ox-quiz-item"><strong>${qNum}</strong> ${question} → <span class="${answerClass}">${answer}</span> <span class="text-gray-500">(${explanation})</span></div>`;

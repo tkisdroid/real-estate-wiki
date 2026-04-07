@@ -42,16 +42,21 @@ function buildUrlSlugMap() {
 }
 
 function parseQuizzes(content) {
-  const quizRegex = /\*\*Q(\d+)\.\*\*\s*(.*?)\s*→\s*\*\*(O|X)\*\*\s*\((.*?)\)/g;
+  // Match quiz lines — use greedy match for explanation to handle nested parentheses
+  // Format: **Q{n}.** {question} → **{O|X}** ({explanation with possible (nested) parens})
+  const lines = content.split("\n");
   const quizzes = [];
-  let match;
-  while ((match = quizRegex.exec(content)) !== null) {
-    quizzes.push({
-      n: parseInt(match[1]),
-      q: match[2].trim(),
-      a: match[3] === "O",
-      e: match[4].trim(),
-    });
+  const lineRegex = /^\*\*Q(\d+)\.\*\*\s*(.*?)\s*→\s*\*\*(O|X)\*\*\s*\((.+)\)\s*$/;
+  for (const line of lines) {
+    const match = line.trim().match(lineRegex);
+    if (match) {
+      quizzes.push({
+        n: parseInt(match[1]),
+        q: match[2].trim(),
+        a: match[3] === "O",
+        e: match[4].replace(/\*\*/g, "").trim(),
+      });
+    }
   }
   return quizzes;
 }
