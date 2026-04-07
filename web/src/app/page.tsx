@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getNavigation } from "@/lib/wiki";
 import { getUrlSlug } from "@/lib/slugMap";
+import SearchFilter from "./components/SearchFilter";
 
 const SUBJECT_ORDER = [
   "부동산학개론",
@@ -45,6 +46,9 @@ export default function Home() {
       </header>
 
       <main className="max-w-7xl mx-auto px-6 py-10">
+        {/* Search & Filter */}
+        <SearchFilter basePath="/real-estate-wiki" />
+
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
           {[
