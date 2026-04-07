@@ -146,6 +146,13 @@ input, select, textarea {
   box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
 }
 
+/* ===== Wiki links ===== */
+.wiki-link-missing {
+  color: #9ca3af;
+  border-bottom: 1px dashed #d1d5db;
+  cursor: default;
+}
+
 /* ===== Touch-friendly sidebar links ===== */
 @media (max-width: 1024px) {
   .sidebar-link {

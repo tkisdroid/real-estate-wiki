@@ -94,9 +94,24 @@ export async function renderMarkdown(content: string, basePath: string = ""): Pr
           if (urlSlug) break;
         }
       }
-      const href = urlSlug ? `${basePath}/wiki/${urlSlug}/` : `${basePath}/wiki/${wikiSlug}/`;
+      // Handle anchor links (e.g. 법령명#조항)
+      if (!urlSlug && wikiSlug.includes("#")) {
+        const baseSlug = wikiSlug.split("#")[0];
+        urlSlug = getUrlSlug(baseSlug);
+        if (!urlSlug) {
+          for (const cat of CATEGORIES) {
+            urlSlug = getUrlSlug(`${cat}/${baseSlug}`);
+            if (urlSlug) break;
+          }
+        }
+      }
       const text = label || target.split("/").pop() || target;
-      return `<a href="${href}" class="wiki-link">${text}</a>`;
+      if (urlSlug) {
+        const href = `${basePath}/wiki/${urlSlug}/`;
+        return `<a href="${href}" class="wiki-link">${text}</a>`;
+      }
+      // No matching page — render as non-clickable styled text
+      return `<span class="wiki-link-missing">${text}</span>`;
     }
   );
 
