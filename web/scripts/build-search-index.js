@@ -72,7 +72,7 @@ function buildIndex() {
         i: page.data.importance || "",
         tags: page.data.tags || [],
         p: page.data.parent || "",
-        x: plainContent.slice(0, 300),
+        x: plainContent.slice(0, 2000),
       });
     });
   }
