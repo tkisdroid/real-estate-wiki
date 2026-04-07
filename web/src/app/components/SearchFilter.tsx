@@ -67,6 +67,7 @@ function simpleFuzzy(entries: SearchEntry[], query: string, max: number = 5): Se
 export default function SearchFilter({ basePath }: { basePath: string }) {
   const [entries, setEntries] = useState<SearchEntry[]>([]);
   const [query, setQuery] = useState("");
+  const [isComposing, setIsComposing] = useState(false);
   const [subjectFilter, setSubjectFilter] = useState("");
   const [importanceFilter, setImportanceFilter] = useState("");
   const [tagFilter, setTagFilter] = useState("");
@@ -183,7 +184,14 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
           type="search"
           autoComplete="off"
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          onChange={(e) => {
+            if (!isComposing) setQuery(e.target.value);
+          }}
+          onCompositionStart={() => setIsComposing(true)}
+          onCompositionEnd={(e) => {
+            setIsComposing(false);
+            setQuery((e.target as HTMLInputElement).value);
+          }}
           placeholder="개념, 법령, 키워드로 검색..."
           style={{ color: "#111827", backgroundColor: "#fff" }}
           className="w-full px-4 py-3 pl-10 rounded-lg border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-base"
