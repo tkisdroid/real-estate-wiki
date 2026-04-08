@@ -3,21 +3,33 @@
 
 /* ===== Base typography & body ===== */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+  font-family: "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: #1e293b;
   background: #f8fafc;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+  line-height: 1.75;
+  letter-spacing: -0.01em;
+  word-break: keep-all;
 }
 
 input, select, textarea {
+  font-family: inherit;
   color: #1e293b;
 }
 
-/* ===== Headings — refined letter spacing ===== */
-h1, h2, h3, h4 {
-  letter-spacing: -0.01em;
+/* ===== Headings — Pretendard Bold ===== */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Pretendard", "Noto Sans KR", -apple-system, sans-serif;
+  letter-spacing: -0.02em;
+  word-break: keep-all;
 }
+
+h1 { line-height: 1.3; }
+h2 { line-height: 1.35; }
+h3 { line-height: 1.4; }
+h4, h5, h6 { line-height: 1.45; }
 
 /* ===== Trap notes (⚠️) highlighting ===== */
 .trap-note {
@@ -27,7 +39,7 @@ h1, h2, h3, h4 {
   margin: 0.75rem 0;
   border-radius: 0 0.5rem 0.5rem 0;
   font-size: 0.875rem;
-  line-height: 1.6;
+  line-height: 1.7;
   color: #78350f;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
 }
@@ -40,7 +52,7 @@ h1, h2, h3, h4 {
   padding: 0.875rem 1.125rem;
   margin: 0.5rem 0;
   font-size: 0.875rem;
-  line-height: 1.6;
+  line-height: 1.7;
   transition: box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
@@ -62,7 +74,23 @@ h1, h2, h3, h4 {
 /* ===== Key memorization points ===== */
 .prose h2 + ul > li,
 .prose h2 + ul > li > ul > li {
+  line-height: 1.85;
+}
+
+/* ===== Prose readability ===== */
+.prose p {
   line-height: 1.8;
+  margin-bottom: 1em;
+}
+
+.prose li {
+  line-height: 1.75;
+}
+
+.prose h1, .prose h2, .prose h3 {
+  font-family: "Pretendard", "Noto Sans KR", sans-serif;
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
 }
 
 /* ===== Comparison tables — refined ===== */
