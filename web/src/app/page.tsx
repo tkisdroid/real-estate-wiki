@@ -14,34 +14,30 @@ export default function Home() {
       {/* Hero Section */}
       <header className="relative overflow-hidden bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#312e81]">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxjaXJjbGUgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjAzKSIgY3g9IjIwIiBjeT0iMjAiIHI9IjEiLz48L2c+PC9zdmc+')] opacity-60" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
-          <div className="flex items-center gap-3 mb-4">
-            <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-xl backdrop-blur-sm border border-white/10">
-              📖
-            </div>
-            <span className="text-white/40 text-xs font-medium tracking-widest uppercase">공인중개사 시험 대비</span>
-          </div>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
-            에듀랜드 위키
-          </h1>
-          <p className="mt-3 text-slate-400 text-sm sm:text-base max-w-xl leading-relaxed">
-            2026 최신교재 기반 · 22개년 기출문제 분석 · 체계적 학습 자료
-          </p>
-
-          {/* Stats bar */}
-          <div className="flex flex-wrap gap-3 mt-8">
-            {[
-              { icon: "📄", label: "개념 페이지", value: totalConcepts },
-              { icon: "📜", label: "법령 페이지", value: laws.length },
-              { icon: "✏️", label: "기출 분석", value: practice.length },
-              { icon: "📚", label: "과목", value: subjects.length },
-            ].map((s) => (
-              <div key={s.label} className="stat-pill rounded-full px-4 py-2 flex items-center gap-2.5">
-                <span className="text-base">{s.icon}</span>
-                <span className="text-white font-semibold text-lg">{s.value}</span>
-                <span className="text-slate-400 text-xs">{s.label}</span>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6">
+            <div>
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-9 h-9 rounded-lg bg-white/10 flex items-center justify-center text-lg backdrop-blur-sm border border-white/10">
+                  📖
+                </div>
+                <span className="text-white/40 text-[11px] font-medium tracking-widest uppercase">에듀랜드</span>
               </div>
-            ))}
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
+                공인중개사 위키
+              </h1>
+              <p className="mt-2 text-slate-400 text-sm sm:text-base max-w-md leading-relaxed">
+                2026 최신교재 기반 · 22개년 기출문제 분석
+              </p>
+            </div>
+            <div className="flex items-center gap-4 text-slate-400 text-xs sm:text-sm">
+              <span className="flex items-center gap-1.5">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 inline-block" />
+                1차 · 2차 전과목
+              </span>
+              <span className="hidden sm:inline text-slate-600">|</span>
+              <span>{totalConcepts + laws.length}개 페이지</span>
+            </div>
           </div>
         </div>
       </header>
