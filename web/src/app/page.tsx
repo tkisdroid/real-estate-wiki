@@ -26,10 +26,10 @@ export default function Home() {
       {/* Hero Section — Apple Dark */}
       <section className="bg-black text-white">
         <div className="max-w-[980px] mx-auto px-4 py-20 sm:py-28 text-center">
-          <h1 className="text-4xl sm:text-[56px] font-semibold tracking-[-0.28px] leading-[1.07]">
+          <h1 className="text-3xl sm:text-5xl font-bold tracking-tight">
             공인중개사 시험 위키
           </h1>
-          <p className="mt-4 text-[21px] font-normal text-white/80 leading-[1.19] tracking-[0.231px]">
+          <p className="mt-4 text-lg sm:text-xl font-normal text-white/80 leading-relaxed">
             2026 최신교재 기반 · 22개년 기출문제 분석
           </p>
           <div className="mt-8 flex items-center justify-center gap-4">
@@ -58,7 +58,7 @@ export default function Home() {
       {/* Subjects Grid — Light */}
       <section id="subjects" className="bg-[#f5f5f7] pb-16">
         <div className="max-w-[980px] mx-auto px-4">
-          <h2 className="text-[28px] sm:text-[40px] font-semibold text-[#1d1d1f] text-center tracking-[-0.2px] leading-[1.10] mb-10">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#1d1d1f] text-center tracking-tight mb-10">
             과목별 학습
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -78,13 +78,13 @@ export default function Home() {
                       {EXAM_LABELS[subj]}
                     </span>
                   </div>
-                  <h3 className="text-[21px] font-semibold text-[#1d1d1f] leading-[1.19] tracking-[0.231px] mb-2">
+                  <h3 className="text-lg font-semibold text-[#1d1d1f] mb-2">
                     {SUBJECT_LABELS[subj]}
                   </h3>
-                  <p className="text-sm text-[rgba(0,0,0,0.48)] leading-[1.43] tracking-[-0.224px]">
+                  <p className="text-sm text-[rgba(0,0,0,0.48)]">
                     개념 {conceptCount}개 · 법령 {lawCount}개
                   </p>
-                  <div className="mt-4 text-sm text-[#0066cc] tracking-[-0.224px] group-hover:underline">
+                  <div className="mt-4 text-sm text-[#0066cc] group-hover:underline">
                     학습하기 →
                   </div>
                 </Link>
@@ -111,7 +111,7 @@ export default function Home() {
       {/* Practice Section — Light */}
       <section className="bg-[#f5f5f7]">
         <div className="max-w-[980px] mx-auto px-4 py-16">
-          <h2 className="text-[28px] sm:text-[40px] font-semibold text-[#1d1d1f] text-center tracking-[-0.2px] leading-[1.10] mb-10">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#1d1d1f] text-center tracking-tight mb-10">
             기출 분석 · 출제 경향
           </h2>
 
@@ -233,7 +233,7 @@ export default function Home() {
       {/* Laws Section — Dark */}
       <section className="bg-black">
         <div className="max-w-[980px] mx-auto px-4 py-16">
-          <h2 className="text-[28px] sm:text-[40px] font-semibold text-white text-center tracking-[-0.2px] leading-[1.10] mb-10">
+          <h2 className="text-2xl sm:text-3xl font-bold text-white text-center tracking-tight mb-10">
             법령 해설
           </h2>
           <div className="apple-card-dark divide-y divide-white/10 overflow-hidden rounded-xl">
