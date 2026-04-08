@@ -117,8 +117,8 @@ export async function renderMarkdown(content: string, basePath: string = ""): Pr
 
   const result = await remark().use(remarkGfm).use(html, { sanitize: false }).process(withLinks);
   let output = result.toString();
-  // tilde(~)가 삭제선으로 해석되는 문제 → 출력에서 <del> 태그 제거하고 내용만 보존
-  output = output.replace(/<del>([^]*?)<\/del>/g, "$1");
+  // tilde(~)가 삭제선으로 해석되는 문제 → <del> 태그를 원래 ~로 복원
+  output = output.replace(/<del>([^]*?)<\/del>/g, "~$1~");
 
   // ===== Auto-linking: page titles & keywords → wiki links =====
   const { getSlugMap } = await import("./slugMap");
