@@ -115,7 +115,7 @@ export async function renderMarkdown(content: string, basePath: string = ""): Pr
     }
   );
 
-  const result = await remark().use(remarkGfm).use(html, { sanitize: false }).process(withLinks);
+  const result = await remark().use(remarkGfm, { singleTilde: false }).use(html, { sanitize: false }).process(withLinks);
   let output = result.toString();
 
   // ===== Auto-linking: page titles & keywords → wiki links =====

@@ -137,6 +137,16 @@ function enhanceHtml(html: string): string {
     }
   );
 
+  // Wrap tables in scrollable container for mobile
+  enhanced = enhanced.replace(
+    /<table>/g,
+    '<div class="table-scroll-wrapper"><table>'
+  );
+  enhanced = enhanced.replace(
+    /<\/table>/g,
+    '</table></div>'
+  );
+
   return enhanced;
 }
 

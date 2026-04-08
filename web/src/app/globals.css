@@ -93,6 +93,14 @@ h4, h5, h6 { line-height: 1.45; }
   margin-bottom: 0.6em;
 }
 
+/* ===== Table scroll wrapper ===== */
+.table-scroll-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+
 /* ===== Comparison tables — refined ===== */
 .prose table {
   font-size: 0.875rem;
@@ -162,12 +170,66 @@ h4, h5, h6 { line-height: 1.45; }
   border: 1px solid #e2e8f0;
 }
 
-/* ===== Mobile table scroll ===== */
+/* ===== Mobile table — responsive ===== */
 @media (max-width: 768px) {
   .prose table {
     display: block;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    font-size: 0.8125rem;
+  }
+
+  .prose table th,
+  .prose table td {
+    padding: 0.5rem 0.625rem;
+    min-width: 60px;
+  }
+
+  .prose table th:first-child,
+  .prose table td:first-child {
+    position: sticky;
+    left: 0;
+    background: white;
+    z-index: 1;
+    min-width: 100px;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.05);
+  }
+
+  .prose table th:first-child {
+    background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
+    z-index: 2;
+  }
+
+  .prose table tr:nth-child(even) td:first-child {
+    background: #fafbfc;
+  }
+
+  .prose table tr:hover td:first-child {
+    background: #f1f5f9;
+  }
+}
+
+/* ===== Mobile table scroll indicator ===== */
+@media (max-width: 768px) {
+  .prose > table {
+    position: relative;
+  }
+
+  /* subtle fade on right edge to hint scrollable */
+  .table-scroll-wrapper {
+    position: relative;
+  }
+
+  .table-scroll-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 24px;
+    background: linear-gradient(to right, transparent, rgba(248, 250, 252, 0.9));
+    pointer-events: none;
+    border-radius: 0 0.5rem 0.5rem 0;
   }
 }
 
