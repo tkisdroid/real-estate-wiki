@@ -1,120 +1,121 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
-/* ===== Apple Design System — Core ===== */
-:root {
-  --apple-blue: #0071e3;
-  --apple-link: #0066cc;
-  --apple-link-dark: #2997ff;
-  --apple-black: #000000;
-  --apple-near-black: #1d1d1f;
-  --apple-light-gray: #f5f5f7;
-  --apple-dark-surface: #272729;
-  --apple-text-secondary: rgba(0, 0, 0, 0.8);
-  --apple-text-tertiary: rgba(0, 0, 0, 0.48);
-}
-
-/* ===== Base typography ===== */
+/* ===== Base typography & body ===== */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
-  color: var(--apple-near-black);
-  background: var(--apple-light-gray);
+  color: #1e293b;
+  background: #f8fafc;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 input, select, textarea {
-  color: var(--apple-near-black);
+  color: #1e293b;
 }
 
-/* ===== Headings ===== */
+/* ===== Headings — refined letter spacing ===== */
 h1, h2, h3, h4 {
   letter-spacing: -0.01em;
 }
 
-/* ===== Trap notes (⚠️) — Apple-style ===== */
+/* ===== Trap notes (⚠️) highlighting ===== */
 .trap-note {
-  background: #fffbeb;
-  border-left: 3px solid #f59e0b;
+  background: linear-gradient(135deg, #fef9ee 0%, #fef3c7 100%);
+  border-left: 3px solid #d97706;
   padding: 0.875rem 1.125rem;
   margin: 0.75rem 0;
-  border-radius: 0 8px 8px 0;
+  border-radius: 0 0.5rem 0.5rem 0;
   font-size: 0.875rem;
-  line-height: 1.47;
+  line-height: 1.6;
   color: #78350f;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
 }
 
-/* ===== OX Quiz styling — Apple clean ===== */
+/* ===== OX Quiz styling ===== */
 .ox-quiz-item {
-  background: var(--apple-light-gray);
-  border: none;
-  border-radius: 8px;
+  background: linear-gradient(135deg, #f0f9ff 0%, #eff6ff 100%);
+  border: 1px solid #bfdbfe;
+  border-radius: 0.5rem;
   padding: 0.875rem 1.125rem;
   margin: 0.5rem 0;
   font-size: 0.875rem;
-  line-height: 1.47;
-  transition: background 0.2s ease;
+  line-height: 1.6;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 .ox-quiz-item:hover {
-  background: #ededf2;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  border-color: #93c5fd;
 }
 
 .ox-quiz-item .answer-o {
   color: #047857;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .ox-quiz-item .answer-x {
   color: #be123c;
-  font-weight: 600;
+  font-weight: 700;
 }
 
-/* ===== Comparison tables — Apple-style ===== */
+/* ===== Key memorization points ===== */
+.prose h2 + ul > li,
+.prose h2 + ul > li > ul > li {
+  line-height: 1.8;
+}
+
+/* ===== Comparison tables — refined ===== */
 .prose table {
   font-size: 0.875rem;
   border-collapse: separate;
   border-spacing: 0;
   width: 100%;
-  border: none;
-  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
   overflow: hidden;
-  background: white;
 }
 
 .prose table th {
-  background: var(--apple-light-gray);
+  background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
   font-weight: 600;
   white-space: nowrap;
   padding: 0.75rem 1rem;
-  border-bottom: 1px solid #e5e5ea;
-  color: var(--apple-near-black);
+  border-bottom: 2px solid #e2e8f0;
+  color: #334155;
   font-size: 0.8125rem;
+  text-transform: none;
+  letter-spacing: 0;
 }
 
 .prose table td {
   padding: 0.75rem 1rem;
   vertical-align: top;
-  border-bottom: 1px solid #f5f5f7;
+  border-bottom: 1px solid #f1f5f9;
 }
 
 .prose table tr:last-child td {
   border-bottom: none;
 }
 
-.prose table tr:hover {
-  background: #fafafa;
+.prose table tr:nth-child(even) {
+  background: #fafbfc;
 }
 
-/* ===== Code blocks — Apple dark ===== */
+.prose table tr:hover {
+  background: #f1f5f9;
+}
+
+/* ===== Code blocks ===== */
 .prose pre {
-  background: var(--apple-near-black);
-  color: #e5e5ea;
-  border-radius: 12px;
+  background: #1e293b;
+  color: #e2e8f0;
+  border-radius: 0.75rem;
   padding: 1.25rem;
   overflow-x: auto;
   font-size: 0.875rem;
   line-height: 1.7;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
 
 .prose pre code {
@@ -125,12 +126,12 @@ h1, h2, h3, h4 {
 }
 
 .prose :not(pre) > code {
-  background: var(--apple-light-gray);
-  color: var(--apple-near-black);
+  background: #f1f5f9;
+  color: #1e293b;
   padding: 0.15rem 0.4rem;
-  border-radius: 5px;
+  border-radius: 0.25rem;
   font-size: 0.875em;
-  border: none;
+  border: 1px solid #e2e8f0;
 }
 
 /* ===== Mobile table scroll ===== */
@@ -142,87 +143,28 @@ h1, h2, h3, h4 {
   }
 }
 
-/* ===== Apple Glass Navigation ===== */
-.apple-nav {
-  background: rgba(0, 0, 0, 0.8);
-  backdrop-filter: saturate(180%) blur(20px);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-}
+/* ===== Subject color badges ===== */
+.subject-부동산학개론 { background: #f1f5f9; color: #334155; }
+.subject-민법및민사특별법 { background: #fff1f2; color: #9f1239; }
+.subject-공인중개사법령및중개실무 { background: #ecfdf5; color: #047857; }
+.subject-부동산공법 { background: #fffbeb; color: #b45309; }
+.subject-부동산공시법 { background: #f5f3ff; color: #6d28d9; }
+.subject-부동산세법 { background: #fff7ed; color: #c2410c; }
 
-/* ===== Apple Pill CTA ===== */
-.apple-pill {
-  border-radius: 980px;
-  transition: all 0.3s ease;
-}
+/* ===== Subject header colors ===== */
+.subject-header-부동산학개론 { background: #334155; }
+.subject-header-민법및민사특별법 { background: #9f1239; }
+.subject-header-공인중개사법령및중개실무 { background: #047857; }
+.subject-header-부동산공법 { background: #b45309; }
+.subject-header-부동산공시법 { background: #6d28d9; }
+.subject-header-부동산세법 { background: #c2410c; }
 
-.apple-pill-filled {
-  background: var(--apple-blue);
-  color: white;
-  padding: 8px 20px;
-  border-radius: 980px;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: -0.224px;
-  transition: all 0.3s ease;
-}
-
-.apple-pill-filled:hover {
-  background: #0077ed;
-}
-
-.apple-pill-outline {
-  background: transparent;
-  color: var(--apple-link);
-  padding: 8px 20px;
-  border: 1px solid var(--apple-link);
-  border-radius: 980px;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: -0.224px;
-  transition: all 0.3s ease;
-}
-
-.apple-pill-outline:hover {
-  background: var(--apple-link);
-  color: white;
-}
-
-/* Dark variants */
-.apple-pill-outline-dark {
-  color: var(--apple-link-dark);
-  border-color: var(--apple-link-dark);
-}
-
-.apple-pill-outline-dark:hover {
-  background: var(--apple-link-dark);
-  color: black;
-}
-
-/* ===== Apple Cards ===== */
-.apple-card {
-  background: white;
-  border-radius: 12px;
-  border: none;
-  transition: transform 0.3s ease;
-}
-
-.apple-card:hover {
-  transform: scale(1.01);
-}
-
-.apple-card-dark {
-  background: var(--apple-dark-surface);
-  border-radius: 12px;
-  border: none;
-}
-
-/* ===== Sidebar ===== */
+/* ===== Mobile sidebar overlay ===== */
 .sidebar-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(4px);
   z-index: 40;
 }
 
@@ -237,26 +179,30 @@ h1, h2, h3, h4 {
   z-index: 50;
   overflow-y: auto;
   padding: 1.25rem;
+  box-shadow: 4px 0 24px rgba(0, 0, 0, 0.12);
 }
 
 /* ===== Wiki links ===== */
 .wiki-link-missing {
-  color: var(--apple-text-tertiary);
-  border-bottom: 1px dashed #d1d1d6;
+  color: #94a3b8;
+  border-bottom: 1px dashed #cbd5e1;
   cursor: default;
 }
 
 .auto-link {
-  color: var(--apple-link);
+  color: #3b82f6;
   text-decoration: none;
+  border-bottom: 1px dotted #93c5fd;
   transition: all 0.2s ease;
 }
 
 .auto-link:hover {
-  text-decoration: underline;
+  border-bottom-color: #3b82f6;
+  border-bottom-style: solid;
+  color: #2563eb;
 }
 
-/* ===== Touch-friendly sidebar ===== */
+/* ===== Touch-friendly sidebar links ===== */
 @media (max-width: 1024px) {
   .sidebar-link {
     min-height: 44px;
@@ -266,7 +212,24 @@ h1, h2, h3, h4 {
   }
 }
 
-/* ===== Scrollbar — minimal ===== */
+/* ===== Card hover animation ===== */
+.card-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== Stat pill ===== */
+.stat-pill {
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* ===== Scrollbar refinement ===== */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -276,21 +239,10 @@ h1, h2, h3, h4 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #d1d1d6;
+  background: #cbd5e1;
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #aeaeb2;
-}
-
-/* ===== Apple Section alternation ===== */
-.apple-section-dark {
-  background: var(--apple-black);
-  color: white;
-}
-
-.apple-section-light {
-  background: var(--apple-light-gray);
-  color: var(--apple-near-black);
+  background: #94a3b8;
 }
