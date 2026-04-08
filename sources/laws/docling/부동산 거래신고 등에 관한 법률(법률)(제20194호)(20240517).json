@@ -1,0 +1,7594 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "부동산 거래신고 등에 관한 법률(법률)(제20194호)(20240517)",
+  "origin": {
+    "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "binary_hash": 9223900613741542650,
+    "filename": "부동산 거래신고 등에 관한 법률(법률)(제20194호)(20240517).docx",
+    "uri": null
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "parent": null,
+    "children": [],
+    "content_layer": "furniture",
+    "meta": null,
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "parent": null,
+    "children": [
+      {
+        "cref": "#/texts/0"
+      },
+      {
+        "cref": "#/texts/1"
+      },
+      {
+        "cref": "#/texts/2"
+      },
+      {
+        "cref": "#/texts/3"
+      },
+      {
+        "cref": "#/texts/4"
+      },
+      {
+        "cref": "#/texts/5"
+      },
+      {
+        "cref": "#/texts/6"
+      },
+      {
+        "cref": "#/groups/0"
+      },
+      {
+        "cref": "#/texts/9"
+      },
+      {
+        "cref": "#/groups/1"
+      },
+      {
+        "cref": "#/texts/12"
+      },
+      {
+        "cref": "#/texts/13"
+      },
+      {
+        "cref": "#/texts/14"
+      },
+      {
+        "cref": "#/texts/15"
+      },
+      {
+        "cref": "#/texts/16"
+      },
+      {
+        "cref": "#/texts/17"
+      },
+      {
+        "cref": "#/texts/18"
+      },
+      {
+        "cref": "#/texts/19"
+      },
+      {
+        "cref": "#/texts/20"
+      },
+      {
+        "cref": "#/texts/21"
+      },
+      {
+        "cref": "#/texts/22"
+      },
+      {
+        "cref": "#/texts/23"
+      },
+      {
+        "cref": "#/texts/24"
+      },
+      {
+        "cref": "#/texts/25"
+      },
+      {
+        "cref": "#/texts/26"
+      },
+      {
+        "cref": "#/groups/2"
+      },
+      {
+        "cref": "#/texts/29"
+      },
+      {
+        "cref": "#/texts/30"
+      },
+      {
+        "cref": "#/texts/31"
+      },
+      {
+        "cref": "#/texts/32"
+      },
+      {
+        "cref": "#/texts/33"
+      },
+      {
+        "cref": "#/texts/34"
+      },
+      {
+        "cref": "#/texts/35"
+      },
+      {
+        "cref": "#/texts/36"
+      },
+      {
+        "cref": "#/texts/37"
+      },
+      {
+        "cref": "#/texts/38"
+      },
+      {
+        "cref": "#/texts/39"
+      },
+      {
+        "cref": "#/texts/40"
+      },
+      {
+        "cref": "#/groups/3"
+      },
+      {
+        "cref": "#/texts/43"
+      },
+      {
+        "cref": "#/texts/44"
+      },
+      {
+        "cref": "#/texts/45"
+      },
+      {
+        "cref": "#/texts/46"
+      },
+      {
+        "cref": "#/groups/4"
+      },
+      {
+        "cref": "#/texts/49"
+      },
+      {
+        "cref": "#/texts/50"
+      },
+      {
+        "cref": "#/texts/51"
+      },
+      {
+        "cref": "#/texts/52"
+      },
+      {
+        "cref": "#/texts/53"
+      },
+      {
+        "cref": "#/texts/54"
+      },
+      {
+        "cref": "#/groups/5"
+      },
+      {
+        "cref": "#/texts/57"
+      },
+      {
+        "cref": "#/texts/58"
+      },
+      {
+        "cref": "#/texts/59"
+      },
+      {
+        "cref": "#/texts/60"
+      },
+      {
+        "cref": "#/groups/6"
+      },
+      {
+        "cref": "#/texts/63"
+      },
+      {
+        "cref": "#/texts/64"
+      },
+      {
+        "cref": "#/texts/65"
+      },
+      {
+        "cref": "#/texts/66"
+      },
+      {
+        "cref": "#/texts/67"
+      },
+      {
+        "cref": "#/groups/7"
+      },
+      {
+        "cref": "#/texts/70"
+      },
+      {
+        "cref": "#/groups/8"
+      },
+      {
+        "cref": "#/texts/73"
+      },
+      {
+        "cref": "#/texts/74"
+      },
+      {
+        "cref": "#/texts/75"
+      },
+      {
+        "cref": "#/texts/76"
+      },
+      {
+        "cref": "#/texts/77"
+      },
+      {
+        "cref": "#/texts/78"
+      },
+      {
+        "cref": "#/texts/79"
+      },
+      {
+        "cref": "#/groups/9"
+      },
+      {
+        "cref": "#/texts/82"
+      },
+      {
+        "cref": "#/texts/83"
+      },
+      {
+        "cref": "#/texts/84"
+      },
+      {
+        "cref": "#/texts/85"
+      },
+      {
+        "cref": "#/texts/86"
+      },
+      {
+        "cref": "#/texts/87"
+      },
+      {
+        "cref": "#/groups/10"
+      },
+      {
+        "cref": "#/texts/90"
+      },
+      {
+        "cref": "#/texts/91"
+      },
+      {
+        "cref": "#/texts/92"
+      },
+      {
+        "cref": "#/texts/93"
+      },
+      {
+        "cref": "#/groups/11"
+      },
+      {
+        "cref": "#/texts/96"
+      },
+      {
+        "cref": "#/texts/97"
+      },
+      {
+        "cref": "#/texts/98"
+      },
+      {
+        "cref": "#/texts/99"
+      },
+      {
+        "cref": "#/texts/100"
+      },
+      {
+        "cref": "#/texts/101"
+      },
+      {
+        "cref": "#/groups/12"
+      },
+      {
+        "cref": "#/texts/104"
+      },
+      {
+        "cref": "#/groups/13"
+      },
+      {
+        "cref": "#/texts/107"
+      },
+      {
+        "cref": "#/texts/108"
+      },
+      {
+        "cref": "#/texts/109"
+      },
+      {
+        "cref": "#/groups/14"
+      },
+      {
+        "cref": "#/texts/112"
+      },
+      {
+        "cref": "#/texts/113"
+      },
+      {
+        "cref": "#/texts/114"
+      },
+      {
+        "cref": "#/texts/115"
+      },
+      {
+        "cref": "#/texts/116"
+      },
+      {
+        "cref": "#/texts/117"
+      },
+      {
+        "cref": "#/texts/118"
+      },
+      {
+        "cref": "#/texts/119"
+      },
+      {
+        "cref": "#/texts/120"
+      },
+      {
+        "cref": "#/texts/121"
+      },
+      {
+        "cref": "#/groups/15"
+      },
+      {
+        "cref": "#/texts/124"
+      },
+      {
+        "cref": "#/texts/125"
+      },
+      {
+        "cref": "#/texts/126"
+      },
+      {
+        "cref": "#/texts/127"
+      },
+      {
+        "cref": "#/texts/128"
+      },
+      {
+        "cref": "#/texts/129"
+      },
+      {
+        "cref": "#/texts/130"
+      },
+      {
+        "cref": "#/texts/131"
+      },
+      {
+        "cref": "#/texts/132"
+      },
+      {
+        "cref": "#/groups/16"
+      },
+      {
+        "cref": "#/texts/135"
+      },
+      {
+        "cref": "#/texts/136"
+      },
+      {
+        "cref": "#/texts/137"
+      },
+      {
+        "cref": "#/texts/138"
+      },
+      {
+        "cref": "#/texts/139"
+      },
+      {
+        "cref": "#/texts/140"
+      },
+      {
+        "cref": "#/texts/141"
+      },
+      {
+        "cref": "#/texts/142"
+      },
+      {
+        "cref": "#/texts/143"
+      },
+      {
+        "cref": "#/groups/17"
+      },
+      {
+        "cref": "#/texts/146"
+      },
+      {
+        "cref": "#/texts/147"
+      },
+      {
+        "cref": "#/texts/148"
+      },
+      {
+        "cref": "#/texts/149"
+      },
+      {
+        "cref": "#/texts/150"
+      },
+      {
+        "cref": "#/texts/151"
+      },
+      {
+        "cref": "#/texts/152"
+      },
+      {
+        "cref": "#/texts/153"
+      },
+      {
+        "cref": "#/texts/154"
+      },
+      {
+        "cref": "#/texts/155"
+      },
+      {
+        "cref": "#/texts/156"
+      },
+      {
+        "cref": "#/texts/157"
+      },
+      {
+        "cref": "#/texts/158"
+      },
+      {
+        "cref": "#/groups/18"
+      },
+      {
+        "cref": "#/texts/161"
+      },
+      {
+        "cref": "#/texts/162"
+      },
+      {
+        "cref": "#/groups/19"
+      },
+      {
+        "cref": "#/texts/165"
+      },
+      {
+        "cref": "#/texts/166"
+      },
+      {
+        "cref": "#/texts/167"
+      },
+      {
+        "cref": "#/texts/168"
+      },
+      {
+        "cref": "#/texts/169"
+      },
+      {
+        "cref": "#/groups/20"
+      },
+      {
+        "cref": "#/texts/172"
+      },
+      {
+        "cref": "#/texts/173"
+      },
+      {
+        "cref": "#/texts/174"
+      },
+      {
+        "cref": "#/texts/175"
+      },
+      {
+        "cref": "#/texts/176"
+      },
+      {
+        "cref": "#/texts/177"
+      },
+      {
+        "cref": "#/groups/21"
+      },
+      {
+        "cref": "#/texts/180"
+      },
+      {
+        "cref": "#/texts/181"
+      },
+      {
+        "cref": "#/groups/22"
+      },
+      {
+        "cref": "#/texts/184"
+      },
+      {
+        "cref": "#/texts/185"
+      },
+      {
+        "cref": "#/texts/186"
+      },
+      {
+        "cref": "#/texts/187"
+      },
+      {
+        "cref": "#/groups/23"
+      },
+      {
+        "cref": "#/texts/190"
+      },
+      {
+        "cref": "#/texts/191"
+      },
+      {
+        "cref": "#/texts/192"
+      },
+      {
+        "cref": "#/texts/193"
+      },
+      {
+        "cref": "#/texts/194"
+      },
+      {
+        "cref": "#/texts/195"
+      },
+      {
+        "cref": "#/texts/196"
+      },
+      {
+        "cref": "#/texts/197"
+      },
+      {
+        "cref": "#/groups/24"
+      },
+      {
+        "cref": "#/texts/200"
+      },
+      {
+        "cref": "#/groups/25"
+      },
+      {
+        "cref": "#/texts/203"
+      },
+      {
+        "cref": "#/texts/204"
+      },
+      {
+        "cref": "#/groups/26"
+      },
+      {
+        "cref": "#/texts/207"
+      },
+      {
+        "cref": "#/texts/208"
+      },
+      {
+        "cref": "#/texts/209"
+      },
+      {
+        "cref": "#/texts/210"
+      },
+      {
+        "cref": "#/groups/27"
+      },
+      {
+        "cref": "#/texts/213"
+      },
+      {
+        "cref": "#/texts/214"
+      },
+      {
+        "cref": "#/groups/28"
+      },
+      {
+        "cref": "#/texts/217"
+      },
+      {
+        "cref": "#/texts/218"
+      },
+      {
+        "cref": "#/texts/219"
+      },
+      {
+        "cref": "#/groups/29"
+      },
+      {
+        "cref": "#/texts/222"
+      },
+      {
+        "cref": "#/texts/223"
+      },
+      {
+        "cref": "#/texts/224"
+      },
+      {
+        "cref": "#/groups/30"
+      },
+      {
+        "cref": "#/texts/227"
+      },
+      {
+        "cref": "#/groups/31"
+      },
+      {
+        "cref": "#/texts/230"
+      },
+      {
+        "cref": "#/groups/32"
+      },
+      {
+        "cref": "#/texts/233"
+      },
+      {
+        "cref": "#/texts/234"
+      },
+      {
+        "cref": "#/texts/235"
+      },
+      {
+        "cref": "#/texts/236"
+      },
+      {
+        "cref": "#/texts/237"
+      },
+      {
+        "cref": "#/texts/238"
+      },
+      {
+        "cref": "#/texts/239"
+      },
+      {
+        "cref": "#/texts/240"
+      },
+      {
+        "cref": "#/texts/241"
+      },
+      {
+        "cref": "#/texts/242"
+      },
+      {
+        "cref": "#/groups/33"
+      },
+      {
+        "cref": "#/texts/245"
+      },
+      {
+        "cref": "#/texts/246"
+      },
+      {
+        "cref": "#/texts/247"
+      },
+      {
+        "cref": "#/texts/248"
+      },
+      {
+        "cref": "#/texts/249"
+      },
+      {
+        "cref": "#/groups/34"
+      },
+      {
+        "cref": "#/texts/252"
+      },
+      {
+        "cref": "#/texts/253"
+      },
+      {
+        "cref": "#/texts/254"
+      },
+      {
+        "cref": "#/texts/255"
+      },
+      {
+        "cref": "#/groups/35"
+      },
+      {
+        "cref": "#/texts/258"
+      },
+      {
+        "cref": "#/groups/36"
+      },
+      {
+        "cref": "#/texts/261"
+      },
+      {
+        "cref": "#/texts/262"
+      },
+      {
+        "cref": "#/texts/263"
+      },
+      {
+        "cref": "#/texts/264"
+      },
+      {
+        "cref": "#/texts/265"
+      },
+      {
+        "cref": "#/texts/266"
+      },
+      {
+        "cref": "#/texts/267"
+      },
+      {
+        "cref": "#/texts/268"
+      },
+      {
+        "cref": "#/texts/269"
+      },
+      {
+        "cref": "#/texts/270"
+      },
+      {
+        "cref": "#/texts/271"
+      },
+      {
+        "cref": "#/texts/272"
+      },
+      {
+        "cref": "#/texts/273"
+      },
+      {
+        "cref": "#/texts/274"
+      },
+      {
+        "cref": "#/texts/275"
+      },
+      {
+        "cref": "#/texts/276"
+      },
+      {
+        "cref": "#/texts/277"
+      },
+      {
+        "cref": "#/groups/37"
+      },
+      {
+        "cref": "#/texts/280"
+      },
+      {
+        "cref": "#/texts/281"
+      },
+      {
+        "cref": "#/texts/282"
+      },
+      {
+        "cref": "#/groups/38"
+      },
+      {
+        "cref": "#/groups/39"
+      },
+      {
+        "cref": "#/groups/40"
+      },
+      {
+        "cref": "#/texts/289"
+      },
+      {
+        "cref": "#/texts/290"
+      },
+      {
+        "cref": "#/texts/291"
+      },
+      {
+        "cref": "#/texts/292"
+      },
+      {
+        "cref": "#/groups/41"
+      },
+      {
+        "cref": "#/groups/42"
+      }
+    ],
+    "content_layer": "body",
+    "meta": null,
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/7"
+        },
+        {
+          "cref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/10"
+        },
+        {
+          "cref": "#/texts/11"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/27"
+        },
+        {
+          "cref": "#/texts/28"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/41"
+        },
+        {
+          "cref": "#/texts/42"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/47"
+        },
+        {
+          "cref": "#/texts/48"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/55"
+        },
+        {
+          "cref": "#/texts/56"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/61"
+        },
+        {
+          "cref": "#/texts/62"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/68"
+        },
+        {
+          "cref": "#/texts/69"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/71"
+        },
+        {
+          "cref": "#/texts/72"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/80"
+        },
+        {
+          "cref": "#/texts/81"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/88"
+        },
+        {
+          "cref": "#/texts/89"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/94"
+        },
+        {
+          "cref": "#/texts/95"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/102"
+        },
+        {
+          "cref": "#/texts/103"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/105"
+        },
+        {
+          "cref": "#/texts/106"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/110"
+        },
+        {
+          "cref": "#/texts/111"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/122"
+        },
+        {
+          "cref": "#/texts/123"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/133"
+        },
+        {
+          "cref": "#/texts/134"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/17",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/144"
+        },
+        {
+          "cref": "#/texts/145"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/18",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/159"
+        },
+        {
+          "cref": "#/texts/160"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/19",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/163"
+        },
+        {
+          "cref": "#/texts/164"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/20",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/170"
+        },
+        {
+          "cref": "#/texts/171"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/21",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/178"
+        },
+        {
+          "cref": "#/texts/179"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/22",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/182"
+        },
+        {
+          "cref": "#/texts/183"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/23",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/188"
+        },
+        {
+          "cref": "#/texts/189"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/24",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/198"
+        },
+        {
+          "cref": "#/texts/199"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/25",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/201"
+        },
+        {
+          "cref": "#/texts/202"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/26",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/205"
+        },
+        {
+          "cref": "#/texts/206"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/27",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/211"
+        },
+        {
+          "cref": "#/texts/212"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/28",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/215"
+        },
+        {
+          "cref": "#/texts/216"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/29",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/220"
+        },
+        {
+          "cref": "#/texts/221"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/30",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/225"
+        },
+        {
+          "cref": "#/texts/226"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/31",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/228"
+        },
+        {
+          "cref": "#/texts/229"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/32",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/231"
+        },
+        {
+          "cref": "#/texts/232"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/33",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/243"
+        },
+        {
+          "cref": "#/texts/244"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/34",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/250"
+        },
+        {
+          "cref": "#/texts/251"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/35",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/256"
+        },
+        {
+          "cref": "#/texts/257"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/36",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/259"
+        },
+        {
+          "cref": "#/texts/260"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/37",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/278"
+        },
+        {
+          "cref": "#/texts/279"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/38",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/283"
+        },
+        {
+          "cref": "#/texts/284"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/39",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/285"
+        },
+        {
+          "cref": "#/texts/286"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/40",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/287"
+        },
+        {
+          "cref": "#/texts/288"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "inline"
+    },
+    {
+      "self_ref": "#/groups/41",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/293"
+        }
+      ],
+      "content_layer": "furniture",
+      "meta": null,
+      "name": "page header",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/42",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/tables/0"
+        }
+      ],
+      "content_layer": "furniture",
+      "meta": null,
+      "name": "page footer",
+      "label": "section"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "부동산 거래신고 등에 관한 법률 ( 약칭: 부동산거래신고법 )",
+      "text": "부동산 거래신고 등에 관한 법률 ( 약칭: 부동산거래신고법 )",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "[시행 2024. 5. 17.] [법률 제20194호, 2024. 2. 6., 타법개정]",
+      "text": "[시행 2024. 5. 17.] [법률 제20194호, 2024. 2. 6., 타법개정]",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "국토교통부(토지정책과-부동산거래신고, 토지거래허가) 044-201-3402, 3407",
+      "text": "국토교통부(토지정책과-부동산거래신고, 토지거래허가) 044-201-3402, 3407",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "국토교통부(주택임대차기획팀-주택임대차신고) 044-201-4177, 4179",
+      "text": "국토교통부(주택임대차기획팀-주택임대차신고) 044-201-4177, 4179",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제1장 총칙",
+      "text": "제1장 총칙",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제1조(목적)",
+      "text": "제1조(목적)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "이 법은 부동산 거래 등의 신고 및 허가에 관한 사항을 정하여 건전하고 투명한 부동산 거래질서를 확립하고 국민경제에 이바지함을 목적으로 한다.",
+      "text": "이 법은 부동산 거래 등의 신고 및 허가에 관한 사항을 정하여 건전하고 투명한 부동산 거래질서를 확립하고 국민경제에 이바지함을 목적으로 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "cref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제2조(정의)",
+      "text": "제2조(정의)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "cref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "이 법에서 사용하는 용어의 뜻은 다음과 같다. <개정 2020. 8. 18.>",
+      "text": "이 법에서 사용하는 용어의 뜻은 다음과 같다. <개정 2020. 8. 18.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "1. “부동산”이란 토지 또는 건축물을 말한다.",
+      "text": "1. “부동산”이란 토지 또는 건축물을 말한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "2. “부동산등”이란 부동산 또는 부동산을 취득할 수 있는 권리를 말한다.",
+      "text": "2. “부동산등”이란 부동산 또는 부동산을 취득할 수 있는 권리를 말한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "3. “거래당사자”란 부동산등의 매수인과 매도인을 말하며, 제4호에 따른 외국인등을 포함한다.",
+      "text": "3. “거래당사자”란 부동산등의 매수인과 매도인을 말하며, 제4호에 따른 외국인등을 포함한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "3의2. “임대차계약당사자”란 부동산등의 임대인과 임차인을 말하며, 제4호에 따른 외국인등을 포함한다.",
+      "text": "3의2. “임대차계약당사자”란 부동산등의 임대인과 임차인을 말하며, 제4호에 따른 외국인등을 포함한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "4. “외국인등”이란 다음 각 목의 어느 하나에 해당하는 개인ㆍ법인 또는 단체를 말한다.",
+      "text": "4. “외국인등”이란 다음 각 목의 어느 하나에 해당하는 개인ㆍ법인 또는 단체를 말한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "가. 대한민국의 국적을 보유하고 있지 아니한 개인",
+      "text": "가. 대한민국의 국적을 보유하고 있지 아니한 개인",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "나. 외국의 법령에 따라 설립된 법인 또는 단체",
+      "text": "나. 외국의 법령에 따라 설립된 법인 또는 단체",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "다. 사원 또는 구성원의 2분의 1 이상이 가목에 해당하는 자인 법인 또는 단체",
+      "text": "다. 사원 또는 구성원의 2분의 1 이상이 가목에 해당하는 자인 법인 또는 단체",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "라. 업무를 집행하는 사원이나 이사 등 임원의 2분의 1 이상이 가목에 해당하는 자인 법인 또는 단체",
+      "text": "라. 업무를 집행하는 사원이나 이사 등 임원의 2분의 1 이상이 가목에 해당하는 자인 법인 또는 단체",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "마. 가목에 해당하는 사람이나 나목에 해당하는 법인 또는 단체가 자본금의 2분의 1 이상이나 의결권의 2분의 1 이상을 가지고 있는 법인 또는 단체",
+      "text": "마. 가목에 해당하는 사람이나 나목에 해당하는 법인 또는 단체가 자본금의 2분의 1 이상이나 의결권의 2분의 1 이상을 가지고 있는 법인 또는 단체",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "바. 외국 정부",
+      "text": "바. 외국 정부",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "사. 대통령령으로 정하는 국제기구",
+      "text": "사. 대통령령으로 정하는 국제기구",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제2장 부동산 거래의 신고",
+      "text": "제2장 부동산 거래의 신고",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "cref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제3조(부동산 거래의 신고)",
+      "text": "제3조(부동산 거래의 신고)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "cref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 거래당사자는 다음 각 호의 어느 하나에 해당하는 계약을 체결한 경우 그 실제 거래가격 등 대통령령으로 정하는 사항을 거래계약의 체결일부터 30일 이내에 그 권리의 대상인 부동산등(권리에 관한 계약의 경우에는 그 권리의 대상인 부동산을 말한다)의 소재지를 관할하는 시장(구가 설치되지 아니한 시의 시장 및 특별자치시장과 특별자치도 행정시의 시장을 말한다)ㆍ군수 또는 구청장(이하 “신고관청”이라 한다)에게 공동으로 신고하여야 한다. 다만, 거래당사자 중 일방이 국가, 지방자치단체, 대통령령으로 정하는 자의 경우(이하 “국가등”이라 한다)에는 국가등이 신고를 하여야 한다. <개정 2017. 2. 8., 2019. 8. 20.>",
+      "text": "① 거래당사자는 다음 각 호의 어느 하나에 해당하는 계약을 체결한 경우 그 실제 거래가격 등 대통령령으로 정하는 사항을 거래계약의 체결일부터 30일 이내에 그 권리의 대상인 부동산등(권리에 관한 계약의 경우에는 그 권리의 대상인 부동산을 말한다)의 소재지를 관할하는 시장(구가 설치되지 아니한 시의 시장 및 특별자치시장과 특별자치도 행정시의 시장을 말한다)ㆍ군수 또는 구청장(이하 “신고관청”이라 한다)에게 공동으로 신고하여야 한다. 다만, 거래당사자 중 일방이 국가, 지방자치단체, 대통령령으로 정하는 자의 경우(이하 “국가등”이라 한다)에는 국가등이 신고를 하여야 한다. <개정 2017. 2. 8., 2019. 8. 20.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "1. 부동산의 매매계약",
+      "text": "1. 부동산의 매매계약",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "2. 「택지개발촉진법」, 「주택법」 등 대통령령으로 정하는 법률에 따른 부동산에 대한 공급계약",
+      "text": "2. 「택지개발촉진법」, 「주택법」 등 대통령령으로 정하는 법률에 따른 부동산에 대한 공급계약",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "3. 다음 각 목의 어느 하나에 해당하는 지위의 매매계약",
+      "text": "3. 다음 각 목의 어느 하나에 해당하는 지위의 매매계약",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "가. 제2호에 따른 계약을 통하여 부동산을 공급받는 자로 선정된 지위",
+      "text": "가. 제2호에 따른 계약을 통하여 부동산을 공급받는 자로 선정된 지위",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "나. 「도시 및 주거환경정비법」 제74조에 따른 관리처분계획의 인가 및 「빈집 및 소규모주택 정비에 관한 특례법」 제29조에 따른 사업시행계획인가로 취득한 입주자로 선정된 지위",
+      "text": "나. 「도시 및 주거환경정비법」 제74조에 따른 관리처분계획의 인가 및 「빈집 및 소규모주택 정비에 관한 특례법」 제29조에 따른 사업시행계획인가로 취득한 입주자로 선정된 지위",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 제1항에도 불구하고 거래당사자 중 일방이 신고를 거부하는 경우에는 국토교통부령으로 정하는 바에 따라 단독으로 신고할 수 있다.",
+      "text": "② 제1항에도 불구하고 거래당사자 중 일방이 신고를 거부하는 경우에는 국토교통부령으로 정하는 바에 따라 단독으로 신고할 수 있다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "③ 「공인중개사법」 제2조제4호에 따른 개업공인중개사(이하 “개업공인중개사”라 한다)가 같은 법 제26조제1항에 따라 거래계약서를 작성ㆍ교부한 경우에는 제1항에도 불구하고 해당 개업공인중개사가 같은 항에 따른 신고를 하여야 한다. 이 경우 공동으로 중개를 한 경우에는 해당 개업공인중개사가 공동으로 신고하여야 한다.",
+      "text": "③ 「공인중개사법」 제2조제4호에 따른 개업공인중개사(이하 “개업공인중개사”라 한다)가 같은 법 제26조제1항에 따라 거래계약서를 작성ㆍ교부한 경우에는 제1항에도 불구하고 해당 개업공인중개사가 같은 항에 따른 신고를 하여야 한다. 이 경우 공동으로 중개를 한 경우에는 해당 개업공인중개사가 공동으로 신고하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "④ 제3항에도 불구하고 개업공인중개사 중 일방이 신고를 거부한 경우에는 제2항을 준용한다.<신설 2019. 8. 20.>",
+      "text": "④ 제3항에도 불구하고 개업공인중개사 중 일방이 신고를 거부한 경우에는 제2항을 준용한다.<신설 2019. 8. 20.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑤ 제1항부터 제4항까지에 따라 신고를 받은 신고관청은 그 신고 내용을 확인한 후 신고인에게 신고필증을 지체 없이 발급하여야 한다.<개정 2019. 8. 20.>",
+      "text": "⑤ 제1항부터 제4항까지에 따라 신고를 받은 신고관청은 그 신고 내용을 확인한 후 신고인에게 신고필증을 지체 없이 발급하여야 한다.<개정 2019. 8. 20.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑥ 부동산등의 매수인은 신고인이 제5항에 따른 신고필증을 발급받은 때에 「부동산등기 특별조치법」 제3조제1항에 따른 검인을 받은 것으로 본다.<개정 2019. 8. 20.>",
+      "text": "⑥ 부동산등의 매수인은 신고인이 제5항에 따른 신고필증을 발급받은 때에 「부동산등기 특별조치법」 제3조제1항에 따른 검인을 받은 것으로 본다.<개정 2019. 8. 20.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑦ 제1항부터 제6항까지에 따른 신고의 절차와 그 밖에 필요한 사항은 국토교통부령으로 정한다.<개정 2019. 8. 20.>",
+      "text": "⑦ 제1항부터 제6항까지에 따른 신고의 절차와 그 밖에 필요한 사항은 국토교통부령으로 정한다.<개정 2019. 8. 20.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "cref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제3조의2(부동산 거래의 해제등 신고)",
+      "text": "제3조의2(부동산 거래의 해제등 신고)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "cref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 거래당사자는 제3조에 따라 신고한 후 해당 거래계약이 해제, 무효 또는 취소(이하 “해제등”이라 한다)된 경우 해제등이 확정된 날부터 30일 이내에 해당 신고관청에 공동으로 신고하여야 한다. 다만, 거래당사자 중 일방이 신고를 거부하는 경우에는 국토교통부령으로 정하는 바에 따라 단독으로 신고할 수 있다.",
+      "text": "① 거래당사자는 제3조에 따라 신고한 후 해당 거래계약이 해제, 무효 또는 취소(이하 “해제등”이라 한다)된 경우 해제등이 확정된 날부터 30일 이내에 해당 신고관청에 공동으로 신고하여야 한다. 다만, 거래당사자 중 일방이 신고를 거부하는 경우에는 국토교통부령으로 정하는 바에 따라 단독으로 신고할 수 있다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 개업공인중개사가 제3조제3항에 따라 신고를 한 경우에는 제1항에도 불구하고 개업공인중개사가 같은 항에 따른 신고(공동으로 중개를 한 경우에는 해당 개업공인중개사가 공동으로 신고하는 것을 말한다)를 할 수 있다. 다만, 개업공인중개사 중 일방이 신고를 거부한 경우에는 제1항 단서를 준용한다.",
+      "text": "② 개업공인중개사가 제3조제3항에 따라 신고를 한 경우에는 제1항에도 불구하고 개업공인중개사가 같은 항에 따른 신고(공동으로 중개를 한 경우에는 해당 개업공인중개사가 공동으로 신고하는 것을 말한다)를 할 수 있다. 다만, 개업공인중개사 중 일방이 신고를 거부한 경우에는 제1항 단서를 준용한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "③ 제1항 및 제2항에 따른 신고의 절차와 그 밖에 필요한 사항은 국토교통부령으로 정한다.",
+      "text": "③ 제1항 및 제2항에 따른 신고의 절차와 그 밖에 필요한 사항은 국토교통부령으로 정한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "[본조신설 2019. 8. 20.]",
+      "text": "[본조신설 2019. 8. 20.]",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "cref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제4조(금지행위)",
+      "text": "제4조(금지행위)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "cref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "누구든지 제3조 또는 제3조의2에 따른 신고에 관하여 다음 각 호의 어느 하나에 해당하는 행위를 하여서는 아니 된다. <개정 2019. 8. 20.>",
+      "text": "누구든지 제3조 또는 제3조의2에 따른 신고에 관하여 다음 각 호의 어느 하나에 해당하는 행위를 하여서는 아니 된다. <개정 2019. 8. 20.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "1. 개업공인중개사에게 제3조에 따른 신고를 하지 아니하게 하거나 거짓으로 신고하도록 요구하는 행위",
+      "text": "1. 개업공인중개사에게 제3조에 따른 신고를 하지 아니하게 하거나 거짓으로 신고하도록 요구하는 행위",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "2. 제3조제1항 각 호의 어느 하나에 해당하는 계약을 체결한 후 같은 조에 따른 신고 의무자가 아닌 자가 거짓으로 같은 조에 따른 신고를 하는 행위",
+      "text": "2. 제3조제1항 각 호의 어느 하나에 해당하는 계약을 체결한 후 같은 조에 따른 신고 의무자가 아닌 자가 거짓으로 같은 조에 따른 신고를 하는 행위",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "3. 거짓으로 제3조 또는 제3조의2에 따른 신고를 하는 행위를 조장하거나 방조하는 행위",
+      "text": "3. 거짓으로 제3조 또는 제3조의2에 따른 신고를 하는 행위를 조장하거나 방조하는 행위",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "4. 제3조제1항 각 호의 어느 하나에 해당하는 계약을 체결하지 아니하였음에도 불구하고 거짓으로 같은 조에 따른 신고를 하는 행위",
+      "text": "4. 제3조제1항 각 호의 어느 하나에 해당하는 계약을 체결하지 아니하였음에도 불구하고 거짓으로 같은 조에 따른 신고를 하는 행위",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "5. 제3조에 따른 신고 후 해당 계약이 해제등이 되지 아니하였음에도 불구하고 거짓으로 제3조의2에 따른 신고를 하는 행위",
+      "text": "5. 제3조에 따른 신고 후 해당 계약이 해제등이 되지 아니하였음에도 불구하고 거짓으로 제3조의2에 따른 신고를 하는 행위",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "cref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제5조(신고 내용의 검증)",
+      "text": "제5조(신고 내용의 검증)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "cref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 국토교통부장관은 제3조에 따라 신고받은 내용, 「부동산 가격공시에 관한 법률」에 따라 공시된 토지 및 주택의 가액, 그 밖의 부동산 가격정보를 활용하여 부동산거래가격 검증체계를 구축ㆍ운영하여야 한다. <개정 2019. 8. 20.>",
+      "text": "① 국토교통부장관은 제3조에 따라 신고받은 내용, 「부동산 가격공시에 관한 법률」에 따라 공시된 토지 및 주택의 가액, 그 밖의 부동산 가격정보를 활용하여 부동산거래가격 검증체계를 구축ㆍ운영하여야 한다. <개정 2019. 8. 20.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 신고관청은 제3조에 따른 신고를 받은 경우 제1항에 따른 부동산거래가격 검증체계를 활용하여 그 적정성을 검증하여야 한다.",
+      "text": "② 신고관청은 제3조에 따른 신고를 받은 경우 제1항에 따른 부동산거래가격 검증체계를 활용하여 그 적정성을 검증하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "③ 신고관청은 제2항에 따른 검증 결과를 해당 부동산의 소재지를 관할하는 세무관서의 장에게 통보하여야 하며, 통보받은 세무관서의 장은 해당 신고 내용을 국세 또는 지방세 부과를 위한 과세자료로 활용할 수 있다.",
+      "text": "③ 신고관청은 제2항에 따른 검증 결과를 해당 부동산의 소재지를 관할하는 세무관서의 장에게 통보하여야 하며, 통보받은 세무관서의 장은 해당 신고 내용을 국세 또는 지방세 부과를 위한 과세자료로 활용할 수 있다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "④ 제1항부터 제3항까지에 따른 검증의 절차, 검증체계의 구축ㆍ운영, 그 밖에 필요한 세부 사항은 국토교통부장관이 정한다.",
+      "text": "④ 제1항부터 제3항까지에 따른 검증의 절차, 검증체계의 구축ㆍ운영, 그 밖에 필요한 세부 사항은 국토교통부장관이 정한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "cref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제6조(신고 내용의 조사 등)",
+      "text": "제6조(신고 내용의 조사 등)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "cref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 신고관청은 제3조, 제3조의2 또는 제8조에 따라 신고 받은 내용이 누락되어 있거나 정확하지 아니하다고 판단하는 경우에는 국토교통부령으로 정하는 바에 따라 신고인에게 신고 내용을 보완하게 하거나 신고한 내용의 사실 여부를 확인하기 위하여 소속 공무원으로 하여금 거래당사자 또는 개업공인중개사에게 거래계약서, 거래대금 지급을 증명할 수 있는 자료 등 관련 자료의 제출을 요구하는 등 필요한 조치를 취할 수 있다. <개정 2019. 8. 20.>",
+      "text": "① 신고관청은 제3조, 제3조의2 또는 제8조에 따라 신고 받은 내용이 누락되어 있거나 정확하지 아니하다고 판단하는 경우에는 국토교통부령으로 정하는 바에 따라 신고인에게 신고 내용을 보완하게 하거나 신고한 내용의 사실 여부를 확인하기 위하여 소속 공무원으로 하여금 거래당사자 또는 개업공인중개사에게 거래계약서, 거래대금 지급을 증명할 수 있는 자료 등 관련 자료의 제출을 요구하는 등 필요한 조치를 취할 수 있다. <개정 2019. 8. 20.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 제1항에 따라 신고 내용을 조사(이하 이 조에서 “신고내용조사”라 한다)한 경우 신고관청은 조사 결과를 특별시장, 광역시장, 특별자치시장, 도지사, 특별자치도지사(이하 “시ㆍ도지사”라 한다)에게 보고하여야 하며, 시ㆍ도지사는 이를 국토교통부령으로 정하는 바에 따라 국토교통부장관에게 보고하여야 한다.<개정 2019. 8. 20.>",
+      "text": "② 제1항에 따라 신고 내용을 조사(이하 이 조에서 “신고내용조사”라 한다)한 경우 신고관청은 조사 결과를 특별시장, 광역시장, 특별자치시장, 도지사, 특별자치도지사(이하 “시ㆍ도지사”라 한다)에게 보고하여야 하며, 시ㆍ도지사는 이를 국토교통부령으로 정하는 바에 따라 국토교통부장관에게 보고하여야 한다.<개정 2019. 8. 20.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "③ 제1항에도 불구하고 국토교통부장관은 제3조, 제3조의2 또는 제8조에 따라 신고 받은 내용의 확인을 위하여 필요한 때에는 신고내용조사를 직접 또는 신고관청과 공동으로 실시할 수 있다.<신설 2019. 8. 20.>",
+      "text": "③ 제1항에도 불구하고 국토교통부장관은 제3조, 제3조의2 또는 제8조에 따라 신고 받은 내용의 확인을 위하여 필요한 때에는 신고내용조사를 직접 또는 신고관청과 공동으로 실시할 수 있다.<신설 2019. 8. 20.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "④ 국토교통부장관 및 신고관청은 제1항 및 제3항에 따른 신고내용조사를 위하여 국세ㆍ지방세에 관한 자료, 소득ㆍ재산에 관한 자료 등 대통령령으로 정하는 자료를 관계 행정기관의 장에게 요청할 수 있다. 이 경우 요청을 받은 관계 행정기관의 장은 정당한 사유가 없으면 그 요청에 따라야 한다.<신설 2019. 8. 20.>",
+      "text": "④ 국토교통부장관 및 신고관청은 제1항 및 제3항에 따른 신고내용조사를 위하여 국세ㆍ지방세에 관한 자료, 소득ㆍ재산에 관한 자료 등 대통령령으로 정하는 자료를 관계 행정기관의 장에게 요청할 수 있다. 이 경우 요청을 받은 관계 행정기관의 장은 정당한 사유가 없으면 그 요청에 따라야 한다.<신설 2019. 8. 20.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑤ 국토교통부장관 및 신고관청은 신고내용조사 결과 그 내용이 이 법 또는 「주택법」, 「공인중개사법」, 「상속세 및 증여세법」 등 다른 법률을 위반하였다고 판단되는 때에는 이를 수사기관에 고발하거나 관계 행정기관에 통보하는 등 필요한 조치를 할 수 있다.<신설 2019. 8. 20.>",
+      "text": "⑤ 국토교통부장관 및 신고관청은 신고내용조사 결과 그 내용이 이 법 또는 「주택법」, 「공인중개사법」, 「상속세 및 증여세법」 등 다른 법률을 위반하였다고 판단되는 때에는 이를 수사기관에 고발하거나 관계 행정기관에 통보하는 등 필요한 조치를 할 수 있다.<신설 2019. 8. 20.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "cref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제2장의2 주택 임대차 계약의 신고",
+      "text": "제2장의2 주택 임대차 계약의 신고",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "cref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "<신설 2020. 8. 18.>",
+      "text": "<신설 2020. 8. 18.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "cref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제6조의2(주택 임대차 계약의 신고)",
+      "text": "제6조의2(주택 임대차 계약의 신고)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "cref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 임대차계약당사자는 주택(「주택임대차보호법」 제2조에 따른 주택을 말하며, 주택을 취득할 수 있는 권리를 포함한다. 이하 같다)에 대하여 대통령령으로 정하는 금액을 초과하는 임대차 계약을 체결한 경우 그 보증금 또는 차임 등 국토교통부령으로 정하는 사항을 임대차 계약의 체결일부터 30일 이내에 주택 소재지를 관할하는 신고관청에 공동으로 신고하여야 한다. 다만, 임대차계약당사자 중 일방이 국가등인 경우에는 국가등이 신고하여야 한다.",
+      "text": "① 임대차계약당사자는 주택(「주택임대차보호법」 제2조에 따른 주택을 말하며, 주택을 취득할 수 있는 권리를 포함한다. 이하 같다)에 대하여 대통령령으로 정하는 금액을 초과하는 임대차 계약을 체결한 경우 그 보증금 또는 차임 등 국토교통부령으로 정하는 사항을 임대차 계약의 체결일부터 30일 이내에 주택 소재지를 관할하는 신고관청에 공동으로 신고하여야 한다. 다만, 임대차계약당사자 중 일방이 국가등인 경우에는 국가등이 신고하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 제1항에 따른 주택 임대차 계약의 신고는 임차가구 현황 등을 고려하여 대통령령으로 정하는 지역에 적용한다.",
+      "text": "② 제1항에 따른 주택 임대차 계약의 신고는 임차가구 현황 등을 고려하여 대통령령으로 정하는 지역에 적용한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "③ 제1항에도 불구하고 임대차계약당사자 중 일방이 신고를 거부하는 경우에는 국토교통부령으로 정하는 바에 따라 단독으로 신고할 수 있다.",
+      "text": "③ 제1항에도 불구하고 임대차계약당사자 중 일방이 신고를 거부하는 경우에는 국토교통부령으로 정하는 바에 따라 단독으로 신고할 수 있다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "④ 제1항에 따라 신고를 받은 신고관청은 그 신고 내용을 확인한 후 신고인에게 신고필증을 지체 없이 발급하여야 한다.",
+      "text": "④ 제1항에 따라 신고를 받은 신고관청은 그 신고 내용을 확인한 후 신고인에게 신고필증을 지체 없이 발급하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑤ 신고관청은 제1항부터 제4항까지의 규정에 따른 사무에 대한 해당 권한의 일부를 그 지방자치단체의 조례로 정하는 바에 따라 읍ㆍ면ㆍ동장 또는 출장소장에게 위임할 수 있다.",
+      "text": "⑤ 신고관청은 제1항부터 제4항까지의 규정에 따른 사무에 대한 해당 권한의 일부를 그 지방자치단체의 조례로 정하는 바에 따라 읍ㆍ면ㆍ동장 또는 출장소장에게 위임할 수 있다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑥ 제1항, 제3항 또는 제4항에 따른 신고 및 신고필증 발급의 절차와 그 밖에 필요한 사항은 국토교통부령으로 정한다.",
+      "text": "⑥ 제1항, 제3항 또는 제4항에 따른 신고 및 신고필증 발급의 절차와 그 밖에 필요한 사항은 국토교통부령으로 정한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "[본조신설 2020. 8. 18.]",
+      "text": "[본조신설 2020. 8. 18.]",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "cref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제6조의3(주택 임대차 계약의 변경 및 해제 신고)",
+      "text": "제6조의3(주택 임대차 계약의 변경 및 해제 신고)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "cref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 임대차계약당사자는 제6조의2에 따라 신고한 후 해당 주택 임대차 계약의 보증금, 차임 등 임대차 가격이 변경되거나 임대차 계약이 해제된 때에는 변경 또는 해제가 확정된 날부터 30일 이내에 해당 신고관청에 공동으로 신고하여야 한다. 다만, 임대차계약당사자 중 일방이 국가등인 경우에는 국가등이 신고하여야 한다.",
+      "text": "① 임대차계약당사자는 제6조의2에 따라 신고한 후 해당 주택 임대차 계약의 보증금, 차임 등 임대차 가격이 변경되거나 임대차 계약이 해제된 때에는 변경 또는 해제가 확정된 날부터 30일 이내에 해당 신고관청에 공동으로 신고하여야 한다. 다만, 임대차계약당사자 중 일방이 국가등인 경우에는 국가등이 신고하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 제1항에도 불구하고 임대차계약당사자 중 일방이 신고를 거부하는 경우에는 국토교통부령으로 정하는 바에 따라 단독으로 신고할 수 있다.",
+      "text": "② 제1항에도 불구하고 임대차계약당사자 중 일방이 신고를 거부하는 경우에는 국토교통부령으로 정하는 바에 따라 단독으로 신고할 수 있다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "③ 제1항에 따라 신고를 받은 신고관청은 그 신고 내용을 확인한 후 신고인에게 신고필증을 지체 없이 발급하여야 한다.",
+      "text": "③ 제1항에 따라 신고를 받은 신고관청은 그 신고 내용을 확인한 후 신고인에게 신고필증을 지체 없이 발급하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "④ 신고관청은 제1항부터 제3항까지의 규정에 따른 사무에 대한 해당 권한의 일부를 그 지방자치단체의 조례로 정하는 바에 따라 읍ㆍ면ㆍ동장 또는 출장소장에게 위임할 수 있다.",
+      "text": "④ 신고관청은 제1항부터 제3항까지의 규정에 따른 사무에 대한 해당 권한의 일부를 그 지방자치단체의 조례로 정하는 바에 따라 읍ㆍ면ㆍ동장 또는 출장소장에게 위임할 수 있다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑤ 제1항부터 제3항까지의 규정에 따른 신고 및 신고필증 발급의 절차와 그 밖에 필요한 사항은 국토교통부령으로 정한다.",
+      "text": "⑤ 제1항부터 제3항까지의 규정에 따른 신고 및 신고필증 발급의 절차와 그 밖에 필요한 사항은 국토교통부령으로 정한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "[본조신설 2020. 8. 18.]",
+      "text": "[본조신설 2020. 8. 18.]",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "cref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제6조의4(주택 임대차 계약 신고에 대한 준용규정)",
+      "text": "제6조의4(주택 임대차 계약 신고에 대한 준용규정)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "cref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 주택 임대차 계약 신고의 금지행위에 관하여는 제4조를 준용한다.",
+      "text": "① 주택 임대차 계약 신고의 금지행위에 관하여는 제4조를 준용한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 주택 임대차 계약 신고 내용의 검증에 관하여는 제5조를 준용한다.",
+      "text": "② 주택 임대차 계약 신고 내용의 검증에 관하여는 제5조를 준용한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "③ 주택 임대차 계약 신고 내용의 조사 등에 관하여는 제6조를 준용한다.",
+      "text": "③ 주택 임대차 계약 신고 내용의 조사 등에 관하여는 제6조를 준용한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "[본조신설 2020. 8. 18.]",
+      "text": "[본조신설 2020. 8. 18.]",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "cref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제6조의5(다른 법률에 따른 신고 등의 의제)",
+      "text": "제6조의5(다른 법률에 따른 신고 등의 의제)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "cref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 제6조의2에도 불구하고 임차인이 「주민등록법」에 따라 전입신고를 하는 경우 이 법에 따른 주택 임대차 계약의 신고를 한 것으로 본다.",
+      "text": "① 제6조의2에도 불구하고 임차인이 「주민등록법」에 따라 전입신고를 하는 경우 이 법에 따른 주택 임대차 계약의 신고를 한 것으로 본다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 제6조의2 또는 제6조의3에도 불구하고 「공공주택 특별법」에 따른 공공주택사업자 및 「민간임대주택에 관한 특별법」에 따른 임대사업자는 관련 법령에 따른 주택 임대차 계약의 신고 또는 변경신고를 하는 경우 이 법에 따른 주택 임대차 계약의 신고 또는 변경신고를 한 것으로 본다.",
+      "text": "② 제6조의2 또는 제6조의3에도 불구하고 「공공주택 특별법」에 따른 공공주택사업자 및 「민간임대주택에 관한 특별법」에 따른 임대사업자는 관련 법령에 따른 주택 임대차 계약의 신고 또는 변경신고를 하는 경우 이 법에 따른 주택 임대차 계약의 신고 또는 변경신고를 한 것으로 본다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "③ 제6조의2, 제6조의3에 따른 신고의 접수를 완료한 때에는 「주택임대차보호법」 제3조의6제1항에 따른 확정일자를 부여한 것으로 본다(임대차계약서가 제출된 경우로 한정한다). 이 경우 신고관청은 「주택임대차보호법」 제3조의6제2항에 따라 확정일자부를 작성하거나 「주택임대차보호법」 제3조의6의 확정일자부여기관에 신고 사실을 통보하여야 한다.",
+      "text": "③ 제6조의2, 제6조의3에 따른 신고의 접수를 완료한 때에는 「주택임대차보호법」 제3조의6제1항에 따른 확정일자를 부여한 것으로 본다(임대차계약서가 제출된 경우로 한정한다). 이 경우 신고관청은 「주택임대차보호법」 제3조의6제2항에 따라 확정일자부를 작성하거나 「주택임대차보호법」 제3조의6의 확정일자부여기관에 신고 사실을 통보하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "[본조신설 2020. 8. 18.]",
+      "text": "[본조신설 2020. 8. 18.]",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제3장 외국인등의 부동산 취득 등에 관한 특례",
+      "text": "제3장 외국인등의 부동산 취득 등에 관한 특례",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "cref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제7조(상호주의)",
+      "text": "제7조(상호주의)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "cref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "국토교통부장관은 대한민국국민, 대한민국의 법령에 따라 설립된 법인 또는 단체나 대한민국정부에 대하여 자국(自國) 안의 토지의 취득 또는 양도를 금지하거나 제한하는 국가의 개인ㆍ법인ㆍ단체 또는 정부에 대하여 대통령령으로 정하는 바에 따라 대한민국 안의 토지의 취득 또는 양도를 금지하거나 제한할 수 있다. 다만, 헌법과 법률에 따라 체결된 조약의 이행에 필요한 경우에는 그러하지 아니하다.",
+      "text": "국토교통부장관은 대한민국국민, 대한민국의 법령에 따라 설립된 법인 또는 단체나 대한민국정부에 대하여 자국(自國) 안의 토지의 취득 또는 양도를 금지하거나 제한하는 국가의 개인ㆍ법인ㆍ단체 또는 정부에 대하여 대통령령으로 정하는 바에 따라 대한민국 안의 토지의 취득 또는 양도를 금지하거나 제한할 수 있다. 다만, 헌법과 법률에 따라 체결된 조약의 이행에 필요한 경우에는 그러하지 아니하다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "cref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제8조(외국인등의 부동산 취득ㆍ보유 신고)",
+      "text": "제8조(외국인등의 부동산 취득ㆍ보유 신고)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "cref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 외국인등이 대한민국 안의 부동산등을 취득하는 계약(제3조제1항 각 호에 따른 계약은 제외한다)을 체결하였을 때에는 계약체결일부터 60일 이내에 대통령령으로 정하는 바에 따라 신고관청에 신고하여야 한다.",
+      "text": "① 외국인등이 대한민국 안의 부동산등을 취득하는 계약(제3조제1항 각 호에 따른 계약은 제외한다)을 체결하였을 때에는 계약체결일부터 60일 이내에 대통령령으로 정하는 바에 따라 신고관청에 신고하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 외국인등이 상속ㆍ경매, 그 밖에 대통령령으로 정하는 계약 외의 원인으로 대한민국 안의 부동산등을 취득한 때에는 부동산등을 취득한 날부터 6개월 이내에 대통령령으로 정하는 바에 따라 신고관청에 신고하여야 한다.",
+      "text": "② 외국인등이 상속ㆍ경매, 그 밖에 대통령령으로 정하는 계약 외의 원인으로 대한민국 안의 부동산등을 취득한 때에는 부동산등을 취득한 날부터 6개월 이내에 대통령령으로 정하는 바에 따라 신고관청에 신고하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "③ 대한민국 안의 부동산등을 가지고 있는 대한민국국민이나 대한민국의 법령에 따라 설립된 법인 또는 단체가 외국인등으로 변경된 경우 그 외국인등이 해당 부동산등을 계속보유하려는 경우에는 외국인등으로 변경된 날부터 6개월 이내에 대통령령으로 정하는 바에 따라 신고관청에 신고하여야 한다.",
+      "text": "③ 대한민국 안의 부동산등을 가지고 있는 대한민국국민이나 대한민국의 법령에 따라 설립된 법인 또는 단체가 외국인등으로 변경된 경우 그 외국인등이 해당 부동산등을 계속보유하려는 경우에는 외국인등으로 변경된 날부터 6개월 이내에 대통령령으로 정하는 바에 따라 신고관청에 신고하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "cref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제9조(외국인등의 토지거래 허가)",
+      "text": "제9조(외국인등의 토지거래 허가)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "cref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 제3조 및 제8조에도 불구하고 외국인등이 취득하려는 토지가 다음 각 호의 어느 하나에 해당하는 구역ㆍ지역 등에 있으면 토지를 취득하는 계약(이하 “토지취득계약”이라 한다)을 체결하기 전에 대통령령으로 정하는 바에 따라 신고관청으로부터 토지취득의 허가를 받아야 한다. 다만, 제11조에 따라 토지거래계약에 관한 허가를 받은 경우에는 그러하지 아니하다. <개정 2019. 11. 26., 2023. 3. 21., 2023. 8. 8., 2024. 2. 6.>",
+      "text": "① 제3조 및 제8조에도 불구하고 외국인등이 취득하려는 토지가 다음 각 호의 어느 하나에 해당하는 구역ㆍ지역 등에 있으면 토지를 취득하는 계약(이하 “토지취득계약”이라 한다)을 체결하기 전에 대통령령으로 정하는 바에 따라 신고관청으로부터 토지취득의 허가를 받아야 한다. 다만, 제11조에 따라 토지거래계약에 관한 허가를 받은 경우에는 그러하지 아니하다. <개정 2019. 11. 26., 2023. 3. 21., 2023. 8. 8., 2024. 2. 6.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "1. 「군사기지 및 군사시설 보호법」 제2조제6호에 따른 군사기지 및 군사시설 보호구역, 그 밖에 국방목적을 위하여 외국인등의 토지취득을 특별히 제한할 필요가 있는 지역으로서 대통령령으로 정하는 지역",
+      "text": "1. 「군사기지 및 군사시설 보호법」 제2조제6호에 따른 군사기지 및 군사시설 보호구역, 그 밖에 국방목적을 위하여 외국인등의 토지취득을 특별히 제한할 필요가 있는 지역으로서 대통령령으로 정하는 지역",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "2. 「문화유산의 보존 및 활용에 관한 법률」 제2조제3항에 따른 지정문화유산과 이를 위한 보호물 또는 보호구역",
+      "text": "2. 「문화유산의 보존 및 활용에 관한 법률」 제2조제3항에 따른 지정문화유산과 이를 위한 보호물 또는 보호구역",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "2의2. 「자연유산의 보존 및 활용에 관한 법률」에 따라 지정된 천연기념물등과 이를 위한 보호물 또는 보호구역",
+      "text": "2의2. 「자연유산의 보존 및 활용에 관한 법률」에 따라 지정된 천연기념물등과 이를 위한 보호물 또는 보호구역",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "3. 「자연환경보전법」 제2조제12호에 따른 생태ㆍ경관보전지역",
+      "text": "3. 「자연환경보전법」 제2조제12호에 따른 생태ㆍ경관보전지역",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "4. 「야생생물 보호 및 관리에 관한 법률」 제27조에 따른 야생생물 특별보호구역",
+      "text": "4. 「야생생물 보호 및 관리에 관한 법률」 제27조에 따른 야생생물 특별보호구역",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 신고관청은 관계 행정기관의 장과 협의를 거쳐 외국인등이 제1항 각 호의 어느 하나에 해당하는 구역ㆍ지역 등의 토지를 취득하는 것이 해당 구역ㆍ지역 등의 지정목적 달성에 지장을 주지 아니한다고 인정하는 경우에는 제1항에 따른 허가를 하여야 한다.",
+      "text": "② 신고관청은 관계 행정기관의 장과 협의를 거쳐 외국인등이 제1항 각 호의 어느 하나에 해당하는 구역ㆍ지역 등의 토지를 취득하는 것이 해당 구역ㆍ지역 등의 지정목적 달성에 지장을 주지 아니한다고 인정하는 경우에는 제1항에 따른 허가를 하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "③ 제1항을 위반하여 체결한 토지취득계약은 그 효력이 발생하지 아니한다.",
+      "text": "③ 제1항을 위반하여 체결한 토지취득계약은 그 효력이 발생하지 아니한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제4장 토지거래허가구역 등",
+      "text": "제4장 토지거래허가구역 등",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/121",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "cref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제10조(토지거래허가구역의 지정)",
+      "text": "제10조(토지거래허가구역의 지정)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/123",
+      "parent": {
+        "cref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 국토교통부장관 또는 시ㆍ도지사는 국토의 이용 및 관리에 관한 계획의 원활한 수립과 집행, 합리적인 토지 이용 등을 위하여 토지의 투기적인 거래가 성행하거나 지가(地價)가 급격히 상승하는 지역과 그러한 우려가 있는 지역으로서 대통령령으로 정하는 지역에 대해서는 다음 각 호의 구분에 따라 5년 이내의 기간을 정하여 제11조제1항에 따른 토지거래계약에 관한 허가구역(이하 “허가구역”이라 한다)으로 지정할 수 있다. 이 경우 국토교통부장관 또는 시ㆍ도지사는 대통령령으로 정하는 바에 따라 허가대상자(외국인등을 포함한다. 이하 이 조에서 같다), 허가대상 용도와 지목 등을 특정하여 허가구역을 지정할 수 있다. <개정 2023. 4. 18.>",
+      "text": "① 국토교통부장관 또는 시ㆍ도지사는 국토의 이용 및 관리에 관한 계획의 원활한 수립과 집행, 합리적인 토지 이용 등을 위하여 토지의 투기적인 거래가 성행하거나 지가(地價)가 급격히 상승하는 지역과 그러한 우려가 있는 지역으로서 대통령령으로 정하는 지역에 대해서는 다음 각 호의 구분에 따라 5년 이내의 기간을 정하여 제11조제1항에 따른 토지거래계약에 관한 허가구역(이하 “허가구역”이라 한다)으로 지정할 수 있다. 이 경우 국토교통부장관 또는 시ㆍ도지사는 대통령령으로 정하는 바에 따라 허가대상자(외국인등을 포함한다. 이하 이 조에서 같다), 허가대상 용도와 지목 등을 특정하여 허가구역을 지정할 수 있다. <개정 2023. 4. 18.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "1. 허가구역이 둘 이상의 시ㆍ도의 관할 구역에 걸쳐 있는 경우: 국토교통부장관이 지정",
+      "text": "1. 허가구역이 둘 이상의 시ㆍ도의 관할 구역에 걸쳐 있는 경우: 국토교통부장관이 지정",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/125",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "2. 허가구역이 동일한 시ㆍ도 안의 일부지역인 경우: 시ㆍ도지사가 지정. 다만, 국가가 시행하는 개발사업 등에 따라 투기적인 거래가 성행하거나 지가가 급격히 상승하는 지역과 그러한 우려가 있는 지역 등 대통령령으로 정하는 경우에는 국토교통부장관이 지정할 수 있다.",
+      "text": "2. 허가구역이 동일한 시ㆍ도 안의 일부지역인 경우: 시ㆍ도지사가 지정. 다만, 국가가 시행하는 개발사업 등에 따라 투기적인 거래가 성행하거나 지가가 급격히 상승하는 지역과 그러한 우려가 있는 지역 등 대통령령으로 정하는 경우에는 국토교통부장관이 지정할 수 있다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/126",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 국토교통부장관 또는 시ㆍ도지사는 제1항에 따라 허가구역을 지정하려면 「국토의 계획 및 이용에 관한 법률」 제106조에 따른 중앙도시계획위원회(이하 “중앙도시계획위원회”라 한다) 또는 같은 법 제113조제1항에 따른 시ㆍ도도시계획위원회(이하 “시ㆍ도도시계획위원회”라 한다)의 심의를 거쳐야 한다. 다만, 지정기간이 끝나는 허가구역을 계속하여 다시 허가구역으로 지정하려면 중앙도시계획위원회 또는 시ㆍ도도시계획위원회의 심의 전에 미리 시ㆍ도지사(국토교통부장관이 허가구역을 지정하는 경우만 해당한다) 및 시장ㆍ군수 또는 구청장의 의견을 들어야 한다.",
+      "text": "② 국토교통부장관 또는 시ㆍ도지사는 제1항에 따라 허가구역을 지정하려면 「국토의 계획 및 이용에 관한 법률」 제106조에 따른 중앙도시계획위원회(이하 “중앙도시계획위원회”라 한다) 또는 같은 법 제113조제1항에 따른 시ㆍ도도시계획위원회(이하 “시ㆍ도도시계획위원회”라 한다)의 심의를 거쳐야 한다. 다만, 지정기간이 끝나는 허가구역을 계속하여 다시 허가구역으로 지정하려면 중앙도시계획위원회 또는 시ㆍ도도시계획위원회의 심의 전에 미리 시ㆍ도지사(국토교통부장관이 허가구역을 지정하는 경우만 해당한다) 및 시장ㆍ군수 또는 구청장의 의견을 들어야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/127",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "③ 국토교통부장관 또는 시ㆍ도지사는 제1항에 따라 허가구역으로 지정한 때에는 지체 없이 허가대상자, 허가대상 용도와 지목 등 대통령령으로 정하는 사항을 공고하고, 그 공고 내용을 국토교통부장관은 시ㆍ도지사를 거쳐 시장ㆍ군수 또는 구청장에게 통지하고, 시ㆍ도지사는 국토교통부장관, 시장ㆍ군수 또는 구청장에게 통지하여야 한다.<개정 2023. 4. 18.>",
+      "text": "③ 국토교통부장관 또는 시ㆍ도지사는 제1항에 따라 허가구역으로 지정한 때에는 지체 없이 허가대상자, 허가대상 용도와 지목 등 대통령령으로 정하는 사항을 공고하고, 그 공고 내용을 국토교통부장관은 시ㆍ도지사를 거쳐 시장ㆍ군수 또는 구청장에게 통지하고, 시ㆍ도지사는 국토교통부장관, 시장ㆍ군수 또는 구청장에게 통지하여야 한다.<개정 2023. 4. 18.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/128",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "④ 제3항에 따라 통지를 받은 시장ㆍ군수 또는 구청장은 지체 없이 그 공고 내용을 그 허가구역을 관할하는 등기소의 장에게 통지하여야 하며, 지체 없이 그 사실을 7일 이상 공고하고, 그 공고 내용을 15일간 일반이 열람할 수 있도록 하여야 한다.",
+      "text": "④ 제3항에 따라 통지를 받은 시장ㆍ군수 또는 구청장은 지체 없이 그 공고 내용을 그 허가구역을 관할하는 등기소의 장에게 통지하여야 하며, 지체 없이 그 사실을 7일 이상 공고하고, 그 공고 내용을 15일간 일반이 열람할 수 있도록 하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/129",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑤ 허가구역의 지정은 제3항에 따라 허가구역의 지정을 공고한 날부터 5일 후에 그 효력이 발생한다.",
+      "text": "⑤ 허가구역의 지정은 제3항에 따라 허가구역의 지정을 공고한 날부터 5일 후에 그 효력이 발생한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/130",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑥ 국토교통부장관 또는 시ㆍ도지사는 허가구역의 지정 사유가 없어졌다고 인정되거나 관계 시ㆍ도지사, 시장ㆍ군수 또는 구청장으로부터 받은 허가구역의 지정 해제 또는 축소 요청이 이유 있다고 인정되면 지체 없이 허가구역의 지정을 해제하거나 지정된 허가구역의 일부를 축소하여야 한다.",
+      "text": "⑥ 국토교통부장관 또는 시ㆍ도지사는 허가구역의 지정 사유가 없어졌다고 인정되거나 관계 시ㆍ도지사, 시장ㆍ군수 또는 구청장으로부터 받은 허가구역의 지정 해제 또는 축소 요청이 이유 있다고 인정되면 지체 없이 허가구역의 지정을 해제하거나 지정된 허가구역의 일부를 축소하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/131",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑦ 제6항에 따른 해제 또는 축소의 경우에는 제2항 본문, 제3항 및 제4항을 준용한다.",
+      "text": "⑦ 제6항에 따른 해제 또는 축소의 경우에는 제2항 본문, 제3항 및 제4항을 준용한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/132",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/133",
+      "parent": {
+        "cref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제11조(허가구역 내 토지거래에 대한 허가)",
+      "text": "제11조(허가구역 내 토지거래에 대한 허가)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/134",
+      "parent": {
+        "cref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 허가구역에 있는 토지에 관한 소유권ㆍ지상권(소유권ㆍ지상권의 취득을 목적으로 하는 권리를 포함한다)을 이전하거나 설정(대가를 받고 이전하거나 설정하는 경우만 해당한다)하는 계약(예약을 포함한다. 이하 “토지거래계약”이라 한다)을 체결하려는 당사자는 공동으로 대통령령으로 정하는 바에 따라 시장ㆍ군수 또는 구청장의 허가를 받아야 한다. 허가받은 사항을 변경하려는 경우에도 또한 같다.",
+      "text": "① 허가구역에 있는 토지에 관한 소유권ㆍ지상권(소유권ㆍ지상권의 취득을 목적으로 하는 권리를 포함한다)을 이전하거나 설정(대가를 받고 이전하거나 설정하는 경우만 해당한다)하는 계약(예약을 포함한다. 이하 “토지거래계약”이라 한다)을 체결하려는 당사자는 공동으로 대통령령으로 정하는 바에 따라 시장ㆍ군수 또는 구청장의 허가를 받아야 한다. 허가받은 사항을 변경하려는 경우에도 또한 같다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/135",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 제1항에도 불구하고 다음 각 호의 어느 하나에 해당하는 경우에는 제1항에 따른 허가가 필요하지 아니하다.<개정 2023. 4. 18.>",
+      "text": "② 제1항에도 불구하고 다음 각 호의 어느 하나에 해당하는 경우에는 제1항에 따른 허가가 필요하지 아니하다.<개정 2023. 4. 18.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/136",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "1. 경제 및 지가의 동향과 거래단위면적 등을 종합적으로 고려하여 대통령령으로 정하는 용도별 면적 이하의 토지에 대한 토지거래계약을 체결하려는 경우",
+      "text": "1. 경제 및 지가의 동향과 거래단위면적 등을 종합적으로 고려하여 대통령령으로 정하는 용도별 면적 이하의 토지에 대한 토지거래계약을 체결하려는 경우",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/137",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "2. 토지거래계약을 체결하려는 당사자 또는 그 계약의 대상이 되는 토지가 제10조제3항에 따라 공고된 사항에 해당하지 아니하는 경우",
+      "text": "2. 토지거래계약을 체결하려는 당사자 또는 그 계약의 대상이 되는 토지가 제10조제3항에 따라 공고된 사항에 해당하지 아니하는 경우",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/138",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "③ 제1항에 따른 허가를 받으려는 자는 그 허가신청서에 계약내용과 그 토지의 이용계획, 취득자금 조달계획 등을 적어 시장ㆍ군수 또는 구청장에게 제출하여야 한다. 이 경우 토지이용계획, 취득자금 조달계획 등에 포함되어야 할 사항은 국토교통부령으로 정한다. 다만, 시장ㆍ군수 또는 구청장에게 제출한 취득자금 조달계획이 변경된 경우에는 취득토지에 대한 등기일까지 시장ㆍ군수 또는 구청장에게 그 변경 사항을 제출할 수 있다.",
+      "text": "③ 제1항에 따른 허가를 받으려는 자는 그 허가신청서에 계약내용과 그 토지의 이용계획, 취득자금 조달계획 등을 적어 시장ㆍ군수 또는 구청장에게 제출하여야 한다. 이 경우 토지이용계획, 취득자금 조달계획 등에 포함되어야 할 사항은 국토교통부령으로 정한다. 다만, 시장ㆍ군수 또는 구청장에게 제출한 취득자금 조달계획이 변경된 경우에는 취득토지에 대한 등기일까지 시장ㆍ군수 또는 구청장에게 그 변경 사항을 제출할 수 있다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/139",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "④ 시장ㆍ군수 또는 구청장은 제3항에 따른 허가신청서를 받으면 「민원 처리에 관한 법률」에 따른 처리기간에 허가 또는 불허가의 처분을 하고, 그 신청인에게 허가증을 발급하거나 불허가처분 사유를 서면으로 알려야 한다. 다만, 제15조에 따라 선매협의(先買協議) 절차가 진행 중인 경우에는 위의 기간 내에 그 사실을 신청인에게 알려야 한다.",
+      "text": "④ 시장ㆍ군수 또는 구청장은 제3항에 따른 허가신청서를 받으면 「민원 처리에 관한 법률」에 따른 처리기간에 허가 또는 불허가의 처분을 하고, 그 신청인에게 허가증을 발급하거나 불허가처분 사유를 서면으로 알려야 한다. 다만, 제15조에 따라 선매협의(先買協議) 절차가 진행 중인 경우에는 위의 기간 내에 그 사실을 신청인에게 알려야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/140",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑤ 제4항에 따른 기간에 허가증의 발급 또는 불허가처분 사유의 통지가 없거나 선매협의 사실의 통지가 없는 경우에는 그 기간이 끝난 날의 다음날에 제1항에 따른 허가가 있는 것으로 본다. 이 경우 시장ㆍ군수 또는 구청장은 지체 없이 신청인에게 허가증을 발급하여야 한다.",
+      "text": "⑤ 제4항에 따른 기간에 허가증의 발급 또는 불허가처분 사유의 통지가 없거나 선매협의 사실의 통지가 없는 경우에는 그 기간이 끝난 날의 다음날에 제1항에 따른 허가가 있는 것으로 본다. 이 경우 시장ㆍ군수 또는 구청장은 지체 없이 신청인에게 허가증을 발급하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/141",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑥ 제1항에 따른 허가를 받지 아니하고 체결한 토지거래계약은 그 효력이 발생하지 아니한다.",
+      "text": "⑥ 제1항에 따른 허가를 받지 아니하고 체결한 토지거래계약은 그 효력이 발생하지 아니한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/142",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑦ 제2항제1호에 따른 토지의 면적 산정방법에 관하여 필요한 사항은 대통령령으로 정한다.<개정 2023. 4. 18.>",
+      "text": "⑦ 제2항제1호에 따른 토지의 면적 산정방법에 관하여 필요한 사항은 대통령령으로 정한다.<개정 2023. 4. 18.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/143",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/144",
+      "parent": {
+        "cref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제12조(허가기준)",
+      "text": "제12조(허가기준)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/145",
+      "parent": {
+        "cref": "#/groups/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "시장ㆍ군수 또는 구청장은 제11조에 따른 허가신청이 다음 각 호의 어느 하나에 해당하는 경우를 제외하고는 허가하여야 한다.",
+      "text": "시장ㆍ군수 또는 구청장은 제11조에 따른 허가신청이 다음 각 호의 어느 하나에 해당하는 경우를 제외하고는 허가하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/146",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "1. 토지거래계약을 체결하려는 자의 토지이용목적이 다음 각 목의 어느 하나에 해당되지 아니하는 경우",
+      "text": "1. 토지거래계약을 체결하려는 자의 토지이용목적이 다음 각 목의 어느 하나에 해당되지 아니하는 경우",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/147",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "가. 자기의 거주용 주택용지로 이용하려는 경우",
+      "text": "가. 자기의 거주용 주택용지로 이용하려는 경우",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/148",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "나. 허가구역을 포함한 지역의 주민을 위한 복지시설 또는 편익시설로서 관할 시장ㆍ군수 또는 구청장이 확인한 시설의 설치에 이용하려는 경우",
+      "text": "나. 허가구역을 포함한 지역의 주민을 위한 복지시설 또는 편익시설로서 관할 시장ㆍ군수 또는 구청장이 확인한 시설의 설치에 이용하려는 경우",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/149",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "다. 허가구역에 거주하는 농업인ㆍ임업인ㆍ어업인 또는 대통령령으로 정하는 자가 그 허가구역에서 농업ㆍ축산업ㆍ임업 또는 어업을 경영하기 위하여 필요한 경우",
+      "text": "다. 허가구역에 거주하는 농업인ㆍ임업인ㆍ어업인 또는 대통령령으로 정하는 자가 그 허가구역에서 농업ㆍ축산업ㆍ임업 또는 어업을 경영하기 위하여 필요한 경우",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/150",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "라. 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」이나 그 밖의 법률에 따라 토지를 수용하거나 사용할 수 있는 사업을 시행하는 자가 그 사업을 시행하기 위하여 필요한 경우",
+      "text": "라. 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」이나 그 밖의 법률에 따라 토지를 수용하거나 사용할 수 있는 사업을 시행하는 자가 그 사업을 시행하기 위하여 필요한 경우",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/151",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "마. 허가구역을 포함한 지역의 건전한 발전을 위하여 필요하고 관계 법률에 따라 지정된 지역ㆍ지구ㆍ구역 등의 지정목적에 적합하다고 인정되는 사업을 시행하는 자나 시행하려는 자가 그 사업에 이용하려는 경우",
+      "text": "마. 허가구역을 포함한 지역의 건전한 발전을 위하여 필요하고 관계 법률에 따라 지정된 지역ㆍ지구ㆍ구역 등의 지정목적에 적합하다고 인정되는 사업을 시행하는 자나 시행하려는 자가 그 사업에 이용하려는 경우",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/152",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "바. 허가구역의 지정 당시 그 구역이 속한 특별시ㆍ광역시ㆍ특별자치시ㆍ시(「제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법」 제10조제2항에 따른 행정시를 포함한다. 이하 이 조에서 같다)ㆍ군 또는 인접한 특별시ㆍ광역시ㆍ특별자치시ㆍ시ㆍ군에서 사업을 시행하고 있는 자가 그 사업에 이용하려는 경우나 그 자의 사업과 밀접한 관련이 있는 사업을 하는 자가 그 사업에 이용하려는 경우",
+      "text": "바. 허가구역의 지정 당시 그 구역이 속한 특별시ㆍ광역시ㆍ특별자치시ㆍ시(「제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법」 제10조제2항에 따른 행정시를 포함한다. 이하 이 조에서 같다)ㆍ군 또는 인접한 특별시ㆍ광역시ㆍ특별자치시ㆍ시ㆍ군에서 사업을 시행하고 있는 자가 그 사업에 이용하려는 경우나 그 자의 사업과 밀접한 관련이 있는 사업을 하는 자가 그 사업에 이용하려는 경우",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/153",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "사. 허가구역이 속한 특별시ㆍ광역시ㆍ특별자치시ㆍ시 또는 군에 거주하고 있는 자의 일상생활과 통상적인 경제활동에 필요한 것 등으로서 대통령령으로 정하는 용도에 이용하려는 경우",
+      "text": "사. 허가구역이 속한 특별시ㆍ광역시ㆍ특별자치시ㆍ시 또는 군에 거주하고 있는 자의 일상생활과 통상적인 경제활동에 필요한 것 등으로서 대통령령으로 정하는 용도에 이용하려는 경우",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/154",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "2. 토지거래계약을 체결하려는 자의 토지이용목적이 다음 각 목의 어느 하나에 해당되는 경우",
+      "text": "2. 토지거래계약을 체결하려는 자의 토지이용목적이 다음 각 목의 어느 하나에 해당되는 경우",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/155",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "가. 「국토의 계획 및 이용에 관한 법률」 제2조제2호에 따른 도시ㆍ군계획이나 그 밖에 토지의 이용 및 관리에 관한 계획에 맞지 아니한 경우",
+      "text": "가. 「국토의 계획 및 이용에 관한 법률」 제2조제2호에 따른 도시ㆍ군계획이나 그 밖에 토지의 이용 및 관리에 관한 계획에 맞지 아니한 경우",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/156",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "나. 생태계의 보전과 주민의 건전한 생활환경 보호에 중대한 위해(危害)를 끼칠 우려가 있는 경우",
+      "text": "나. 생태계의 보전과 주민의 건전한 생활환경 보호에 중대한 위해(危害)를 끼칠 우려가 있는 경우",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/157",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "3. 그 면적이 그 토지의 이용목적에 적합하지 아니하다고 인정되는 경우",
+      "text": "3. 그 면적이 그 토지의 이용목적에 적합하지 아니하다고 인정되는 경우",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/158",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/159",
+      "parent": {
+        "cref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제13조(이의신청)",
+      "text": "제13조(이의신청)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/160",
+      "parent": {
+        "cref": "#/groups/18"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 제11조에 따른 처분에 이의가 있는 자는 그 처분을 받은 날부터 1개월 이내에 시장ㆍ군수 또는 구청장에게 이의를 신청할 수 있다.",
+      "text": "① 제11조에 따른 처분에 이의가 있는 자는 그 처분을 받은 날부터 1개월 이내에 시장ㆍ군수 또는 구청장에게 이의를 신청할 수 있다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/161",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 제1항에 따른 이의신청을 받은 시장ㆍ군수 또는 구청장은 「국토의 계획 및 이용에 관한 법률」 제113조제2항에 따른 시ㆍ군ㆍ구도시계획위원회의 심의를 거쳐 그 결과를 이의신청인에게 알려야 한다.",
+      "text": "② 제1항에 따른 이의신청을 받은 시장ㆍ군수 또는 구청장은 「국토의 계획 및 이용에 관한 법률」 제113조제2항에 따른 시ㆍ군ㆍ구도시계획위원회의 심의를 거쳐 그 결과를 이의신청인에게 알려야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/162",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/163",
+      "parent": {
+        "cref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제14조(국가 등의 토지거래계약에 관한 특례 등)",
+      "text": "제14조(국가 등의 토지거래계약에 관한 특례 등)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/164",
+      "parent": {
+        "cref": "#/groups/19"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 제11조제1항을 적용할 때에 그 당사자의 한쪽 또는 양쪽이 국가, 지방자치단체, 「한국토지주택공사법」에 따른 한국토지주택공사(이하 “한국토지주택공사”라 한다), 그 밖에 대통령령으로 정하는 공공기관 또는 공공단체인 경우에는 그 기관의 장이 시장ㆍ군수 또는 구청장과 협의할 수 있고, 그 협의가 성립된 때에는 그 토지거래계약에 관한 허가를 받은 것으로 본다.",
+      "text": "① 제11조제1항을 적용할 때에 그 당사자의 한쪽 또는 양쪽이 국가, 지방자치단체, 「한국토지주택공사법」에 따른 한국토지주택공사(이하 “한국토지주택공사”라 한다), 그 밖에 대통령령으로 정하는 공공기관 또는 공공단체인 경우에는 그 기관의 장이 시장ㆍ군수 또는 구청장과 협의할 수 있고, 그 협의가 성립된 때에는 그 토지거래계약에 관한 허가를 받은 것으로 본다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/165",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 다음 각 호의 경우에는 제11조를 적용하지 아니한다.",
+      "text": "② 다음 각 호의 경우에는 제11조를 적용하지 아니한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/166",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "1. 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」에 따른 토지의 수용",
+      "text": "1. 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」에 따른 토지의 수용",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/167",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "2. 「민사집행법」에 따른 경매",
+      "text": "2. 「민사집행법」에 따른 경매",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/168",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "3. 그 밖에 대통령령으로 정하는 경우",
+      "text": "3. 그 밖에 대통령령으로 정하는 경우",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/169",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/170",
+      "parent": {
+        "cref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제15조(선매)",
+      "text": "제15조(선매)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/171",
+      "parent": {
+        "cref": "#/groups/20"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 시장ㆍ군수 또는 구청장은 제11조제1항에 따른 토지거래계약에 관한 허가신청이 있는 경우 다음 각 호의 어느 하나에 해당하는 토지에 대하여 국가, 지방자치단체, 한국토지주택공사, 그 밖에 대통령령으로 정하는 공공기관 또는 공공단체가 그 매수를 원하는 경우에는 이들 중에서 해당 토지를 매수할 자[이하 “선매자(先買者)”라 한다]를 지정하여 그 토지를 협의 매수하게 할 수 있다.",
+      "text": "① 시장ㆍ군수 또는 구청장은 제11조제1항에 따른 토지거래계약에 관한 허가신청이 있는 경우 다음 각 호의 어느 하나에 해당하는 토지에 대하여 국가, 지방자치단체, 한국토지주택공사, 그 밖에 대통령령으로 정하는 공공기관 또는 공공단체가 그 매수를 원하는 경우에는 이들 중에서 해당 토지를 매수할 자[이하 “선매자(先買者)”라 한다]를 지정하여 그 토지를 협의 매수하게 할 수 있다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/172",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "1. 공익사업용 토지",
+      "text": "1. 공익사업용 토지",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/173",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "2. 제11조제1항에 따른 토지거래계약허가를 받아 취득한 토지를 그 이용목적대로 이용하고 있지 아니한 토지",
+      "text": "2. 제11조제1항에 따른 토지거래계약허가를 받아 취득한 토지를 그 이용목적대로 이용하고 있지 아니한 토지",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/174",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 시장ㆍ군수 또는 구청장은 제1항 각 호의 어느 하나에 해당하는 토지에 대하여 토지거래계약 허가신청이 있는 경우에는 그 신청이 있는 날부터 1개월 이내에 선매자를 지정하여 토지 소유자에게 알려야 하며, 선매자는 지정 통지를 받은 날부터 1개월 이내에 그 토지 소유자와 대통령령으로 정하는 바에 따라 선매협의를 끝내야 한다.",
+      "text": "② 시장ㆍ군수 또는 구청장은 제1항 각 호의 어느 하나에 해당하는 토지에 대하여 토지거래계약 허가신청이 있는 경우에는 그 신청이 있는 날부터 1개월 이내에 선매자를 지정하여 토지 소유자에게 알려야 하며, 선매자는 지정 통지를 받은 날부터 1개월 이내에 그 토지 소유자와 대통령령으로 정하는 바에 따라 선매협의를 끝내야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/175",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "③ 선매자가 제1항과 제2항에 따라 토지를 매수할 때의 가격은 「감정평가 및 감정평가사에 관한 법률」에 따라 감정평가법인등이 감정평가한 감정가격을 기준으로 하되, 토지거래계약 허가신청서에 적힌 가격이 감정가격보다 낮은 경우에는 허가신청서에 적힌 가격으로 할 수 있다.<개정 2019. 8. 20., 2020. 4. 7.>",
+      "text": "③ 선매자가 제1항과 제2항에 따라 토지를 매수할 때의 가격은 「감정평가 및 감정평가사에 관한 법률」에 따라 감정평가법인등이 감정평가한 감정가격을 기준으로 하되, 토지거래계약 허가신청서에 적힌 가격이 감정가격보다 낮은 경우에는 허가신청서에 적힌 가격으로 할 수 있다.<개정 2019. 8. 20., 2020. 4. 7.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/176",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "④ 시장ㆍ군수 또는 구청장은 제2항에 따른 선매협의가 이루어지지 아니한 경우에는 지체 없이 허가 또는 불허가의 여부를 결정하여 통보하여야 한다.",
+      "text": "④ 시장ㆍ군수 또는 구청장은 제2항에 따른 선매협의가 이루어지지 아니한 경우에는 지체 없이 허가 또는 불허가의 여부를 결정하여 통보하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/177",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/178",
+      "parent": {
+        "cref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제16조(불허가처분 토지에 관한 매수 청구)",
+      "text": "제16조(불허가처분 토지에 관한 매수 청구)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/179",
+      "parent": {
+        "cref": "#/groups/21"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 제11조제1항에 따른 허가신청에 대하여 불허가처분을 받은 자는 그 통지를 받은 날부터 1개월 이내에 시장ㆍ군수 또는 구청장에게 해당 토지에 관한 권리의 매수를 청구할 수 있다.",
+      "text": "① 제11조제1항에 따른 허가신청에 대하여 불허가처분을 받은 자는 그 통지를 받은 날부터 1개월 이내에 시장ㆍ군수 또는 구청장에게 해당 토지에 관한 권리의 매수를 청구할 수 있다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/180",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 제1항에 따른 매수 청구를 받은 시장ㆍ군수 또는 구청장은 국가, 지방자치단체, 한국토지주택공사, 그 밖에 대통령령으로 정하는 공공기관 또는 공공단체 중에서 매수할 자를 지정하여, 매수할 자로 하여금 예산의 범위에서 공시지가를 기준으로 하여 해당 토지를 매수하게 하여야 한다. 다만, 토지거래계약 허가신청서에 적힌 가격이 공시지가보다 낮은 경우에는 허가신청서에 적힌 가격으로 매수할 수 있다.",
+      "text": "② 제1항에 따른 매수 청구를 받은 시장ㆍ군수 또는 구청장은 국가, 지방자치단체, 한국토지주택공사, 그 밖에 대통령령으로 정하는 공공기관 또는 공공단체 중에서 매수할 자를 지정하여, 매수할 자로 하여금 예산의 범위에서 공시지가를 기준으로 하여 해당 토지를 매수하게 하여야 한다. 다만, 토지거래계약 허가신청서에 적힌 가격이 공시지가보다 낮은 경우에는 허가신청서에 적힌 가격으로 매수할 수 있다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/181",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/182",
+      "parent": {
+        "cref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제17조(토지 이용에 관한 의무 등)",
+      "text": "제17조(토지 이용에 관한 의무 등)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/183",
+      "parent": {
+        "cref": "#/groups/22"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 제11조에 따라 토지거래계약을 허가받은 자는 대통령령으로 정하는 사유가 있는 경우 외에는 5년의 범위에서 대통령령으로 정하는 기간에 그 토지를 허가받은 목적대로 이용하여야 한다.",
+      "text": "① 제11조에 따라 토지거래계약을 허가받은 자는 대통령령으로 정하는 사유가 있는 경우 외에는 5년의 범위에서 대통령령으로 정하는 기간에 그 토지를 허가받은 목적대로 이용하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/184",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 시장ㆍ군수 또는 구청장은 토지거래계약을 허가받은 자가 허가받은 목적대로 이용하고 있는지를 국토교통부령으로 정하는 바에 따라 조사하여야 한다.",
+      "text": "② 시장ㆍ군수 또는 구청장은 토지거래계약을 허가받은 자가 허가받은 목적대로 이용하고 있는지를 국토교통부령으로 정하는 바에 따라 조사하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/185",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "③ 삭제<2016. 12. 2.>",
+      "text": "③ 삭제<2016. 12. 2.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/186",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "④ 삭제<2016. 12. 2.>",
+      "text": "④ 삭제<2016. 12. 2.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/187",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/188",
+      "parent": {
+        "cref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제18조(이행강제금)",
+      "text": "제18조(이행강제금)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/189",
+      "parent": {
+        "cref": "#/groups/23"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 시장ㆍ군수 또는 구청장은 제17조제1항에 따른 토지의 이용 의무를 이행하지 아니한 자에 대하여는 상당한 기간을 정하여 토지의 이용 의무를 이행하도록 명할 수 있다. 다만, 대통령령으로 정하는 사유가 있는 경우에는 이용 의무의 이행을 명하지 아니할 수 있다.",
+      "text": "① 시장ㆍ군수 또는 구청장은 제17조제1항에 따른 토지의 이용 의무를 이행하지 아니한 자에 대하여는 상당한 기간을 정하여 토지의 이용 의무를 이행하도록 명할 수 있다. 다만, 대통령령으로 정하는 사유가 있는 경우에는 이용 의무의 이행을 명하지 아니할 수 있다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/190",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 시장ㆍ군수 또는 구청장은 제1항에 따른 이행명령이 정하여진 기간에 이행되지 아니한 경우에는 토지 취득가액의 100분의 10의 범위에서 대통령령으로 정하는 금액의 이행강제금을 부과한다.",
+      "text": "② 시장ㆍ군수 또는 구청장은 제1항에 따른 이행명령이 정하여진 기간에 이행되지 아니한 경우에는 토지 취득가액의 100분의 10의 범위에서 대통령령으로 정하는 금액의 이행강제금을 부과한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/191",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "③ 시장ㆍ군수 또는 구청장은 최초의 이행명령이 있었던 날을 기준으로 1년에 한 번씩 그 이행명령이 이행될 때까지 반복하여 제2항에 따른 이행강제금을 부과ㆍ징수할 수 있다.",
+      "text": "③ 시장ㆍ군수 또는 구청장은 최초의 이행명령이 있었던 날을 기준으로 1년에 한 번씩 그 이행명령이 이행될 때까지 반복하여 제2항에 따른 이행강제금을 부과ㆍ징수할 수 있다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/192",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "④ 시장ㆍ군수 또는 구청장은 제17조제1항에 따른 이용 의무기간이 지난 후에는 이행강제금을 부과할 수 없다.",
+      "text": "④ 시장ㆍ군수 또는 구청장은 제17조제1항에 따른 이용 의무기간이 지난 후에는 이행강제금을 부과할 수 없다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/193",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑤ 시장ㆍ군수 또는 구청장은 제1항에 따른 이행명령을 받은 자가 그 명령을 이행하는 경우에는 새로운 이행강제금의 부과를 즉시 중지하되, 명령을 이행하기 전에 이미 부과된 이행강제금은 징수하여야 한다.",
+      "text": "⑤ 시장ㆍ군수 또는 구청장은 제1항에 따른 이행명령을 받은 자가 그 명령을 이행하는 경우에는 새로운 이행강제금의 부과를 즉시 중지하되, 명령을 이행하기 전에 이미 부과된 이행강제금은 징수하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/194",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑥ 제2항에 따른 이행강제금의 부과처분에 불복하는 자는 시장ㆍ군수 또는 구청장에게 이의를 제기할 수 있다.",
+      "text": "⑥ 제2항에 따른 이행강제금의 부과처분에 불복하는 자는 시장ㆍ군수 또는 구청장에게 이의를 제기할 수 있다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/195",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑦ 제2항 및 제3항에 따라 이행강제금 부과처분을 받은 자가 이행강제금을 납부기한까지 납부하지 아니한 경우에는 국세 체납처분의 예 또는 「지방행정제재ㆍ부과금의 징수 등에 관한 법률」에 따라 징수한다.<개정 2020. 3. 24.>",
+      "text": "⑦ 제2항 및 제3항에 따라 이행강제금 부과처분을 받은 자가 이행강제금을 납부기한까지 납부하지 아니한 경우에는 국세 체납처분의 예 또는 「지방행정제재ㆍ부과금의 징수 등에 관한 법률」에 따라 징수한다.<개정 2020. 3. 24.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/196",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑧ 이행강제금의 부과, 납부, 징수 및 이의제기 방법 등에 필요한 사항은 대통령령으로 정한다.",
+      "text": "⑧ 이행강제금의 부과, 납부, 징수 및 이의제기 방법 등에 필요한 사항은 대통령령으로 정한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/197",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/198",
+      "parent": {
+        "cref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제19조(지가 동향의 조사)",
+      "text": "제19조(지가 동향의 조사)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/199",
+      "parent": {
+        "cref": "#/groups/24"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "국토교통부장관이나 시ㆍ도지사는 토지거래허가 제도를 실시하거나 그 밖에 토지정책을 수행하기 위한 자료를 수집하기 위하여 대통령령으로 정하는 바에 따라 지가의 동향과 토지거래의 상황을 조사하여야 하며, 관계 행정기관이나 그 밖의 필요한 기관에 이에 필요한 자료를 제출하도록 요청할 수 있다. 이 경우 자료 제출을 요청받은 기관은 특별한 사유가 없으면 요청에 따라야 한다.",
+      "text": "국토교통부장관이나 시ㆍ도지사는 토지거래허가 제도를 실시하거나 그 밖에 토지정책을 수행하기 위한 자료를 수집하기 위하여 대통령령으로 정하는 바에 따라 지가의 동향과 토지거래의 상황을 조사하여야 하며, 관계 행정기관이나 그 밖의 필요한 기관에 이에 필요한 자료를 제출하도록 요청할 수 있다. 이 경우 자료 제출을 요청받은 기관은 특별한 사유가 없으면 요청에 따라야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/200",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/201",
+      "parent": {
+        "cref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제20조(다른 법률에 따른 인가ㆍ허가 등의 의제)",
+      "text": "제20조(다른 법률에 따른 인가ㆍ허가 등의 의제)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/202",
+      "parent": {
+        "cref": "#/groups/25"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 농지에 대하여 제11조에 따라 토지거래계약 허가를 받은 경우에는 「농지법」 제8조에 따른 농지취득자격증명을 받은 것으로 본다. 이 경우 시장ㆍ군수 또는 구청장은 「농업ㆍ농촌 및 식품산업 기본법」 제3조제5호에 따른 농촌(「국토의 계획 및 이용에 관한 법률」에 따른 도시지역의 경우에는 같은 법에 따른 녹지지역만 해당한다)의 농지에 대하여 토지거래계약을 허가하는 경우에는 농지취득자격증명의 발급 요건에 적합한지를 확인하여야 하며, 허가한 내용을 농림축산식품부장관에게 통보하여야 한다.",
+      "text": "① 농지에 대하여 제11조에 따라 토지거래계약 허가를 받은 경우에는 「농지법」 제8조에 따른 농지취득자격증명을 받은 것으로 본다. 이 경우 시장ㆍ군수 또는 구청장은 「농업ㆍ농촌 및 식품산업 기본법」 제3조제5호에 따른 농촌(「국토의 계획 및 이용에 관한 법률」에 따른 도시지역의 경우에는 같은 법에 따른 녹지지역만 해당한다)의 농지에 대하여 토지거래계약을 허가하는 경우에는 농지취득자격증명의 발급 요건에 적합한지를 확인하여야 하며, 허가한 내용을 농림축산식품부장관에게 통보하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/203",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 제11조제4항 및 제5항에 따라 허가증을 발급받은 경우에는 「부동산등기 특별조치법」 제3조에 따른 검인을 받은 것으로 본다.",
+      "text": "② 제11조제4항 및 제5항에 따라 허가증을 발급받은 경우에는 「부동산등기 특별조치법」 제3조에 따른 검인을 받은 것으로 본다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/204",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/205",
+      "parent": {
+        "cref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제21조(제재처분 등)",
+      "text": "제21조(제재처분 등)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/206",
+      "parent": {
+        "cref": "#/groups/26"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "국토교통부장관, 시ㆍ도지사, 시장ㆍ군수 또는 구청장은 다음 각 호의 어느 하나에 해당하는 자에게 제11조에 따른 허가 취소 또는 그 밖에 필요한 처분을 하거나 조치를 명할 수 있다.",
+      "text": "국토교통부장관, 시ㆍ도지사, 시장ㆍ군수 또는 구청장은 다음 각 호의 어느 하나에 해당하는 자에게 제11조에 따른 허가 취소 또는 그 밖에 필요한 처분을 하거나 조치를 명할 수 있다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/207",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "1. 제11조에 따른 토지거래계약에 관한 허가 또는 변경허가를 받지 아니하고 토지거래계약 또는 그 변경계약을 체결한 자",
+      "text": "1. 제11조에 따른 토지거래계약에 관한 허가 또는 변경허가를 받지 아니하고 토지거래계약 또는 그 변경계약을 체결한 자",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/208",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "2. 제11조에 따른 토지거래계약에 관한 허가를 받은 자가 그 토지를 허가받은 목적대로 이용하지 아니한 자",
+      "text": "2. 제11조에 따른 토지거래계약에 관한 허가를 받은 자가 그 토지를 허가받은 목적대로 이용하지 아니한 자",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/209",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "3. 부정한 방법으로 제11조에 따른 토지거래계약에 관한 허가를 받은 자",
+      "text": "3. 부정한 방법으로 제11조에 따른 토지거래계약에 관한 허가를 받은 자",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/210",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/211",
+      "parent": {
+        "cref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제22조(권리ㆍ의무의 승계 등)",
+      "text": "제22조(권리ㆍ의무의 승계 등)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/212",
+      "parent": {
+        "cref": "#/groups/27"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 제10조부터 제20조까지에 따라 토지의 소유권자, 지상권자 등에게 발생되거나 부과된 권리ㆍ의무는 그 토지 또는 건축물에 관한 소유권이나 그 밖의 권리의 변동과 동시에 그 승계인에게 이전한다.",
+      "text": "① 제10조부터 제20조까지에 따라 토지의 소유권자, 지상권자 등에게 발생되거나 부과된 권리ㆍ의무는 그 토지 또는 건축물에 관한 소유권이나 그 밖의 권리의 변동과 동시에 그 승계인에게 이전한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/213",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 이 법 또는 이 법에 따른 명령에 의한 처분, 그 절차 및 그 밖의 행위는 그 행위와 관련된 토지 또는 건축물에 대하여 소유권이나 그 밖의 권리를 가진 자의 승계인에 대하여 효력을 가진다.",
+      "text": "② 이 법 또는 이 법에 따른 명령에 의한 처분, 그 절차 및 그 밖의 행위는 그 행위와 관련된 토지 또는 건축물에 대하여 소유권이나 그 밖의 권리를 가진 자의 승계인에 대하여 효력을 가진다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/214",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/215",
+      "parent": {
+        "cref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제23조(청문)",
+      "text": "제23조(청문)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/216",
+      "parent": {
+        "cref": "#/groups/28"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "국토교통부장관, 시ㆍ도지사, 시장ㆍ군수 또는 구청장은 제21조에 따라 토지거래계약 허가의 취소 처분을 하려면 청문을 하여야 한다.",
+      "text": "국토교통부장관, 시ㆍ도지사, 시장ㆍ군수 또는 구청장은 제21조에 따라 토지거래계약 허가의 취소 처분을 하려면 청문을 하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/217",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/218",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제5장 부동산 정보 관리",
+      "text": "제5장 부동산 정보 관리",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/219",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/220",
+      "parent": {
+        "cref": "#/groups/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제24조(부동산정책 관련 자료 등 종합관리)",
+      "text": "제24조(부동산정책 관련 자료 등 종합관리)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/221",
+      "parent": {
+        "cref": "#/groups/29"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 국토교통부장관 또는 시장ㆍ군수ㆍ구청장은 적절한 부동산정책의 수립 및 시행을 위하여 부동산 거래상황, 주택 임대차 계약상황, 외국인 부동산 취득현황, 부동산 가격 동향 등 이 법에 규정된 사항에 관한 정보를 종합적으로 관리하고, 이를 관련 기관ㆍ단체 등에 제공할 수 있다. <개정 2020. 8. 18.>",
+      "text": "① 국토교통부장관 또는 시장ㆍ군수ㆍ구청장은 적절한 부동산정책의 수립 및 시행을 위하여 부동산 거래상황, 주택 임대차 계약상황, 외국인 부동산 취득현황, 부동산 가격 동향 등 이 법에 규정된 사항에 관한 정보를 종합적으로 관리하고, 이를 관련 기관ㆍ단체 등에 제공할 수 있다. <개정 2020. 8. 18.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/222",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 국토교통부장관 또는 시장ㆍ군수ㆍ구청장은 제1항에 따른 정보의 관리를 위하여 관계 행정기관이나 그 밖에 필요한 기관에 필요한 자료를 요청할 수 있다. 이 경우 관계 행정기관 등은 특별한 사유가 없으면 요청에 따라야 한다.",
+      "text": "② 국토교통부장관 또는 시장ㆍ군수ㆍ구청장은 제1항에 따른 정보의 관리를 위하여 관계 행정기관이나 그 밖에 필요한 기관에 필요한 자료를 요청할 수 있다. 이 경우 관계 행정기관 등은 특별한 사유가 없으면 요청에 따라야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/223",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "③ 제1항 및 제2항에 따른 정보의 관리ㆍ제공 및 자료요청은 「개인정보 보호법」에 따라야 한다.",
+      "text": "③ 제1항 및 제2항에 따른 정보의 관리ㆍ제공 및 자료요청은 「개인정보 보호법」에 따라야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/224",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/225",
+      "parent": {
+        "cref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제25조(부동산정보체계의 구축ㆍ운영)",
+      "text": "제25조(부동산정보체계의 구축ㆍ운영)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/226",
+      "parent": {
+        "cref": "#/groups/30"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "국토교통부장관은 효율적인 정보의 관리 및 국민편의 증진을 위하여 대통령령으로 정하는 바에 따라 부동산거래 및 주택 임대차의 계약ㆍ신고ㆍ허가ㆍ관리 등의 업무와 관련된 정보체계를 구축ㆍ운영할 수 있다. <개정 2020. 8. 18.>",
+      "text": "국토교통부장관은 효율적인 정보의 관리 및 국민편의 증진을 위하여 대통령령으로 정하는 바에 따라 부동산거래 및 주택 임대차의 계약ㆍ신고ㆍ허가ㆍ관리 등의 업무와 관련된 정보체계를 구축ㆍ운영할 수 있다. <개정 2020. 8. 18.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/227",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/228",
+      "parent": {
+        "cref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제5장의2 보칙",
+      "text": "제5장의2 보칙",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/229",
+      "parent": {
+        "cref": "#/groups/31"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "<신설 2016. 12. 2.>",
+      "text": "<신설 2016. 12. 2.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/230",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/231",
+      "parent": {
+        "cref": "#/groups/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제25조의2(신고포상금의 지급)",
+      "text": "제25조의2(신고포상금의 지급)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/232",
+      "parent": {
+        "cref": "#/groups/32"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 시장ㆍ군수 또는 구청장은 다음 각 호의 어느 하나에 해당하는 자를 관계 행정기관이나 수사기관에 신고하거나 고발한 자에게 예산의 범위에서 포상금을 지급할 수 있다. <개정 2019. 8. 20., 2020. 8. 18.>",
+      "text": "① 시장ㆍ군수 또는 구청장은 다음 각 호의 어느 하나에 해당하는 자를 관계 행정기관이나 수사기관에 신고하거나 고발한 자에게 예산의 범위에서 포상금을 지급할 수 있다. <개정 2019. 8. 20., 2020. 8. 18.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/233",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "1. 제3조제1항부터 제4항까지 또는 제4조제2호를 위반하여 부동산등의 실제 거래가격을 거짓으로 신고한 자",
+      "text": "1. 제3조제1항부터 제4항까지 또는 제4조제2호를 위반하여 부동산등의 실제 거래가격을 거짓으로 신고한 자",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/234",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "1의2. 제4조제4호를 위반하여 거짓으로 제3조에 따른 신고를 한 자",
+      "text": "1의2. 제4조제4호를 위반하여 거짓으로 제3조에 따른 신고를 한 자",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/235",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "1의3. 제4조제5호를 위반하여 거짓으로 제3조의2에 따른 신고를 한 자",
+      "text": "1의3. 제4조제5호를 위반하여 거짓으로 제3조의2에 따른 신고를 한 자",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/236",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "1의4. 제6조의2 또는 제6조의3을 위반하여 주택 임대차 계약의 보증금ㆍ차임 등 계약금액을 거짓으로 신고한 자",
+      "text": "1의4. 제6조의2 또는 제6조의3을 위반하여 주택 임대차 계약의 보증금ㆍ차임 등 계약금액을 거짓으로 신고한 자",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/237",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "2. 제11조제1항에 따른 허가 또는 변경허가를 받지 아니하고 토지거래계약을 체결한 자 또는 거짓이나 그 밖의 부정한 방법으로 토지거래계약허가를 받은 자",
+      "text": "2. 제11조제1항에 따른 허가 또는 변경허가를 받지 아니하고 토지거래계약을 체결한 자 또는 거짓이나 그 밖의 부정한 방법으로 토지거래계약허가를 받은 자",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/238",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "3. 토지거래계약허가를 받아 취득한 토지에 대하여 제17조제1항을 위반하여 허가받은 목적대로 이용하지 아니한 자",
+      "text": "3. 토지거래계약허가를 받아 취득한 토지에 대하여 제17조제1항을 위반하여 허가받은 목적대로 이용하지 아니한 자",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/239",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 제1항에 따른 포상금의 지급에 드는 비용은 시ㆍ군이나 구의 재원으로 충당한다.",
+      "text": "② 제1항에 따른 포상금의 지급에 드는 비용은 시ㆍ군이나 구의 재원으로 충당한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/240",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "③ 제1항에 따른 포상금 지급의 대상ㆍ기준ㆍ방법 및 절차 등에 관한 구체적인 사항은 대통령령으로 정한다.",
+      "text": "③ 제1항에 따른 포상금 지급의 대상ㆍ기준ㆍ방법 및 절차 등에 관한 구체적인 사항은 대통령령으로 정한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/241",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "[본조신설 2016. 12. 2.]",
+      "text": "[본조신설 2016. 12. 2.]",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/242",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/243",
+      "parent": {
+        "cref": "#/groups/33"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제25조의3(권한 등의 위임 및 위탁)",
+      "text": "제25조의3(권한 등의 위임 및 위탁)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/244",
+      "parent": {
+        "cref": "#/groups/33"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 이 법에 따른 국토교통부장관의 권한은 그 일부를 대통령령으로 정하는 바에 따라 시ㆍ도지사, 시장ㆍ군수 또는 구청장에게 위임할 수 있다.",
+      "text": "① 이 법에 따른 국토교통부장관의 권한은 그 일부를 대통령령으로 정하는 바에 따라 시ㆍ도지사, 시장ㆍ군수 또는 구청장에게 위임할 수 있다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/245",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 국토교통부장관은 제5조의 부동산거래가격 검증체계 구축ㆍ운영, 제6조제3항에 따른 신고내용조사 및 제25조의 부동산정보체계의 구축ㆍ운영 업무를 대통령령으로 정하는 바에 따라 부동산시장 관련 전문성이 있는 공공기관에 위탁할 수 있다.<개정 2019. 8. 20.>",
+      "text": "② 국토교통부장관은 제5조의 부동산거래가격 검증체계 구축ㆍ운영, 제6조제3항에 따른 신고내용조사 및 제25조의 부동산정보체계의 구축ㆍ운영 업무를 대통령령으로 정하는 바에 따라 부동산시장 관련 전문성이 있는 공공기관에 위탁할 수 있다.<개정 2019. 8. 20.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/246",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "[본조신설 2016. 12. 2.]",
+      "text": "[본조신설 2016. 12. 2.]",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/247",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/248",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제6장 벌칙",
+      "text": "제6장 벌칙",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/249",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/250",
+      "parent": {
+        "cref": "#/groups/34"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제26조(벌칙)",
+      "text": "제26조(벌칙)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/251",
+      "parent": {
+        "cref": "#/groups/34"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 부당하게 재물이나 재산상 이득을 취득하거나 제3자로 하여금 이를 취득하게 할 목적으로 제4조제4호 또는 제5호를 위반하여 거짓으로 제3조 또는 제3조의2에 따라 신고한 자는 3년 이하의 징역 또는 3천만원 이하의 벌금에 처한다. <신설 2023. 4. 18.>",
+      "text": "① 부당하게 재물이나 재산상 이득을 취득하거나 제3자로 하여금 이를 취득하게 할 목적으로 제4조제4호 또는 제5호를 위반하여 거짓으로 제3조 또는 제3조의2에 따라 신고한 자는 3년 이하의 징역 또는 3천만원 이하의 벌금에 처한다. <신설 2023. 4. 18.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/252",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 제9조제1항에 따른 허가를 받지 아니하고 토지취득계약을 체결하거나 부정한 방법으로 허가를 받아 토지취득계약을 체결한 외국인등은 2년 이하의 징역 또는 2천만원 이하의 벌금에 처한다.<개정 2023. 4. 18.>",
+      "text": "② 제9조제1항에 따른 허가를 받지 아니하고 토지취득계약을 체결하거나 부정한 방법으로 허가를 받아 토지취득계약을 체결한 외국인등은 2년 이하의 징역 또는 2천만원 이하의 벌금에 처한다.<개정 2023. 4. 18.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/253",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "③ 제11조제1항에 따른 허가 또는 변경허가를 받지 아니하고 토지거래계약을 체결하거나, 속임수나 그 밖의 부정한 방법으로 토지거래계약 허가를 받은 자는 2년 이하의 징역 또는 계약 체결 당시의 개별공시지가에 따른 해당 토지가격의 100분의 30에 해당하는 금액 이하의 벌금에 처한다.<개정 2023. 4. 18.>",
+      "text": "③ 제11조제1항에 따른 허가 또는 변경허가를 받지 아니하고 토지거래계약을 체결하거나, 속임수나 그 밖의 부정한 방법으로 토지거래계약 허가를 받은 자는 2년 이하의 징역 또는 계약 체결 당시의 개별공시지가에 따른 해당 토지가격의 100분의 30에 해당하는 금액 이하의 벌금에 처한다.<개정 2023. 4. 18.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/254",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "④ 제21조에 따른 허가 취소, 처분 또는 조치명령을 위반한 자는 1년 이하의 징역 또는 1천만원 이하의 벌금에 처한다.<개정 2023. 4. 18.>",
+      "text": "④ 제21조에 따른 허가 취소, 처분 또는 조치명령을 위반한 자는 1년 이하의 징역 또는 1천만원 이하의 벌금에 처한다.<개정 2023. 4. 18.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/255",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/256",
+      "parent": {
+        "cref": "#/groups/35"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제27조(양벌규정)",
+      "text": "제27조(양벌규정)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/257",
+      "parent": {
+        "cref": "#/groups/35"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "법인의 대표자나 법인 또는 개인의 대리인, 사용인, 그 밖의 종업원이 그 법인 또는 개인의 업무에 관하여 제26조의 위반행위를 하면 그 행위자를 벌하는 외에 그 법인 또는 개인에게도 해당 조문의 벌금형을 과(科)한다. 다만, 법인 또는 개인이 그 위반행위를 방지하기 위하여 해당 업무에 관하여 상당한 주의와 감독을 게을리하지 아니한 경우에는 그러하지 아니하다.",
+      "text": "법인의 대표자나 법인 또는 개인의 대리인, 사용인, 그 밖의 종업원이 그 법인 또는 개인의 업무에 관하여 제26조의 위반행위를 하면 그 행위자를 벌하는 외에 그 법인 또는 개인에게도 해당 조문의 벌금형을 과(科)한다. 다만, 법인 또는 개인이 그 위반행위를 방지하기 위하여 해당 업무에 관하여 상당한 주의와 감독을 게을리하지 아니한 경우에는 그러하지 아니하다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/258",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/259",
+      "parent": {
+        "cref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제28조(과태료)",
+      "text": "제28조(과태료)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/260",
+      "parent": {
+        "cref": "#/groups/36"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "① 다음 각 호의 어느 하나에 해당하는 자에게는 3천만원 이하의 과태료를 부과한다. <개정 2019. 8. 20., 2023. 4. 18.>",
+      "text": "① 다음 각 호의 어느 하나에 해당하는 자에게는 3천만원 이하의 과태료를 부과한다. <개정 2019. 8. 20., 2023. 4. 18.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/261",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "1. 제4조제4호를 위반하여 거짓으로 제3조에 따라 신고한 자(제26조제1항에 따라 벌칙을 부과받은 경우는 제외한다)",
+      "text": "1. 제4조제4호를 위반하여 거짓으로 제3조에 따라 신고한 자(제26조제1항에 따라 벌칙을 부과받은 경우는 제외한다)",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/262",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "2. 제4조제5호를 위반하여 거짓으로 제3조의2에 따라 신고한 자(제26조제1항에 따라 벌칙을 부과받은 경우는 제외한다)",
+      "text": "2. 제4조제5호를 위반하여 거짓으로 제3조의2에 따라 신고한 자(제26조제1항에 따라 벌칙을 부과받은 경우는 제외한다)",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/263",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "3. 제6조를 위반하여 거래대금 지급을 증명할 수 있는 자료를 제출하지 아니하거나 거짓으로 제출한 자 또는 그 밖의 필요한 조치를 이행하지 아니한 자",
+      "text": "3. 제6조를 위반하여 거래대금 지급을 증명할 수 있는 자료를 제출하지 아니하거나 거짓으로 제출한 자 또는 그 밖의 필요한 조치를 이행하지 아니한 자",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/264",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "② 다음 각 호의 어느 하나에 해당하는 자에게는 500만원 이하의 과태료를 부과한다.<개정 2019. 8. 20.>",
+      "text": "② 다음 각 호의 어느 하나에 해당하는 자에게는 500만원 이하의 과태료를 부과한다.<개정 2019. 8. 20.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/265",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "1. 제3조제1항부터 제4항까지의 규정을 위반하여 같은 항에 따른 신고를 하지 아니한 자(공동신고를 거부한 자를 포함한다)",
+      "text": "1. 제3조제1항부터 제4항까지의 규정을 위반하여 같은 항에 따른 신고를 하지 아니한 자(공동신고를 거부한 자를 포함한다)",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/266",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "1의2. 제3조의2제1항을 위반하여 같은 항에 따른 신고를 하지 아니한 자(공동신고를 거부한 자를 포함한다)",
+      "text": "1의2. 제3조의2제1항을 위반하여 같은 항에 따른 신고를 하지 아니한 자(공동신고를 거부한 자를 포함한다)",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/267",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "2. 제4조제1호를 위반하여 개업공인중개사에게 제3조에 따른 신고를 하지 아니하게 하거나 거짓으로 신고하도록 요구한 자",
+      "text": "2. 제4조제1호를 위반하여 개업공인중개사에게 제3조에 따른 신고를 하지 아니하게 하거나 거짓으로 신고하도록 요구한 자",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/268",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "3. 제4조제3호를 위반하여 거짓으로 제3조에 따른 신고를 하는 행위를 조장하거나 방조한 자",
+      "text": "3. 제4조제3호를 위반하여 거짓으로 제3조에 따른 신고를 하는 행위를 조장하거나 방조한 자",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/269",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "4. 제6조를 위반하여 거래대금 지급을 증명할 수 있는 자료 외의 자료를 제출하지 아니하거나 거짓으로 제출한 자",
+      "text": "4. 제6조를 위반하여 거래대금 지급을 증명할 수 있는 자료 외의 자료를 제출하지 아니하거나 거짓으로 제출한 자",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/270",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "③ 제3조제1항부터 제4항까지 또는 제4조제2호를 위반하여 그 신고를 거짓으로 한 자에게는 해당 부동산등의 취득가액의 100분의 10 이하에 상당하는 금액의 과태료를 부과한다.<개정 2019. 8. 20., 2023. 4. 18.>",
+      "text": "③ 제3조제1항부터 제4항까지 또는 제4조제2호를 위반하여 그 신고를 거짓으로 한 자에게는 해당 부동산등의 취득가액의 100분의 10 이하에 상당하는 금액의 과태료를 부과한다.<개정 2019. 8. 20., 2023. 4. 18.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/271",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "④ 제8조제1항에 따른 신고를 하지 아니하거나 거짓으로 신고한 자에게는 300만원 이하의 과태료를 부과한다.",
+      "text": "④ 제8조제1항에 따른 신고를 하지 아니하거나 거짓으로 신고한 자에게는 300만원 이하의 과태료를 부과한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/272",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑤ 다음 각 호의 어느 하나에 해당하는 자에게는 100만원 이하의 과태료를 부과한다.<개정 2020. 8. 18.>",
+      "text": "⑤ 다음 각 호의 어느 하나에 해당하는 자에게는 100만원 이하의 과태료를 부과한다.<개정 2020. 8. 18.>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/273",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "1. 제8조제2항에 따른 취득의 신고를 하지 아니하거나 거짓으로 신고한 자",
+      "text": "1. 제8조제2항에 따른 취득의 신고를 하지 아니하거나 거짓으로 신고한 자",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/274",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "2. 제8조제3항에 따른 토지의 계속보유 신고를 하지 아니하거나 거짓으로 신고한 자",
+      "text": "2. 제8조제3항에 따른 토지의 계속보유 신고를 하지 아니하거나 거짓으로 신고한 자",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/275",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "3. 제6조의2 또는 제6조의3에 따른 신고를 하지 아니하거나(공동신고를 거부한 자를 포함한다) 그 신고를 거짓으로 한 자",
+      "text": "3. 제6조의2 또는 제6조의3에 따른 신고를 하지 아니하거나(공동신고를 거부한 자를 포함한다) 그 신고를 거짓으로 한 자",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/276",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑥ 제1항부터 제5항까지에 따른 과태료는 대통령령으로 정하는 바에 따라 신고관청이 부과ㆍ징수한다. 이 경우 개업공인중개사에게 과태료를 부과한 신고관청은 부과일부터 10일 이내에 해당 개업공인중개사의 중개사무소(법인의 경우에는 주된 중개사무소를 말한다)를 관할하는 시장ㆍ군수 또는 구청장에 과태료 부과 사실을 통보하여야 한다.",
+      "text": "⑥ 제1항부터 제5항까지에 따른 과태료는 대통령령으로 정하는 바에 따라 신고관청이 부과ㆍ징수한다. 이 경우 개업공인중개사에게 과태료를 부과한 신고관청은 부과일부터 10일 이내에 해당 개업공인중개사의 중개사무소(법인의 경우에는 주된 중개사무소를 말한다)를 관할하는 시장ㆍ군수 또는 구청장에 과태료 부과 사실을 통보하여야 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/277",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/278",
+      "parent": {
+        "cref": "#/groups/37"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제29조(자진 신고자에 대한 감면 등)",
+      "text": "제29조(자진 신고자에 대한 감면 등)",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/279",
+      "parent": {
+        "cref": "#/groups/37"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "신고관청은 제28조제2항제1호부터 제3호까지 및 제3항부터 제5항까지의 어느 하나에 따른 위반사실을 자진 신고한 자에 대하여 대통령령으로 정하는 바에 따라 같은 규정에 따른 과태료를 감경 또는 면제할 수 있다.",
+      "text": "신고관청은 제28조제2항제1호부터 제3호까지 및 제3항부터 제5항까지의 어느 하나에 따른 위반사실을 자진 신고한 자에 대하여 대통령령으로 정하는 바에 따라 같은 규정에 따른 과태료를 감경 또는 면제할 수 있다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/280",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/281",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/282",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/283",
+      "parent": {
+        "cref": "#/groups/38"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "부칙",
+      "text": "부칙",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/284",
+      "parent": {
+        "cref": "#/groups/38"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "<제20194호,2024. 2. 6.>(자연유산의 보존 및 활용에 관한 법률)",
+      "text": "<제20194호,2024. 2. 6.>(자연유산의 보존 및 활용에 관한 법률)",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/285",
+      "parent": {
+        "cref": "#/groups/39"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제1조",
+      "text": "제1조",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/286",
+      "parent": {
+        "cref": "#/groups/39"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "(시행일) 이 법은 2024년 5월 17일부터 시행한다. <단서 생략>",
+      "text": "(시행일) 이 법은 2024년 5월 17일부터 시행한다. <단서 생략>",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/287",
+      "parent": {
+        "cref": "#/groups/40"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제2조",
+      "text": "제2조",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/288",
+      "parent": {
+        "cref": "#/groups/40"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "(다른 법률의 개정) ①부터 ④까지 생략",
+      "text": "(다른 법률의 개정) ①부터 ④까지 생략",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/289",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑤ 법률 제19251호 부동산 거래신고 등에 관한 법률 일부를 다음과 같이 개정한다.",
+      "text": "⑤ 법률 제19251호 부동산 거래신고 등에 관한 법률 일부를 다음과 같이 개정한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/290",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "제9조제1항제2호의2 중 “천연기념물ㆍ명승 및 시ㆍ도자연유산”을 “천연기념물등”으로 한다.",
+      "text": "제9조제1항제2호의2 중 “천연기념물ㆍ명승 및 시ㆍ도자연유산”을 “천연기념물등”으로 한다.",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/291",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "⑥부터 ⑨까지 생략",
+      "text": "⑥부터 ⑨까지 생략",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/292",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/293",
+      "parent": {
+        "cref": "#/groups/41"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "meta": null,
+      "label": "text",
+      "prov": [],
+      "orig": "부동산 거래신고 등에 관한 법률",
+      "text": "부동산 거래신고 등에 관한 법률",
+      "formatting": {
+        "bold": false,
+        "italic": false,
+        "underline": false,
+        "strikethrough": false,
+        "script": "baseline"
+      },
+      "hyperlink": null
+    }
+  ],
+  "pictures": [],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "cref": "#/groups/42"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "meta": null,
+      "label": "table",
+      "prov": [],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": null,
+      "data": {
+        "table_cells": [
+          {
+            "bbox": null,
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "법제처",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": null,
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": null,
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": " ",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": null,
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 3,
+            "end_col_offset_idx": 4,
+            "text": "국가법령정보센터",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 1,
+        "num_cols": 4,
+        "grid": [
+          [
+            {
+              "bbox": null,
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "법제처",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": null,
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": null,
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": " ",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": null,
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "국가법령정보센터",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {}
+}
