@@ -11,22 +11,24 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-[#f8fafc]">
+      {/* Ad Banner Slot */}
+      <div id="ad-banner" className="bg-gradient-to-r from-indigo-600 to-blue-500 text-white text-center py-2.5 px-4 text-sm font-medium">
+        <a href="https://www.eduland.co.kr" target="_blank" rel="noopener noreferrer" className="hover:underline">
+          에듀랜드 공인중개사 인강 — 2026 합격 전략 무료 공개 중
+        </a>
+      </div>
+
       {/* Hero Section */}
       <header className="relative overflow-hidden bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#312e81]">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxjaXJjbGUgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjAzKSIgY3g9IjIwIiBjeT0iMjAiIHI9IjEiLz48L2c+PC9zdmc+')] opacity-60" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6">
             <div>
-              <div className="flex items-center gap-3 mb-3">
-                <div className="w-9 h-9 rounded-lg bg-white/10 flex items-center justify-center text-lg backdrop-blur-sm border border-white/10">
-                  📖
-                </div>
-                <span className="text-white/40 text-[11px] font-medium tracking-widest uppercase">에듀랜드</span>
-              </div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
-                공인중개사 위키
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-300 to-indigo-300">에듀랜드</span>{" "}
+                <span className="text-white/90">공인중개사 위키</span>
               </h1>
-              <p className="mt-2 text-slate-400 text-sm sm:text-base max-w-md leading-relaxed">
+              <p className="mt-3 text-slate-400 text-sm sm:text-base max-w-md leading-relaxed">
                 2026 최신교재 기반 · 22개년 기출문제 분석
               </p>
             </div>
