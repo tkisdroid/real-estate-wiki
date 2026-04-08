@@ -13,7 +13,7 @@ export default function Home() {
     <div className="min-h-screen bg-[#f8fafc]">
       {/* Ad Banner Slot */}
       <div id="ad-banner" className="bg-gradient-to-r from-indigo-600 to-blue-500 text-white text-center py-2.5 px-4 text-sm font-medium">
-        <a href="https://www.eduland.co.kr" target="_blank" rel="noopener noreferrer" className="hover:underline">
+        <a href="https://www.eduland.or.kr" target="_blank" rel="noopener noreferrer" className="hover:underline">
           에듀랜드 공인중개사 인강 — 2026 합격 전략 무료 공개 중
         </a>
       </div>
@@ -96,6 +96,19 @@ export default function Home() {
               );
             })}
           </div>
+        </section>
+
+        {/* Image Ad Banner */}
+        <section className="mb-10">
+          <a href="https://www.eduland.or.kr" target="_blank" rel="noopener noreferrer" className="block rounded-xl overflow-hidden border border-slate-200 hover:shadow-lg transition-shadow">
+            {/* 광고 이미지: public/images/ad-banner.jpg (권장 사이즈: 1200x200 또는 1200x300) */}
+            <img
+              src="/real-estate-wiki/images/ad-banner.jpg"
+              alt="에듀랜드 공인중개사 인강"
+              className="w-full h-auto object-cover"
+              onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+            />
+          </a>
         </section>
 
         {/* Practice Section */}
