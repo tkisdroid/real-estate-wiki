@@ -2,6 +2,8 @@
 
 import { useState, useEffect, useCallback, useMemo } from "react";
 import Link from "next/link";
+import { supabase } from "@/lib/supabase";
+import AuthModal from "../components/AuthModal";
 
 const SUBJECT_LABELS: Record<string, string> = {
   부동산학개론: "부동산학개론",
@@ -58,6 +60,8 @@ export default function QuizPracticePage() {
   const [subjectFilter, setSubjectFilter] = useState("");
   const [selectedPages, setSelectedPages] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>("select");
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [showAuthModal, setShowAuthModal] = useState(false);
 
   // Quiz state
   const [currentIdx, setCurrentIdx] = useState(0);
@@ -71,6 +75,23 @@ export default function QuizPracticePage() {
       .then((r) => r.json())
       .then((d: QuizData) => setData(d))
       .catch(() => {});
+
+    // Auth check: eduland member (localStorage) or Supabase auth
+    const checkAuth = async () => {
+      try {
+        const member = localStorage.getItem("eduland_member");
+        if (member) {
+          const parsed = JSON.parse(member);
+          if (parsed.mem_id && Date.now() - parsed.ts < 30 * 24 * 60 * 60 * 1000) {
+            setIsAuthenticated(true);
+            return;
+          }
+        }
+      } catch { /* ignore */ }
+      const { data: { user } } = await supabase.auth.getUser();
+      setIsAuthenticated(!!user);
+    };
+    checkAuth();
   }, []);
 
   // All subjects from data
@@ -124,6 +145,10 @@ export default function QuizPracticePage() {
 
   const startQuiz = useCallback(() => {
     if (quizList.length === 0) return;
+    if (!isAuthenticated) {
+      setShowAuthModal(true);
+      return;
+    }
     const id = `session-${Date.now()}`;
     setSessionId(id);
     setCurrentIdx(0);
@@ -131,7 +156,7 @@ export default function QuizPracticePage() {
     setUserAnswer(null);
     setSessionResults({});
     setViewMode("quiz");
-  }, [quizList]);
+  }, [quizList, isAuthenticated]);
 
   const handleAnswer = (answer: boolean) => {
     if (revealed) return;
@@ -385,11 +410,21 @@ export default function QuizPracticePage() {
               onClick={startQuiz}
               className="w-full py-4 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold text-base shadow-lg shadow-blue-500/25 hover:from-blue-700 hover:to-indigo-700 active:scale-[0.99] transition-all"
             >
-              {totalQuizCount}문제 풀기 시작
+              {!isAuthenticated ? "로그인 후 " : ""}{totalQuizCount}문제 풀기 시작
             </button>
           </div>
         )}
       </main>
+
+      {showAuthModal && (
+        <AuthModal
+          onClose={() => setShowAuthModal(false)}
+          onSuccess={() => {
+            setShowAuthModal(false);
+            setIsAuthenticated(true);
+          }}
+        />
+      )}
     </div>
   );
 }
