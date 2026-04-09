@@ -56,6 +56,25 @@ export default function Home() {
         {/* My Bookmarks */}
         <MyBookmarks basePath="/real-estate-wiki" />
 
+        {/* Quick Actions */}
+        <section className="mb-8">
+          <Link
+            href="/quiz/"
+            className="card-hover flex items-center gap-4 bg-gradient-to-r from-indigo-50 to-blue-50 border border-indigo-200 rounded-xl p-5 group"
+          >
+            <div className="w-12 h-12 rounded-xl bg-indigo-100 flex items-center justify-center text-2xl shrink-0">
+              OX
+            </div>
+            <div className="flex-1">
+              <h3 className="font-semibold text-[#1e293b] group-hover:text-indigo-700 transition-colors">OX 퀴즈 연습</h3>
+              <p className="text-sm text-slate-500 mt-0.5">과목별·과정별로 OX 퀴즈를 풀어보세요</p>
+            </div>
+            <svg className="w-5 h-5 text-slate-300 group-hover:text-indigo-500 transition-colors shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </Link>
+        </section>
+
         {/* Subjects Grid */}
         <section className="mb-14">
           <div className="flex items-center gap-2 mb-6">
