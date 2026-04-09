@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { supabase } from "@/lib/supabase";
+import { useAuth } from "@/lib/useAuth";
 import AuthModal from "./AuthModal";
 
 const PROSE_CLASSES = `prose prose-lg max-w-none
@@ -20,54 +20,10 @@ const PROSE_CLASSES = `prose prose-lg max-w-none
 
 export default function ContentGate({ html, children }: { html: string; children?: React.ReactNode }) {
   // 초기 상태: 전체 콘텐츠 표시 (SSR/Bot은 JS 실행 전 전체 HTML을 읽음)
-  const [isAuthenticated, setIsAuthenticated] = useState(true);
-  const [checking, setChecking] = useState(true);
+  const { isAuthenticated, checking, setAuthenticated } = useAuth({ initialAuthenticated: true });
   const [showModal, setShowModal] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
   const [cutoffHeight, setCutoffHeight] = useState(0);
-
-  useEffect(() => {
-    const checkAuth = async () => {
-      // 1. 에듀랜드 회원 (localStorage)
-      try {
-        const member = localStorage.getItem("eduland_member");
-        if (member) {
-          const parsed = JSON.parse(member);
-          // 30일 이내 로그인이면 유효
-          if (parsed.mem_id && Date.now() - parsed.ts < 30 * 24 * 60 * 60 * 1000) {
-            setIsAuthenticated(true);
-            setChecking(false);
-            return;
-          }
-        }
-      } catch { /* ignore */ }
-
-      // 2. Supabase auth.users
-      const { data: { user } } = await supabase.auth.getUser();
-      setIsAuthenticated(!!user);
-      setChecking(false);
-    };
-    checkAuth();
-
-    const { data: { subscription } } = supabase.auth.onAuthStateChange(
-      (_event: string, session: { user?: unknown } | null) => {
-        setIsAuthenticated(!!session?.user);
-      }
-    );
-
-    // localStorage 변경 감지 (다른 탭에서 로그인 시)
-    const onStorage = (e: StorageEvent) => {
-      if (e.key === "eduland_member" && e.newValue) {
-        setIsAuthenticated(true);
-      }
-    };
-    window.addEventListener("storage", onStorage);
-
-    return () => {
-      subscription.unsubscribe();
-      window.removeEventListener("storage", onStorage);
-    };
-  }, []);
 
   // 비인증 시 약 1스크롤 분량(뷰포트 높이)만 표시
   useEffect(() => {
@@ -136,7 +92,7 @@ export default function ContentGate({ html, children }: { html: string; children
           onClose={() => setShowModal(false)}
           onSuccess={() => {
             setShowModal(false);
-            setIsAuthenticated(true);
+            setAuthenticated(true);
           }}
         />
       )}

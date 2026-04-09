@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
-import { supabase } from "@/lib/supabase";
+import { useAuth, isEdulandMemberValid } from "@/lib/useAuth";
 import AuthModal from "../components/AuthModal";
 
 const SUBJECT_LABELS: Record<string, string> = {
@@ -60,7 +60,7 @@ export default function QuizPracticePage() {
   const [subjectFilter, setSubjectFilter] = useState("");
   const [selectedPages, setSelectedPages] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>("select");
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const { isAuthenticated, setAuthenticated } = useAuth();
   const [showAuthModal, setShowAuthModal] = useState(false);
 
   // Quiz state
@@ -75,23 +75,6 @@ export default function QuizPracticePage() {
       .then((r) => r.json())
       .then((d: QuizData) => setData(d))
       .catch(() => {});
-
-    // Auth check: eduland member (localStorage) or Supabase auth
-    const checkAuth = async () => {
-      try {
-        const member = localStorage.getItem("eduland_member");
-        if (member) {
-          const parsed = JSON.parse(member);
-          if (parsed.mem_id && Date.now() - parsed.ts < 30 * 24 * 60 * 60 * 1000) {
-            setIsAuthenticated(true);
-            return;
-          }
-        }
-      } catch { /* ignore */ }
-      const { data: { user } } = await supabase.auth.getUser();
-      setIsAuthenticated(!!user);
-    };
-    checkAuth();
   }, []);
 
   // All subjects from data
@@ -146,19 +129,8 @@ export default function QuizPracticePage() {
   const startQuiz = () => {
     if (quizList.length === 0) return;
 
-    // 인증 재확인 (동기)
-    let authed = false;
-    try {
-      const member = localStorage.getItem("eduland_member");
-      if (member) {
-        const parsed = JSON.parse(member);
-        if (parsed.mem_id && Date.now() - parsed.ts < 30 * 24 * 60 * 60 * 1000) {
-          authed = true;
-        }
-      }
-    } catch { /* */ }
-
-    if (!authed && !isAuthenticated) {
+    // 동기 재확인 (훅 상태가 아직 업데이트되지 않았을 수 있으므로 localStorage 직접 확인)
+    if (!isAuthenticated && !isEdulandMemberValid()) {
       setShowAuthModal(true);
       return;
     }
@@ -435,7 +407,7 @@ export default function QuizPracticePage() {
           onClose={() => setShowAuthModal(false)}
           onSuccess={() => {
             setShowAuthModal(false);
-            setIsAuthenticated(true);
+            setAuthenticated(true);
           }}
         />
       )}

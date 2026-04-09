@@ -27,6 +27,8 @@ export default function AuthModal({ onClose, onSuccess }: { onClose: () => void;
       localStorage.setItem("eduland_member", JSON.stringify({
         mem_id: data.mem_id,
         mem_name: data.mem_name,
+        session_token: data.session_token,
+        expires_at: data.expires_at,
         ts: Date.now(),
       }));
       onSuccess();
