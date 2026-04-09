@@ -28,6 +28,21 @@ export default function ContentGate({ html, children }: { html: string; children
 
   useEffect(() => {
     const checkAuth = async () => {
+      // 1. 에듀랜드 회원 (localStorage)
+      try {
+        const member = localStorage.getItem("eduland_member");
+        if (member) {
+          const parsed = JSON.parse(member);
+          // 30일 이내 로그인이면 유효
+          if (parsed.mem_id && Date.now() - parsed.ts < 30 * 24 * 60 * 60 * 1000) {
+            setIsAuthenticated(true);
+            setChecking(false);
+            return;
+          }
+        }
+      } catch { /* ignore */ }
+
+      // 2. Supabase auth.users
       const { data: { user } } = await supabase.auth.getUser();
       setIsAuthenticated(!!user);
       setChecking(false);
@@ -40,7 +55,18 @@ export default function ContentGate({ html, children }: { html: string; children
       }
     );
 
-    return () => subscription.unsubscribe();
+    // localStorage 변경 감지 (다른 탭에서 로그인 시)
+    const onStorage = (e: StorageEvent) => {
+      if (e.key === "eduland_member" && e.newValue) {
+        setIsAuthenticated(true);
+      }
+    };
+    window.addEventListener("storage", onStorage);
+
+    return () => {
+      subscription.unsubscribe();
+      window.removeEventListener("storage", onStorage);
+    };
   }, []);
 
   // 비인증 시 30% 높이 계산
