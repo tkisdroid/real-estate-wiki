@@ -107,9 +107,9 @@ export default function Home() {
         {/* Image Ad Banner */}
         <section className="mb-10">
           <a href="https://www.eduland.or.kr" target="_blank" rel="noopener noreferrer" className="block rounded-xl overflow-hidden border border-slate-200 hover:shadow-lg transition-shadow">
-            {/* 광고 이미지: public/images/ad-banner.jpg (권장 사이즈: 1200x200 또는 1200x300) */}
+            {/* 광고 이미지: public/images/ad-banner.svg (실제 이미지로 교체 가능 — jpg/png/svg) */}
             <img
-              src="/real-estate-wiki/images/ad-banner.jpg"
+              src="/real-estate-wiki/images/ad-banner.svg"
               alt="에듀랜드 공인중개사 인강"
               className="w-full h-auto object-cover"
             />

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f"/>
+      <stop offset="100%" style="stop-color:#2d5a8e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#60a5fa"/>
+      <stop offset="100%" style="stop-color:#a78bfa"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="200" fill="url(#bg)" rx="0"/>
+
+  <!-- Subtle pattern -->
+  <g opacity="0.06">
+    <circle cx="100" cy="40" r="80" fill="white"/>
+    <circle cx="1100" cy="160" r="100" fill="white"/>
+    <circle cx="600" cy="-20" r="60" fill="white"/>
+  </g>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="5" height="200" fill="url(#accent)"/>
+
+  <!-- Main text -->
+  <text x="60" y="75" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="36" font-weight="700" fill="white" letter-spacing="-0.5">
+    에듀랜드 공인중개사
+  </text>
+
+  <!-- Sub text -->
+  <text x="60" y="115" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#94a3b8" letter-spacing="0.3">
+    2026 합격을 위한 최적의 인강 커리큘럼
+  </text>
+
+  <!-- CTA button -->
+  <rect x="60" y="135" width="160" height="40" rx="20" fill="url(#accent)"/>
+  <text x="103" y="161" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="600" fill="white">
+    무료 수강 신청
+  </text>
+
+  <!-- Right side info -->
+  <g transform="translate(750, 50)">
+    <!-- Feature 1 -->
+    <rect x="0" y="0" width="130" height="100" rx="12" fill="white" opacity="0.08"/>
+    <text x="65" y="40" font-family="'Noto Sans KR', sans-serif" font-size="28" font-weight="700" fill="white" text-anchor="middle">1차+2차</text>
+    <text x="65" y="65" font-family="'Noto Sans KR', sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle">전과목 완성</text>
+
+    <!-- Feature 2 -->
+    <rect x="145" y="0" width="130" height="100" rx="12" fill="white" opacity="0.08"/>
+    <text x="210" y="40" font-family="'Noto Sans KR', sans-serif" font-size="28" font-weight="700" fill="white" text-anchor="middle">22개년</text>
+    <text x="210" y="65" font-family="'Noto Sans KR', sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle">기출문제 분석</text>
+
+    <!-- Feature 3 -->
+    <rect x="290" y="0" width="130" height="100" rx="12" fill="white" opacity="0.08"/>
+    <text x="355" y="40" font-family="'Noto Sans KR', sans-serif" font-size="28" font-weight="700" fill="#60a5fa" text-anchor="middle">FREE</text>
+    <text x="355" y="65" font-family="'Noto Sans KR', sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle">합격전략 공개</text>
+  </g>
+
+  <!-- URL -->
+  <text x="1140" y="185" font-family="'Noto Sans KR', sans-serif" font-size="12" fill="#64748b" text-anchor="end">www.eduland.or.kr</text>
+</svg>
