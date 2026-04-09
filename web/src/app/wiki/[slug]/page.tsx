@@ -271,11 +271,10 @@ export default async function WikiPage({
           {/* Page visit tracker */}
           <PageTracker pageSlug={urlSlug} />
 
-          {/* Content — gated for non-members, full for members & bots */}
-          <ContentGate html={renderedHtml} />
-
-          {/* Interactive OX Quiz */}
-          <OXQuizInteractive pageSlug={urlSlug} basePath="/real-estate-wiki" />
+          {/* Content + OX Quiz — gated for non-members */}
+          <ContentGate html={renderedHtml}>
+            <OXQuizInteractive pageSlug={urlSlug} basePath="/real-estate-wiki" />
+          </ContentGate>
         </article>
       </div>
     </div>

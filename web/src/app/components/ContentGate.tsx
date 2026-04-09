@@ -18,7 +18,7 @@ const PROSE_CLASSES = `prose prose-lg max-w-none
   prose-blockquote:border-l-indigo-300 prose-blockquote:bg-indigo-50/50 prose-blockquote:text-indigo-900 prose-blockquote:py-1 prose-blockquote:rounded-r-lg
   prose-li:my-0.5 prose-li:text-slate-600 prose-li:leading-[1.75]`;
 
-export default function ContentGate({ html }: { html: string }) {
+export default function ContentGate({ html, children }: { html: string; children?: React.ReactNode }) {
   // 초기 상태: 전체 콘텐츠 표시 (SSR/Bot은 JS 실행 전 전체 HTML을 읽음)
   const [isAuthenticated, setIsAuthenticated] = useState(true);
   const [checking, setChecking] = useState(true);
@@ -47,17 +47,20 @@ export default function ContentGate({ html }: { html: string }) {
   useEffect(() => {
     if (!checking && !isAuthenticated && contentRef.current) {
       const fullHeight = contentRef.current.scrollHeight;
-      setCutoffHeight(Math.max(300, fullHeight * 0.3));
+      setCutoffHeight(Math.max(250, fullHeight * 0.2));
     }
   }, [checking, isAuthenticated, html]);
 
   // 인증 확인 중이거나 인증됨 → 전체 콘텐츠
   if (checking || isAuthenticated) {
     return (
-      <div
-        className={PROSE_CLASSES}
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
+      <>
+        <div
+          className={PROSE_CLASSES}
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
+        {children}
+      </>
     );
   }
 
