@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback, useMemo } from "react";
+import { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 import AuthModal from "../components/AuthModal";
@@ -143,12 +143,26 @@ export default function QuizPracticePage() {
     setSelectedPages((prev) => prev.filter((s) => !slugs.has(s)));
   };
 
-  const startQuiz = useCallback(() => {
+  const startQuiz = () => {
     if (quizList.length === 0) return;
-    if (!isAuthenticated) {
+
+    // 인증 재확인 (동기)
+    let authed = false;
+    try {
+      const member = localStorage.getItem("eduland_member");
+      if (member) {
+        const parsed = JSON.parse(member);
+        if (parsed.mem_id && Date.now() - parsed.ts < 30 * 24 * 60 * 60 * 1000) {
+          authed = true;
+        }
+      }
+    } catch { /* */ }
+
+    if (!authed && !isAuthenticated) {
       setShowAuthModal(true);
       return;
     }
+
     const id = `session-${Date.now()}`;
     setSessionId(id);
     setCurrentIdx(0);
@@ -156,7 +170,7 @@ export default function QuizPracticePage() {
     setUserAnswer(null);
     setSessionResults({});
     setViewMode("quiz");
-  }, [quizList, isAuthenticated]);
+  };
 
   const handleAnswer = (answer: boolean) => {
     if (revealed) return;
