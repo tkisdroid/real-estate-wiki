@@ -3,6 +3,7 @@ import { getNavigation } from "@/lib/wiki";
 import { getUrlSlug } from "@/lib/slugMap";
 import { SUBJECT_ORDER, SUBJECT_LABELS, EXAM_LABELS, SUBJECT_ICONS, getSubjectColor } from "@/lib/subjects";
 import SearchWrapper from "./components/SearchWrapper";
+import MyBookmarks from "./components/MyBookmarks";
 
 export default function Home() {
   const { subjects, conceptsBySubject, laws, practice } = getNavigation();
@@ -51,6 +52,9 @@ export default function Home() {
         <div className="mb-10">
           <SearchWrapper basePath="/real-estate-wiki" />
         </div>
+
+        {/* My Bookmarks */}
+        <MyBookmarks basePath="/real-estate-wiki" />
 
         {/* Subjects Grid */}
         <section className="mb-14">
