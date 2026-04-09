@@ -7,6 +7,7 @@ import MobileSidebar from "../../components/MobileSidebar";
 import BookmarkButton from "../../components/BookmarkButton";
 import OXQuizInteractive from "../../components/OXQuizInteractive";
 import PageTracker from "../../components/PageTracker";
+import ContentGate from "../../components/ContentGate";
 
 export function generateStaticParams() {
   return getSlugMap().map((entry) => ({
@@ -270,23 +271,8 @@ export default async function WikiPage({
           {/* Page visit tracker */}
           <PageTracker pageSlug={urlSlug} />
 
-          {/* Content */}
-          <div
-            className="prose prose-lg max-w-none
-              prose-headings:text-[#1e293b] prose-headings:tracking-tight
-              prose-h1:text-2xl sm:prose-h1:text-3xl prose-h1:font-bold
-              prose-h2:text-xl sm:prose-h2:text-2xl prose-h2:border-b prose-h2:pb-3 prose-h2:border-slate-200 prose-h2:font-bold
-              prose-h3:text-lg prose-h3:font-semibold
-              prose-p:text-slate-600 prose-p:leading-[1.8]
-              prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline prose-a:font-medium
-              prose-table:text-sm prose-th:bg-gray-50
-              prose-strong:text-[#1e293b]
-              prose-code:bg-slate-100 prose-code:text-slate-700 prose-code:px-1.5 prose-code:rounded prose-code:text-sm prose-code:border prose-code:border-slate-200
-              prose-pre:bg-[#1e293b] prose-pre:text-slate-200 prose-pre:rounded-xl prose-pre:p-5 prose-pre:overflow-x-auto
-              prose-blockquote:border-l-indigo-300 prose-blockquote:bg-indigo-50/50 prose-blockquote:text-indigo-900 prose-blockquote:py-1 prose-blockquote:rounded-r-lg
-              prose-li:my-0.5 prose-li:text-slate-600 prose-li:leading-[1.75]"
-            dangerouslySetInnerHTML={{ __html: renderedHtml }}
-          />
+          {/* Content — gated for non-members, full for members & bots */}
+          <ContentGate html={renderedHtml} />
 
           {/* Interactive OX Quiz */}
           <OXQuizInteractive pageSlug={urlSlug} basePath="/real-estate-wiki" />
