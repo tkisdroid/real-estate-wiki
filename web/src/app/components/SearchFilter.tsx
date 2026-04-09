@@ -227,14 +227,14 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
         )}
       </div>
 
-      {/* Filters */}
-      <div className="flex flex-wrap gap-2 mb-4">
+      {/* Filters — 모바일에서도 한 줄 */}
+      <div className="grid grid-cols-3 gap-2 mb-4">
         <select
           id="wiki-subject"
           name="wiki-subject"
           value={subjectFilter}
           onChange={(e) => setSubjectFilter(e.target.value)}
-          className="px-3 py-1.5 rounded-lg border border-gray-300 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full px-2 py-1.5 rounded-lg border border-gray-300 bg-white text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 truncate"
         >
           <option value="">전체 과목</option>
           {subjects.map((s) => (
@@ -249,7 +249,7 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
           name="wiki-importance"
           value={importanceFilter}
           onChange={(e) => setImportanceFilter(e.target.value)}
-          className="px-3 py-1.5 rounded-lg border border-gray-300 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full px-2 py-1.5 rounded-lg border border-gray-300 bg-white text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 truncate"
         >
           <option value="">전체 중요도</option>
           <option value="high">중요</option>
@@ -262,7 +262,7 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
           name="wiki-tag"
           value={tagFilter}
           onChange={(e) => setTagFilter(e.target.value)}
-          className="px-3 py-1.5 rounded-lg border border-gray-300 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full px-2 py-1.5 rounded-lg border border-gray-300 bg-white text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 truncate"
         >
           <option value="">출제빈도</option>
           {FREQ_TAGS.map((tag) => (
@@ -271,8 +271,10 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
             </option>
           ))}
         </select>
+      </div>
 
-        {isFiltering && (
+      {isFiltering && (
+        <div className="mb-4">
           <button
             onClick={clearAll}
             type="button"
@@ -280,8 +282,8 @@ export default function SearchFilter({ basePath }: { basePath: string }) {
           >
             초기화
           </button>
-        )}
-      </div>
+        </div>
+      )}
 
       {/* Results */}
       {isFiltering && (

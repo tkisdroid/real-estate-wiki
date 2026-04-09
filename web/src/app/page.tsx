@@ -25,8 +25,8 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6">
             <div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-300 to-indigo-300">에듀랜드</span>{" "}
-                <span className="text-white/90">공인중개사 위키</span>
+                공인중개사 시험 위키{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-300 to-indigo-300">by 에듀랜드</span>
               </h1>
               <p className="mt-3 text-slate-400 text-sm sm:text-base max-w-md leading-relaxed">
                 2026 최신교재 기반 · 22개년 기출문제 분석
@@ -38,7 +38,7 @@ export default function Home() {
                 1차 · 2차 전과목
               </span>
               <span className="hidden sm:inline text-slate-600">|</span>
-              <span>{totalConcepts + laws.length}개 페이지</span>
+              <span>237개 페이지</span>
             </div>
           </div>
         </div>
