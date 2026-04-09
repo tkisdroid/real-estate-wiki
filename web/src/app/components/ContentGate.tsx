@@ -69,13 +69,12 @@ export default function ContentGate({ html, children }: { html: string; children
     };
   }, []);
 
-  // 비인증 시 30% 높이 계산
+  // 비인증 시 약 1스크롤 분량(뷰포트 높이)만 표시
   useEffect(() => {
-    if (!checking && !isAuthenticated && contentRef.current) {
-      const fullHeight = contentRef.current.scrollHeight;
-      setCutoffHeight(Math.max(250, fullHeight * 0.2));
+    if (!checking && !isAuthenticated) {
+      setCutoffHeight(window.innerHeight * 0.85);
     }
-  }, [checking, isAuthenticated, html]);
+  }, [checking, isAuthenticated]);
 
   // 인증 확인 중이거나 인증됨 → 전체 콘텐츠
   if (checking || isAuthenticated) {
