@@ -4,6 +4,21 @@ title: 위키 작업 로그
 
 # 작업 로그
 
+## [2026-04-11] ingest | 용어해설집 PDF → 과목별 용어집 6개 생성
+- **Input**: `sources/terms/1. 에듀랜드 용어해설집.pdf` (314p)
+- **추출 파이프라인**:
+  - `tools/extract_glossary.py` — PyMuPDF 로 폰트·크기 기반 표제어 탐지
+  - 본문 폰트(`TT9670o00`, `TT969Bo00`, `TTC7DFo00` @ 10.3pt) 자동 감지 후 그 외 폰트 @ 9.5–10.1pt 라인을 용어명으로 판정
+  - 파트 경계는 타이틀(size ≥ 14) 로 탐지 → 과목 자동 매핑
+  - 산출: `sources/terms/extracted/glossary.json` + 과목별 raw md 6개
+- **파싱 결과**: 총 **1,645개 용어** (부동산학개론 340 · 민법 485 · 중개법령실무 227 · 공시법 213 · 세법 221 · 공법 159)
+- **위키 생성**: `tools/build_glossary_pages.py` → `wiki/concepts/용어해설집_{과목}.md` 6개 허브 페이지
+  - 용어명이 기존 concept 페이지와 일치하면 `→ [[concepts/xxx]]` 자동 크로스링크 (42건 매칭)
+  - frontmatter: `subject` 정상 설정 → 사이드바 과목별 분류 자동 편입
+- **호환성**: 기존 라우팅(`concepts/` 카테고리) 그대로 사용 → `slugMap.ts`·`wiki.ts`·`check-wikilinks.js` 수정 불필요
+- **검증**: `web/scripts/check-wikilinks.js` 실행 → 기존 45건 외 신규 깨진 링크 0건
+- `index.md` 업데이트: 총 페이지 227 → 233, 상단 🆕 배너에 6개 용어집 링크 노출
+
 ## [2026-04-10] keyword-ingest | 빈출·핵심키워드 색인 및 판례 허브 추가
 - **Input**: `sources/빈출키워드.txt`, `sources/핵심키워드.txt` (사용자 제공, 101개 키워드)
 - **커버리지 분석**: 기존 187개 concepts 페이지 대비 101개 키워드 매칭 → 98% 기 커버, 1건 누락 · 2건 허브화 필요
