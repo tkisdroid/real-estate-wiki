@@ -101,6 +101,37 @@ h4, h5, h6 { line-height: 1.45; }
   border-radius: 0.5rem;
 }
 
+/* ===== Content gate (비회원 프리뷰) =====
+   프리뷰 영역의 높이를 뷰포트 기준으로 고정한다. 과거 버전은 JS의
+   window.innerHeight * 0.85를 useEffect에서 측정했으나, 모바일에서
+   주소창 펼침/접힘에 따라 측정값이 달라 UX가 불안정했다.
+
+   두 줄로 선언한 max-height: 첫 줄(vh)은 모든 브라우저 fallback,
+   둘째 줄(svh)은 지원 브라우저에서 덮어쓴다. svh(small viewport height)는
+   주소창이 완전히 확장된 상태의 최소 뷰포트 높이로, 주소창 상태 변화에
+   영향을 받지 않는다. svh 미지원 브라우저에서는 vh가 유지된다 (CSS 명세상
+   invalid declaration 무시 규칙). */
+.content-gate-preview {
+  position: relative;
+  overflow: hidden;
+  max-height: 70vh;
+  max-height: 65svh;
+}
+
+/* 프리뷰 하단 페이드 — 콘텐츠 컷오프의 시각적 완화.
+   z-index: 20으로 표의 sticky 첫 컬럼(z-index: 2)보다 위에 렌더링되어
+   페이드 영역 너머로 sticky 셀이 튀어나오는 것을 방지한다. */
+.content-gate-fade {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 5rem;
+  background: linear-gradient(to top, white 0%, rgba(255, 255, 255, 0.95) 40%, rgba(255, 255, 255, 0) 100%);
+  pointer-events: none;
+  z-index: 20;
+}
+
 /* ===== Comparison tables — refined ===== */
 .prose table {
   font-size: 0.875rem;

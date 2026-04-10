@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 import { useAuth } from "@/lib/useAuth";
 import AuthModal from "./AuthModal";
 
@@ -22,15 +22,6 @@ export default function ContentGate({ html, children }: { html: string; children
   // 초기 상태: 전체 콘텐츠 표시 (SSR/Bot은 JS 실행 전 전체 HTML을 읽음)
   const { isAuthenticated, checking, setAuthenticated } = useAuth({ initialAuthenticated: true });
   const [showModal, setShowModal] = useState(false);
-  const contentRef = useRef<HTMLDivElement>(null);
-  const [cutoffHeight, setCutoffHeight] = useState(0);
-
-  // 비인증 시 약 1스크롤 분량(뷰포트 높이)만 표시
-  useEffect(() => {
-    if (!checking && !isAuthenticated) {
-      setCutoffHeight(window.innerHeight * 0.85);
-    }
-  }, [checking, isAuthenticated]);
 
   // 인증 확인 중이거나 인증됨 → 전체 콘텐츠
   if (checking || isAuthenticated) {
@@ -45,45 +36,52 @@ export default function ContentGate({ html, children }: { html: string; children
     );
   }
 
-  // 비인증 → 30%만 표시 + CTA
+  // 비인증 → 프리뷰 + CTA
+  //
+  // 레이아웃 원칙:
+  //   1. 프리뷰는 .content-gate-preview (CSS로 max-height 제어, vh/svh fallback).
+  //      과거 구조는 useEffect로 window.innerHeight를 측정했으나 모바일 주소창
+  //      변동에 취약했다.
+  //   2. CTA는 absolute 오버레이가 아니라 **일반 flow** 로 프리뷰 아래에 배치.
+  //      이유: globals.css의 .prose table th:first-child가 모바일에서
+  //      `position: sticky; z-index: 2`를 가지므로, absolute CTA(z-index 없음)
+  //      위로 표의 첫 컬럼이 튀어나오던 버그(2026-04-10 보고)를 구조적으로 차단.
+  //   3. 프리뷰 하단의 페이드는 .content-gate-fade (z-index: 20)로,
+  //      sticky 셀 z-index(2)를 확실히 덮어 시각적 컷오프를 부드럽게 함.
   return (
     <>
-      <div className="relative">
+      <div className="content-gate-preview">
         <div
-          ref={contentRef}
-          className={`${PROSE_CLASSES} overflow-hidden`}
-          style={{ maxHeight: cutoffHeight || 400 }}
+          className={PROSE_CLASSES}
           dangerouslySetInnerHTML={{ __html: html }}
         />
+        <div className="content-gate-fade" aria-hidden="true" />
+      </div>
 
-        {/* Gradient fade + CTA overlay */}
-        <div className="absolute bottom-0 left-0 right-0">
-          <div className="h-32 bg-gradient-to-t from-white via-white/95 to-transparent" />
-          <div className="bg-white pb-8 pt-2 text-center">
-            <div className="inline-flex items-center gap-2 mb-3">
-              <svg className="w-5 h-5 text-amber-500" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
-              </svg>
-              <span className="text-sm font-medium text-slate-600">나머지 콘텐츠는 회원 전용입니다</span>
-            </div>
-            <p className="text-xs text-slate-400 mb-4">
-              에듀랜드 회원가입(무료)으로 전체 학습 자료를 이용하세요
-            </p>
-            <div className="flex items-center justify-center gap-3">
-              <button
-                onClick={() => setShowModal(true)}
-                className="px-6 py-2.5 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-medium text-sm hover:from-blue-700 hover:to-indigo-700 shadow-lg shadow-blue-500/25 transition-all"
-              >
-                무료 회원가입
-              </button>
-              <button
-                onClick={() => setShowModal(true)}
-                className="px-6 py-2.5 rounded-lg border border-slate-300 text-slate-600 font-medium text-sm hover:bg-slate-50 transition-all"
-              >
-                로그인
-              </button>
-            </div>
-          </div>
+      {/* CTA — 일반 flow (프리뷰 바로 아래) */}
+      <div className="bg-white pt-6 pb-10 text-center border-t border-slate-100">
+        <div className="inline-flex items-center gap-2 mb-3">
+          <svg className="w-5 h-5 text-amber-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
+          </svg>
+          <span className="text-sm font-medium text-slate-600">나머지 콘텐츠는 회원 전용입니다</span>
+        </div>
+        <p className="text-xs text-slate-400 mb-4">
+          에듀랜드 회원가입(무료)으로 전체 학습 자료를 이용하세요
+        </p>
+        <div className="flex items-center justify-center gap-3">
+          <button
+            onClick={() => setShowModal(true)}
+            className="px-6 py-2.5 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-medium text-sm hover:from-blue-700 hover:to-indigo-700 shadow-lg shadow-blue-500/25 transition-all"
+          >
+            무료 회원가입
+          </button>
+          <button
+            onClick={() => setShowModal(true)}
+            className="px-6 py-2.5 rounded-lg border border-slate-300 text-slate-600 font-medium text-sm hover:bg-slate-50 transition-all"
+          >
+            로그인
+          </button>
         </div>
       </div>
 
