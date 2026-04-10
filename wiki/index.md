@@ -1,12 +1,14 @@
 ---
 title: 공인중개사 시험 위키 색인
-updated: 2026-04-08
-total_pages: 223
+updated: 2026-04-10
+total_pages: 227
 ---
 
 # 공인중개사 시험 위키 색인
 
-**총 223개 페이지** | 과목 6 + 개념 179 + 법령 20 + index + log
+**총 227개 페이지** | 과목 6 + 개념 190 + 법령 20 + practice 10 + index + log
+
+> **🆕 2026-04-10 신규**: [[practice/빈출키워드_색인|빈출키워드·핵심키워드 색인]] · [[concepts/이중매매]] · [[concepts/점유취득시효]] · [[concepts/산지관리법]]
 
 ## 시험 과목별 개요
 
@@ -72,12 +74,14 @@ total_pages: 223
 
 ### 물권법
 - [[concepts/물권변동]] | [[concepts/점유권]] | [[concepts/소유권]]
+- [[concepts/점유취득시효]] 🆕 #매년출제
 - [[concepts/공동소유]] → [[concepts/공동소유_공유|공유]] · [[concepts/공동소유_합유|합유]] · [[concepts/공동소유_총유|총유]]
 - [[concepts/용익물권]] → [[concepts/용익물권_지상권|지상권]] · [[concepts/용익물권_지역권|지역권]] · [[concepts/용익물권_전세권|전세권]]
 - [[concepts/담보물권]] → [[concepts/담보물권_유치권|유치권]] · [[concepts/담보물권_질권|질권]] · [[concepts/담보물권_저당권|저당권]]
 
 ### 채권법
 - [[concepts/계약총론]] | [[concepts/매매]] | [[concepts/임대차]]
+- [[concepts/이중매매]] 🆕 #매년출제
 
 ### 민사특별법
 - [[laws/주택임대차보호법]] | [[laws/상가건물임대차보호법]] | [[laws/집합건물법]] | [[laws/가등기담보법]] | [[laws/부동산실명법]]
@@ -125,7 +129,7 @@ total_pages: 223
 
 ### 농지법 · 산지관리법
 - [[laws/농지법]] | [[concepts/농지취득자격증명]] | [[concepts/농업진흥지역]]
-- [[laws/산지관리법]]
+- [[laws/산지관리법]] | [[concepts/산지관리법]] 🆕
 
 ---
 
@@ -175,7 +179,18 @@ total_pages: 223
 ---
 
 ## 기출 분석 (practice/)
-> 기출문제 ingest 시 자동으로 생성됩니다. (22개년 기출 대기 중)
+
+### 📌 시험 전 체크리스트
+- [[practice/빈출키워드_색인]] 🆕 — `sources/빈출키워드.txt`·`sources/핵심키워드.txt`의 101개 키워드 → 위키 페이지 마스터 색인
+
+### 출제경향 분석
+- [[practice/출제경향_종합분석]]
+- [[practice/출제빈도_부동산학개론]] | [[practice/출제빈도_민법]] | [[practice/출제빈도_중개법]] | [[practice/출제빈도_공법]] | [[practice/출제빈도_공시법]] | [[practice/출제빈도_세법]]
+- [[practice/판례정리_민법]]
+
+### 기출문제 (22개년)
+- [[practice/기출_15회_19회_2005_2008]] | [[practice/기출_20회_24회_2009_2013]] | [[practice/기출_25회_28회_2014_2017]] | [[practice/기출_29회_30회_2018_2019]]
+- [[practice/기출_31회_2020]] | [[practice/기출_32회_2021]] | [[practice/기출_33회_2022]] | [[practice/기출_34회_2023]] | [[practice/기출_35회_2024]] | [[practice/기출_36회_2025]]
 
 ---
 *이 색인은 자료 추가 시 자동으로 업데이트됩니다.*
