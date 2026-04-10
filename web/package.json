@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/copy-wiki.js && node scripts/build-search-index.js && node scripts/build-quiz-data.js && node scripts/build-source-index.js",
+    "prebuild": "node scripts/copy-wiki.js && node scripts/check-wikilinks.js && node scripts/build-search-index.js && node scripts/build-quiz-data.js && node scripts/build-source-index.js",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
